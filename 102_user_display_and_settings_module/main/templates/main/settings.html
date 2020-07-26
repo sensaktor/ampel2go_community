@@ -1,0 +1,144 @@
+
+
+
+{% extends "main/wrapper.html" %}
+
+{% block content %}
+
+{% include "main/includes/navbar.html" %} 
+{% load static %}
+
+<script>
+  function refresh() {
+    console.log( "ready" );
+    $.ajax({
+      url: "{% url 'main:homepage-ajax-update' %}",
+      success: function(data) {
+          $('#person_count').html(data['person_count']);
+          $('#capacity').html(data['capacity']);
+          $('#occupancy_color_smiley').html(data['occupancy_color_smiley']);
+      }
+    });
+  };
+  $(document).ready(function ($) {
+    refresh();
+    setInterval(refresh, 500);
+  });
+</script>
+
+<!-- -------------------------------------------------------------------------------------- -->
+<!-- Introduction -->
+<title>Ampel2Go #WirVsVirus Enabler Programm</title>
+
+
+  <div id="" class="section scrollspy container">
+
+
+
+    <div class="ampel grey lighten-1">
+    
+      <div class="ampel-content">
+        <div class="row" style="margin-top: 0px; ">
+
+          <div id='occupancy_color_smiley' class="col s6 l6 push-s3 push-l3">
+            <!-- <img id='occupancy_color' src="../../static/main/images/smiley_{{occupancy_color}}_frei.png" alt="" class="responsive"> -->
+            {{occupancy_color_smiley | safe }}
+          </div>
+          <div style="margin-top: 40px;">
+          <a href="/"><div id="settings"></div>   </a> 
+          </div>  
+        </div>
+        <div class="row" style="margin-top: 0px">
+          <div  class="col s5 m4 l4 push-s4 push-l4">
+            <p>Aktuelle Auslastung: </p> 
+            <h3> <span id="person_count" > {{ person_count }} </span> / <span id="capacity"> {{ capacity }} </span> </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="ampel grey lighten-1">
+      <div class="ampel-title ">
+        <span> Settings</span>
+      </div>
+      <div class="ampel-content">
+        <div class="row">
+          <div class="col s2 push-s2 push-l2">
+            <form action="#" method="get">
+            {% csrf_token %}
+                <input type="submit" class="btn" value="-" name="minus_btn">
+            </form>
+          </div>
+          <div class="col s4 push-s2 push-l2">
+            <span> Besucherzahl manuell anpassen </span>
+          </div>
+          <div class="col s2 push-s2 push-l2">
+            <form action="#" method="get">
+              {% csrf_token %}
+              <input type="submit" class="btn" value="+" name="plus_btn">
+            </form>
+          </div>
+        </div> 
+        <br>
+        <div class="row">
+          <div class="col s2 push-s2 push-l2">
+            <form action="#" method="get">
+              {% csrf_token %}
+              <input type="submit" class="btn" value="<- Zählrichtung wechseln ->" name="change_direction">
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <form method="POST" action="" >
+          {% csrf_token %}
+          <div class="row">
+            <div class="col s3 l5 push-s2 push-l1">
+              {{ form }}
+            </div>
+            <div class="col s3 l2 push-s2 push-l1 " style="margin-top: 10px">
+              <input class="btn" type="submit" value="Kapazität Ändern" name="capacity_btn">
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div>
+        <form method="POST" action="" >
+          {% csrf_token %}
+          <div class="row">
+            <div class="col s3 l5 push-s2 push-l2">
+              {{ area_threshold }}
+            </div>
+            <div class="col s3 l2 push-s2 push-l2" style="margin-top: 10px">
+              <input class="btn" type="submit" value="Kameraabstand Ändern" name="area_threshold_btn">
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+
+<!-- END Introduction --> 
+<!-- -------------------------------------------------------------------------------------- -->
+
+
+
+{% endblock %}
+
+
+
+
+<!-- -------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------- -->
+<!-- Archive --> 
+

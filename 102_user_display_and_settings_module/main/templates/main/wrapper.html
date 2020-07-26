@@ -1,0 +1,182 @@
+
+
+
+
+
+<head>
+  {% load static %}
+
+  <!-- Global site tag (gtag.js) - Google Analytics         
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159573281-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-159573281-1');  
+  </script>          -------------             --> 
+
+  <!-- meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  
+  <!--Import Google Icon Font and minified css                                                    --   --> 
+
+  {% load static %}
+<!-- Prism JS -->
+<script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+    <!-- Prism CSS 
+    <link href="{% static "tinymce/css/prism.css" %}" rel="stylesheet"> -->
+
+    <link href="{% static 'main/css/icons.css' %}" rel="stylesheet"> 
+    <link rel="stylesheet" href="{% static 'main/css/materialize.min.css' %} ">  
+        <!--                                                                                       -- 
+<link href="../static/main/css/icons.css" rel="stylesheet">
+<link rel="stylesheet" href="../static/main/css/materialize.min.css">
+<!--    -->
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script src="{% static "main/js/custom.js" %}"></script>
+
+
+<!-- STYLE CSS Ampel2Go / D1000 -->
+<link rel="stylesheet" href="../static/main/style.css">
+<link rel="stylesheet" href="../static/main/css/responsive_media.css" media="all">
+
+
+<style>
+      .tabs .indicator{background-color: #00e5ff;}
+      .tabs .tab a {color:inherit;}
+      .tabs .tab a.active {color:inherit;}
+      .tabs .tab a:hover {color:inherit;}
+      .tabs a {font-weight: bold;}
+      a {color:inherit;}
+      nav ul a {color:black;  }
+      .card-content ul li ul li {list-style-type:disc;}
+      .card-content ul li ul {padding-left: 70px;}
+      .card-content ul li {list-style-type:disc;}
+      .row ul li {list-style-type:disc;}
+      nav .brand-logo {color:black; }
+      div h2 {color: black;}
+      div h3 {color: black;}
+      div p {color: black;}
+      .nav-wrapper {height: 66px;}
+      .navbar-fixed a:hover {text-decoration: underline; color:#00e5ff ;}
+      .page-footer a:hover {text-decoration: underline; color:white ;} 
+
+      @media screen and (max-width: 670px) {
+        body{
+
+        }
+      }
+      .shift-right nav {
+      padding-left: 300px;
+     }
+      nav {
+      padding-left: 30px;
+     }
+    .shift-right footer {
+      padding-left: 300px;
+     }
+    .shift-right nav {
+      padding-left: 300px;
+     }
+      header p {font-weight: normal}
+      
+      section p { font-weight: normal;  }
+
+      .parallax-container {
+        height: 400px;
+      }
+      .brand-logo>img {
+          position: absolute;
+          top: 50%;
+          margin-top:8px; 
+      }
+      .ampel {
+        position: relative;
+        margin: 3rem 1rem 1rem 1rem;
+        background-color: #fff;
+        -webkit-transition: -webkit-box-shadow .25s;
+        transition: -webkit-box-shadow .25s;
+        transition: box-shadow .25s;
+        transition: box-shadow .25s, -webkit-box-shadow .25s;
+        border-radius: 2px;
+      }
+      .ampel .ampel-title {
+        font-size: 24px;
+        font-weight: 300;
+          padding: 24px;
+        border-radius: 0 0 2px 2px;
+      }
+      .ampel .ampel-content {
+  padding: 24px;
+  border-radius: 0 0 2px 2px;
+  }
+    .responsive {
+  width: 100%;
+  height: auto;
+}
+.btn, .btn-large, .btn-small {
+  text-decoration: none;
+  color: rgb(2, 2, 2);
+  background-color: grey;
+  text-align: center;
+  letter-spacing: .5px;
+  -webkit-transition: background-color .2s ease-out;
+  transition: background-color .2s ease-out;
+  cursor: pointer;
+}
+.btn:hover, .btn-large:hover, .btn-small:hover {
+  background-color: rgb(172, 172, 172);
+  color: #000000;
+}
+  </style>
+  
+</head>
+
+
+<body >
+
+  <!-- Messages -->
+    {% if messages %}
+        {% for message in messages %}
+          <script>M.toast({html: "{{message}}", classes: 'blue rounded', displayLength:2000});</script>
+        {% endfor %}
+    {% endif %}
+  <!-- END Messages -->
+  <div>
+
+    {% block content %}
+
+
+
+      <!-- You can insert content here by calling { % extends "main/header.html" % } + { % block content % } in a new html-file. (+ { % endblock % } in the end)  -->
+
+    {% endblock %}
+  
+  </div>
+
+
+
+
+  <!-- Compiled and minified JavaScript -->
+
+  <script>
+    $(document).ready(function(){
+      $('.sidenav').sidenav(); 
+      $('.materialboxed').materialbox(); 
+      $('.parallax').parallax();
+      $('.tabs').tabs(); 
+      $('.scrollspy').scrollSpy()
+    });
+  </script>
+
+</body>
+
+

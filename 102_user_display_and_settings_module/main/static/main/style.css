@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "CooperHewitt-Book";
+  src: url("../fonts/CooperHewitt-Book.otf") format("otf"); 
+}
+
+@font-face {
+  font-family: "CooperHewitt-Book";
+  src: url("../fonts/CooperHewitt-Medium.otf") format("otf"); 
+}
+
+@font-face {
+  font-family: "CooperHewitt-Book";
+  src: url("../fonts/CooperHewitt-Semibold.otf") format("otf"); 
+}
+
+@font-face {
+  font-family: "CooperHewitt-Book";
+  src: url("../fonts/CooperHewitt-Bold.otf") format("otf"); 
+}
+
+
+
+/* GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #333333;
+}
+
+p {
+  hyphens: auto;
+}
+
+
+
+
+/* DISPLAY CUSTOMER */
+
+#container_top {
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  display: table;
+  justify-content: center;#
+  text-align: center;
+
+}
+
+#container_logo {
+  display: table;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+#settings {
+  float: right;
+  width: 2.5em;
+  height: 2.5em;
+  display: block;
+  margin-top: -3.8em;
+  margin-right: 0.4em;
+  background-image: url(images/settings.png);
+  background-size: cover;
+}
+
+.img-fit_logo {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    background-size: contain;
+}
+
+#bg_dunkel {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #333333;
+    display: table;
+    justify-content: center;
+    text-align: center;
+}
+
+#container_smiley {
+    display: table;
+    max-width: 100%;
+    max-height: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 4em;
+    padding-right: 4em;
+    margin: 0 auto;
+}
+
+.img-fit_smiley {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+.headline_auslastung {
+    color: #f1f1f1;
+    font-family: 'CooperHewitt-Medium';
+    font-size: 7vw;  
+}
+
+.p_auslastung {
+    padding-top: 0.1em;
+    color: #f1f1f1; 
+    font-family: 'CooperHewitt-Medium';
+    font-size: 20vw;   
+}
+
+.p_maske {
+  padding-top: 1em;
+  color: #f1f1f1;
+  font-family: 'CooperHewitt-Medium';
+  font-size: 5vw;   
+}
+
+
+/* DISPLAY USER */
+
+
+
+
+

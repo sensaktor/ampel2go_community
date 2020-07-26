@@ -1,0 +1,35 @@
+"""mysite URL Configuration
+
+The `urlpatterns` list routes URLs to views. For more information please see:
+    https://docs.djangoproject.com/en/2.2/topics/http/urls/
+Examples:
+Function views
+    1. Add an import:  from my_app import views
+    2. Add a URL to urlpatterns:  path('', views.home, name='home')
+Class-based views
+    1. Add an import:  from other_app.views import Home
+    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
+Including another URLconf
+    1. Import the include() function: from django.urls import include, path
+    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
+"""
+from django.urls import path, include
+from django.views.generic import TemplateView
+from django.conf.urls import url
+from main import views
+
+app_name = "main"
+
+urlpatterns = [
+    path("", views.homepage, name="homepage"),
+    path("settings/", views.settings, name="settings"),
+    path("testpage/", views.testpage, name="testpage"),
+    url(r'^data$', views.homepage_ajax_update, name='homepage-ajax-update'),
+    path("imprint/", views.imprint, name="imprint/"),
+    path("data-privacy/", views.data_privacy, name="data-privacy/"),
+    url(r'^robots\.txt$', TemplateView.as_view(
+        template_name="main/robots.txt", content_type='text/plain')),
+    url(r'^sitemap\.xml/$', TemplateView.as_view(
+        template_name='sitemap.xml', content_type='text/xml')),
+    url(r'^tinymce/', include('tinymce.urls')),
+]

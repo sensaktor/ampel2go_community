@@ -1,0 +1,101 @@
+
+
+
+{% extends "main/wrapper.html" %}
+
+{% block content %}
+
+{% include "main/includes/navbar.html" %} 
+{% load static %}
+
+
+
+<!-- -------------------------------------------------------------------------------------- -->
+<!-- Introduction -->
+<title>Ampel2Go #WirVsVirus Enabler Programm</title>
+
+
+  <div id="" class="section scrollspy container">
+
+
+
+    <div class="ampel grey lighten-1">
+      <div class="ampel-content">
+        <div class="row" style="margin-top: 0px; ">
+          <div id='occupancy_color_smiley' class="col s6 l6">
+            <!-- <img id='occupancy_color' src="../../static/main/images/smiley_{{occupancy_color}}_frei.png" alt="" class="responsive"> -->
+            {{occupancy_color_smiley | safe }}
+          </div>
+        </div>
+        <div class="row" style="margin-top: 0px">
+          <div  class="col s5 m4 l4 offset-s1 offset-m1 offset-l2">
+            <p>Aktuelle Auslastung: </p> 
+            <h3> <span id="person_count" > {{ person_count }} </span> / {{ capacity }}</h3>
+          </div>
+        </div>
+        <div class="row" style="margin-top: -20px; margin-bottom: -20px;">
+          <div class="col s7 m5 l3 offset-s6 offset-m8 offset-l9" style="margin-bottom: 10px">
+            <a class="waves-effect waves-light btn"><i class="material-icons right">fullscreen</i>Vollbild</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="ampel grey lighten-1">
+      <div class="ampel-title ">
+        <span> Settings</span>
+      </div>
+
+      <div class="row">
+        <div class="col s12">
+          <p> Kameraausrichtung: </p>
+          <p>
+            <label>
+              <form action="#" method="get">
+                {% csrf_token %}
+                <input name="direction" type="radio"  />
+                <span>Richtung 1</span>
+            </label>
+            <label>
+              <input name="direction" type="radio"  checked/>
+              <span>Richtung 2</span>
+            </label>
+              </form>
+          </p>
+          <span class="helper-text grey-text text-darken-1 " style="font-size: 12;">
+            Tragen Sie hier ein, in welche Richtung "Drinnen" ist
+          </span>
+        </div>
+      </div>
+
+
+      <div class="ampel-content">
+        <div class="row">
+          <form action="#" method="get">
+          {% csrf_token %}
+          <input type="submit" class="btn" value="Click" name="print_btn">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+<!-- END Introduction --> 
+<!-- -------------------------------------------------------------------------------------- -->
+
+
+
+{% endblock %}
+
+
+
+
+<!-- -------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------- -->
+<!-- Archive --> 
+

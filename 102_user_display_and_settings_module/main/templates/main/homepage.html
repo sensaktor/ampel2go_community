@@ -1,0 +1,71 @@
+
+
+
+{% extends "main/wrapper.html" %}
+
+{% block content %}
+
+{% load static %}
+
+<script>
+  function refresh() {
+    console.log( "ready" );
+    $.ajax({
+      url: "{% url 'main:homepage-ajax-update' %}",
+      success: function(data) {
+          $('#person_count').html(data['person_count']);
+          $('#capacity').html(data['capacity']);
+          $('#container_smiley').html(data['occupancy_color_smiley']);
+          $('#occupancy_color_number').html(data['occupancy_color_number']);   
+      }
+    });
+  };
+  $(document).ready(function ($) {
+    refresh();
+    setInterval(refresh, 500);
+  });
+</script>
+
+<!-- -------------------------------------------------------------------------------------- -->
+<!-- Introduction -->
+<title>Ampel2Go #WirVsVirus Enabler Programm</title>
+
+
+<div id="bg_dunkel">
+
+    <div id="container_top">
+        <div id="container_logo">
+              <img src="/static/main/images/logo_ampel2go.png" alt="logo_ampel2go" class="img-fit_logo"> 
+        </div>
+         <a href="/settings"><div id="settings"></div>   </a>    
+
+    </div>
+
+      <div id="container_smiley"> 
+         <!-- occupancy_color_smiley   the following line inserts this dynamically with rec/green replaced: <img src="/static/main/images/ampel2go_green.png" alt="ampel2go_GO" class="img-fit_smiley">          --> 
+          {{occupancy_color_smiley | safe }}
+      </div>
+      
+      <p class="headline_auslastung">Aktuelle Auslastung</p>
+      <!--       <p class="p_auslastung"> <span id="person_count" style="color: #000000;" > {{ person_count }} </span> / <span id="capacity"> {{ capacity }} </span> </p> -->
+      <p class="p_auslastung"> <span id = "occupancy_color_number"> {{occupancy_color_number | safe }} </span> / <span id="capacity"> {{ capacity }} </span> </p>
+      <p class="p_maske">Bitte die Maskenpflicht beachten!</p>
+      
+</div>
+
+
+<!-- END Introduction --> 
+<!-- -------------------------------------------------------------------------------------- -->
+
+
+
+{% endblock %}
+
+
+
+
+<!-- -------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------- -->
+<!-- Archive --> 
+
