@@ -5,6 +5,7 @@ from sqlalchemy import create_engine, Table, Column, Integer, DateTime, String, 
 from sqlalchemy.sql import select, func
 import cv2
 import Person
+from datetime import datetime
 
 # Initialize sqlAlchem
 CONN = create_engine('sqlite:////home/jetson/Desktop/ampel2go_code/104_user_display/db.sqlite3')
@@ -161,7 +162,28 @@ PID = 1
 
 FRAME_COUNT = 0
 
+def clean_db(): # clean db
+        with CONN.connect() as connection:
+            with connection.begin():
+                result = connection.execute("select max(id) as maxid, count(*) as cnt from main_occupancy")
+                for row in result:
+                    max_id=row['maxid']
+                    row_cnt=row['cnt']
+                    print("clean_db: rows ", row_cnt, " max_id ", max_id)
+                result = connection.execute("delete from main_occupancy where id <>'"+str(max_id)+"' ")
+                return
+   
+    db_clean_timer1 = datetime.now() # Setting timer 1
+    db_clean_after_seconds = 5 
+
 while CAP.isOpened():
+    db_clean_timer2 = datetime.now()
+        delta = db_clean_timer2 - db_clean_timer1
+        if delta.total_seconds() > db_clean_after_seconds:
+            clean_db()
+            db_clean_timer1 = datetime.now()
+            print("Db cleaned after ", delta.total_seconds(), " sec")
+
 ##for image in camera.capture_continuous(rawCapture, format="bgr", use_video_port=True):
     #Lee una imagen de la fuente de video
     RET, FRAME = CAP.read()
