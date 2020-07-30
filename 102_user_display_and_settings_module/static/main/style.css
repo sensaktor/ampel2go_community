@@ -1,21 +1,21 @@
 @font-face {
-  font-family: "CooperHewitt-Book";
-  src: url("../fonts/CooperHewitt-Book.otf") format("otf"); 
+  font-family: CooperHewitt-Book;
+  src: url("/static/main/fonts/CooperHewitt-Book.otf"); 
 }
 
 @font-face {
-  font-family: "CooperHewitt-Book";
-  src: url("../fonts/CooperHewitt-Medium.otf") format("otf"); 
+  font-family: CooperHewitt-Medium;
+  src: url("/static/main/fonts/CooperHewitt-Medium.otf"); 
 }
 
 @font-face {
-  font-family: "CooperHewitt-Book";
-  src: url("../fonts/CooperHewitt-Semibold.otf") format("otf"); 
+  font-family: CooperHewitt-Semibold;
+  src: url("/static/main/fonts/CooperHewitt-Semibold.otf") ; 
 }
 
 @font-face {
-  font-family: "CooperHewitt-Book";
-  src: url("../fonts/CooperHewitt-Bold.otf") format("otf"); 
+  font-family: CooperHewitt-Bold;
+  src: url("/static/main/fonts/CooperHewitt-Bold.otf") ; 
 }
 
 

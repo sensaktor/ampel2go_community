@@ -26,11 +26,9 @@ SECRET_KEY = 'rz!0iipy4zxpc-e!1$ufnrr9q4urdy%@enjgaf1^ql=!7039!5'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'awseb-AWSEB-51J345529NQD-938648000.eu-central-1.elb.amazonaws.com'
     '127.0.0.1', '0.0.0.0', 'localhost',
     'ampel2go.de', 'www.ampel2go.de',
     'local.ampel2go.de',
-    'MysiteAmpel2go-env-1.eba-8zpetjur.eu-central-1.elasticbeanstalk.com',
     ]
 
 # this is for elastic beanstalk health 

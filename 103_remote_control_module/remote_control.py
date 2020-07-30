@@ -9,7 +9,7 @@ from sqlalchemy.sql import select, func
 #zaehler = 1
 
 time.sleep(1)
-CONN = create_engine('sqlite:////home/jetson/Desktop/ampel2go_code/104_user_display/db.sqlite3')
+CONN = create_engine('sqlite:////home/ampel2go/ampel2go_community/102_user_display_and_settings_module/db.sqlite3')
 META_DATA = MetaData(bind=CONN)
 MAIN_OCCUPANCY = Table(
     'main_occupancy', META_DATA,
