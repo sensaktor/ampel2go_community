@@ -173,8 +173,8 @@ def clean_db(): # clean db
             result = connection.execute("delete from main_occupancy where id <>'"+str(max_id)+"' ")
             return
    
-    db_clean_timer1 = datetime.now() # Setting timer 1
-    db_clean_after_seconds = 5 
+db_clean_timer1 = datetime.now() # Setting timer 1
+db_clean_after_seconds = 5 
 
 while CAP.isOpened():
     db_clean_timer2 = datetime.now()
