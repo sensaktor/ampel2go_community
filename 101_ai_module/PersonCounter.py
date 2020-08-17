@@ -34,7 +34,7 @@ MAIN_AREATHRESHOLD = Table(
 try:
     LOG = open('LOG.txt', "w")
 except FileNotFoundError:
-    print("No se puede abrir el archivo log")
+    print("Cannot write to logfile")
 
 
 CNT_UP = 0
@@ -185,7 +185,6 @@ while CAP.isOpened():
         print("Db cleaned after ", delta.total_seconds(), " sec")
 
 ##for image in camera.capture_continuous(rawCapture, format="bgr", use_video_port=True):
-    #Lee una imagen de la fuente de video
     RET, FRAME = CAP.read()
 ##    FRAME = image.array
 
@@ -193,7 +192,7 @@ while CAP.isOpened():
     for i in PERSONS:
         i.age_one() #age every person one FRAM
     #########################
-    #   PRE-PROCESAMIENTO   #
+    #   PRE-PROCESSING   #
     #########################
     if FRAME_COUNT % 4 == 0:
         #continue
@@ -204,10 +203,10 @@ while CAP.isOpened():
     try:
         RET, IM_BIN = cv2.threshold(FGMASK, 200, 255, cv2.THRESH_BINARY)
         RET, IM_BIN2 = cv2.threshold(FGMASK2, 200, 255, cv2.THRESH_BINARY)
-        #Opening (erode->dilate) para quitar ruido.
+        #Opening
         MASK = cv2.morphologyEx(IM_BIN, cv2.MORPH_OPEN, KERNEL_OP)
         MASK2 = cv2.morphologyEx(IM_BIN2, cv2.MORPH_OPEN, KERNEL_OP)
-        #Closing (dilate -> erode) para juntar regiones blancas.
+        #Closing 
         MASK = cv2.morphologyEx(MASK, cv2.MORPH_CLOSE, KERNEL_CL)
         MASK2 = cv2.morphologyEx(MASK2, cv2.MORPH_CLOSE, KERNEL_CL)
     except FileExistsError: # fk: placeholdererror until we find out about potential errors
@@ -216,7 +215,7 @@ while CAP.isOpened():
         print('DOWN:', CNT_DOWN)
         break
     #################
-    #   CONTORNOS   #
+    #   CONTOURS   #
     #################
 
     CONTOURS0, HIERARCHY = cv2.findContours(MASK2, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
@@ -318,7 +317,7 @@ while CAP.isOpened():
                     PERSONS.append(p)
                     PID += 1
             #################
-            #   DIBUJOS     #
+            #   DRAWINGS     #
             #################
             cv2.circle(FRAME, (cx, cy), 5, (0, 0, 255), -1)
             img = cv2.rectangle(FRAME, (x, y), (x+w, y+h), (0, 255, 0), 2)
@@ -327,7 +326,7 @@ while CAP.isOpened():
     #END for cnt in CONTOURS0
 
     #########################
-    # DIBUJAR TRAYECTORIAS  #
+    # DRAW TRAJECTORIES   #
     #########################
     for i in PERSONS:
 ##        if len(i.getTracks()) >= 2:
@@ -339,7 +338,7 @@ while CAP.isOpened():
         cv2.putText(
             FRAME, str(i.getId()), (i.getX(), i.getY()), FONT, 0.3, i.getRGB(), 1, cv2.LINE_AA)
 #################
-    #   IMAGANES    #
+    #   IMAGES    #
     #################
     STR_UP = 'UP: '+ str(CNT_UP)
     STR_DOWN = 'DOWN: '+ str(CNT_DOWN)
@@ -363,7 +362,7 @@ while CAP.isOpened():
 #END while(CAP.isOpened())
 
 #################
-#   LIMPIEZA    #
+#   FINISH    #
 #################
 LOG.flush()
 LOG.close()

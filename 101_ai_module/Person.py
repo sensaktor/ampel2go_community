@@ -43,7 +43,7 @@ class MyPerson:
     def going_UP(self, mid_start, mid_end):
         if len(self.tracks) >= 2:
             if self.state == '0':
-                if self.tracks[-1][1] < mid_end and self.tracks[-2][1] >= mid_end: #cruzo la linea
+                if self.tracks[-1][1] < mid_end and self.tracks[-2][1] >= mid_end:
                     self.state = '1'
                     self.dir = 'up'
                     return True
@@ -54,7 +54,7 @@ class MyPerson:
     def going_DOWN(self, mid_start, mid_end):
         if len(self.tracks) >= 2:
             if self.state == '0':
-                if self.tracks[-1][1] > mid_start and self.tracks[-2][1] <= mid_start: #cruzo la linea
+                if self.tracks[-1][1] > mid_start and self.tracks[-2][1] <= mid_start:
                     self.state = '1'
                     self.dir = 'down'
                     return True
