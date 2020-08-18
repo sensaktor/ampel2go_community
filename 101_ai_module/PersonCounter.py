@@ -76,7 +76,7 @@ CAP = cv2.VideoCapture("/dev/video0")
 
 #Video Check
 #CAP = cv2.VideoCapture(0)
-#CAP = cv2.VideoCapture("/Volumes/GoogleDrive/My Drive/02_IT/test_videos/test_small_2.mov")
+#CAP = cv2.VideoCapture("/Volumes/GoogleDrive/My Drive/02_IT/test_videos/test_small_3.mov")
 
 # For running on macbook: 
 #CAP = cv2.VideoCapture("/Users/fk/Desktop/test_videos/test_small_2.mov")
@@ -110,12 +110,13 @@ for i in CONN.execute(SELECTION):
     AREA_THRESHOLD = i['area_threshold']
 
 #for manual setting, uncomment
-#AREA_THRESHOLD = 13
+#AREA_THRESHOLD = 14
 
 
 AREA_TH = FRAME_AREA/AREA_THRESHOLD
 print('Area Threshold final:', AREA_TH, 'Area Threshold parameter:', AREA_THRESHOLD)
 
+DIRECTION_TOTAL_THRESHOLD = 4
 
 LINE_UP = int(2*(H/5))
 LINE_DOWN = int(3*(H/5))
@@ -237,7 +238,8 @@ while CAP.isOpened():
                     if abs(x-i.getX()) <= w and abs(y-i.getY()) <= h:
                         new = False
                         i.updateCoords(cx, cy)
-                        if i.going_UP(LINE_DOWN, LINE_UP) is True:
+                        i.directionTotal()
+                        if i.crossing_UP(LINE_DOWN, LINE_UP, DIRECTION_TOTAL_THRESHOLD) is True:
                             CNT_UP += 1
                             change_up_or_down = 1
                             print("ID:", i.getId(), 'crossed going up at', time.strftime("%c"))
@@ -270,7 +272,7 @@ while CAP.isOpened():
                                 )
                             CONN.execute(insert)
 
-                        elif i.going_DOWN(LINE_DOWN, LINE_UP) is True:
+                        elif i.crossing_DOWN(LINE_DOWN, LINE_UP, DIRECTION_TOTAL_THRESHOLD) is True:
                             CNT_DOWN += 1
                             change_up_or_down = -1
                             print("ID:", i.getId(), 'crossed going down at', time.strftime("%c"))

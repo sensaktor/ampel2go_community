@@ -16,6 +16,7 @@ class MyPerson:
         self.age = 0
         self.max_age = max_age
         self.dir = None
+        self.direction_total = 0
     def getRGB(self):
         return (self.R,self.G,self.B)
     def getTracks(self):
@@ -40,23 +41,34 @@ class MyPerson:
         self.done = True
     def timedOut(self):
         return self.done
-    def going_UP(self, mid_start, mid_end):
+    def directionTotal(self):
         if len(self.tracks) >= 2:
             if self.state == '0':
-                if self.tracks[-1][1] < mid_end and self.tracks[-2][1] >= mid_end:
+                if self.tracks[-1][1] < self.tracks[-2][1]:
+                    self.direction_total += 1
+                if self.tracks[-1][1] > self.tracks[-2][1]:
+                    self.direction_total -= 1
+
+    
+    def crossing_UP(self, mid_start, mid_end, DIRECTION_TOTAL_THRESHOLD):
+        if len(self.tracks) >= 2:
+            if self.state == '0':
+                if self.tracks[-1][1] < mid_end and self.tracks[-2][1] >= mid_end and self.direction_total > DIRECTION_TOTAL_THRESHOLD:
                     self.state = '1'
                     self.dir = 'up'
+                    print("direction total: " + str(self.direction_total))
                     return True
             else:
                 return False
         else:
             return False
-    def going_DOWN(self, mid_start, mid_end):
+    def crossing_DOWN(self, mid_start, mid_end, DIRECTION_TOTAL_THRESHOLD):
         if len(self.tracks) >= 2:
             if self.state == '0':
-                if self.tracks[-1][1] > mid_start and self.tracks[-2][1] <= mid_start:
+                if self.tracks[-1][1] > mid_start and self.tracks[-2][1] <= mid_start and self.direction_total < DIRECTION_TOTAL_THRESHOLD * (-1):
                     self.state = '1'
                     self.dir = 'down'
+                    print("direction total: " + str(self.direction_total))
                     return True
             else:
                 return False
