@@ -164,15 +164,21 @@ PID = 1
 FRAME_COUNT = 0
 
 def clean_db(): # clean db
-    with CONN.connect() as connection:
-        with connection.begin():
-            result = connection.execute("select max(id) as maxid, count(*) as cnt from main_occupancy")
-            for row in result:
-                max_id=row['maxid']
-                row_cnt=row['cnt']
-                print("clean_db: rows ", row_cnt, " max_id ", max_id)
-            result = connection.execute("delete from main_occupancy where id <>'"+str(max_id)+"' ")
-            return
+
+
+    #get current data from DB
+    SELECTION = select([
+        MAIN_OCCUPANCY.c.id,
+        func.max(MAIN_OCCUPANCY.c.id)
+        ])
+
+    for j in CONN.execute(SELECTION):
+        max_id = j['id']
+    delete = MAIN_OCCUPANCY.delete().where(MAIN_OCCUPANCY.c.id != max_id)
+    CONN.execute(delete)
+    print("clean_db:  max_id ", max_id)
+
+
    
 db_clean_timer1 = datetime.now() # Setting timer 1
 db_clean_after_seconds = 5 
