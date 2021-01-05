@@ -21,7 +21,7 @@ Content:
 3. Run this command: "python3 101_people_counter/main_people_counter.py  --input 201_sample_videos/olash3h043_testtype-norma-height-240-up-000-down-001.avi"
 4. Three windows will pop up displaying the following:
 
-[![Watch the video](https://j.gifs.com/mODKWE.gif)](https://youtu.be/QgYK4C2Ncl8)
+[![Watch the video!](https://j.gifs.com/BNwDM2.gif)](https://youtu.be/QgYK4C2Ncl8)
 
 
 
