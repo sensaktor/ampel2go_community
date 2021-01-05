@@ -2,7 +2,7 @@
 
 We have built a python library that is capable of detecting moving objects and counting the direction in real-time using minimal computing power (i.e. it runs on a RaspberryPi 4b)
 
-After our intensive research, we have concluded this to be by far the best performing open source people counter using low cost edge-computers.
+After our extensive market research we have concluded this to be by far the best performing open source people counter using low cost edge-computers.
 
 
 Content: 
@@ -21,8 +21,8 @@ Content:
 3. Run this command: "python3 101_people_counter/main_people_counter.py  --input 201_sample_videos/olash3h043_testtype-norma-height-240-up-000-down-001.avi"
 4. Three windows will pop up displaying the following:
 
+[![Watch the video](https://j.gifs.com/mODKWE.gif)](https://youtu.be/QgYK4C2Ncl8)
 
-https://youtu.be/QgYK4C2Ncl8
 
 
 # How to get started with the labeling application
