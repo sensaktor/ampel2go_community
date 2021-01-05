@@ -30,6 +30,17 @@ Content:
 You can train the model to adapt to special situations. In our sample-videos, the model is trained to ignore the moving door that enters the picture from below. Entry point is the file: main_generate_training_data.py, which starts the labeling procedure.
 
 
+# How to get started with the user display and settings module
+1. Clone repo and cd into the folder
+2. Start the pipenv ("pipenv shell") (the pipfile is located in the parent directory) 
+3. Run this command: "python3 102_user_display_and_settings_module/manage.py runserver"
+4. In your browser, go to "0.0.0.0:8000" to see the frontend of the application:
+
+
+[![Watch the video!](https://j.gifs.com/nxELqP.gif)](https://youtu.be/U2pTxA6gF2s)
+
+
+
 # If you have any questions feel free to contact us!
 
 
