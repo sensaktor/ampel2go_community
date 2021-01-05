@@ -1,0 +1,2501 @@
+2021-01-05 11:33:48,986 | training_logger | INFO | input named '201_sample_videos/olash3h003_testtype-norma-height-240-up-001-down-003.avi' is chosen  |
+2021-01-05 11:33:49,048 | training_logger | DEBUG | got next frame |
+2021-01-05 11:33:49,049 | training_logger | INFO | lhello.[[[187 207 209]
+  [185 205 207]
+  [184 204 206]
+  ...
+  [ 57  49 106]
+  [ 58  49 122]
+  [ 61  52 125]]
+
+ [[185 205 207]
+  [185 205 207]
+  [184 204 206]
+  ...
+  [ 57  49 106]
+  [ 58  49 122]
+  [ 61  52 125]]
+
+ [[184 204 206]
+  [184 204 206]
+  [184 204 206]
+  ...
+  [ 57  49 106]
+  [ 58  49 122]
+  [ 61  52 125]]
+
+ ...
+
+ [[239 224 206]
+  [239 224 206]
+  [241 224 206]
+  ...
+  [149 123  98]
+  [149 123  98]
+  [148 122  97]]
+
+ [[239 224 206]
+  [239 224 206]
+  [243 223 206]
+  ...
+  [151 122  98]
+  [151 122  98]
+  [150 121  97]]
+
+ [[240 225 207]
+  [240 225 207]
+  [244 224 207]
+  ...
+  [151 122  98]
+  [151 122  98]
+  [150 121  97]]] False |
+2021-01-05 11:33:49,053 | training_logger | DEBUG | Received new Frame and assigned frame_id 000000 |
+2021-01-05 11:33:49,078 | training_logger | DEBUG | contour_instance with id 000000-0000000000 has area 306081.0 and is appended to filtered list |
+2021-01-05 11:33:49,079 | training_logger | DEBUG | contour_id 000000-0000000000 has provided the following self.properties {'label': None, 'contour_id': '000000-0000000000', 'area': 306081.0, 'area_white': 2, 'area_grey': 307198, 'centroid_x': 319, 'centroid_y': 239, 'contour_arc_length': 2236.0, 'hull_area': 306081.0, 'poly_area': 306081.0, 'rectangle_width': 640, 'rectangle_height': 480, 'angle': 0}  |
+2021-01-05 11:33:49,092 | training_logger | DEBUG | predicted contour label of contour_id 000000-0000000000 with label 3 |
+2021-01-05 11:33:49,461 | training_logger | DEBUG | determined clusters: [] |
+2021-01-05 11:33:49,462 | training_logger | DEBUG | (cluster_id_set is set() after assigning cluster_ids of "true" clusters of label 1 clusters |
+2021-01-05 11:33:49,463 | training_logger | DEBUG | cluster_id_set is set() after assigning cluster_ids of a frame with (-1)-clusters only |
+2021-01-05 11:33:49,463 | training_logger | DEBUG | calculate_cluster_person_distance_list(): creatingcluster_person_distance_list... |
+2021-01-05 11:33:49,463 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = set() , free_persons_set = set() starting first iteration to assign clusters to persons... |
+2021-01-05 11:33:49,463 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 before removing assinged clusters |
+2021-01-05 11:33:49,464 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 after removing assinged clusters |
+2021-01-05 11:33:49,512 | training_logger | DEBUG | got next frame |
+2021-01-05 11:33:49,512 | training_logger | INFO | lhello.[[[193 203 207]
+  [192 202 206]
+  [192 202 206]
+  ...
+  [ 57  49 106]
+  [ 58  49 122]
+  [ 61  52 125]]
+
+ [[192 202 206]
+  [192 202 206]
+  [192 202 206]
+  ...
+  [ 57  49 106]
+  [ 58  49 122]
+  [ 61  52 125]]
+
+ [[191 201 205]
+  [191 201 205]
+  [192 202 206]
+  ...
+  [ 57  49 106]
+  [ 58  49 122]
+  [ 61  52 125]]
+
+ ...
+
+ [[236 223 205]
+  [236 223 205]
+  [236 223 205]
+  ...
+  [151 125 100]
+  [151 125 100]
+  [149 123  98]]
+
+ [[237 224 206]
+  [237 224 206]
+  [237 224 206]
+  ...
+  [153 124 100]
+  [153 124 100]
+  [151 122  98]]
+
+ [[237 224 206]
+  [237 224 206]
+  [237 224 206]
+  ...
+  [153 124 100]
+  [153 124 100]
+  [151 122  98]]] False |
+2021-01-05 11:33:49,515 | training_logger | DEBUG | Received new Frame and assigned frame_id 000001 |
+2021-01-05 11:33:49,550 | training_logger | DEBUG | determined clusters: [] |
+2021-01-05 11:33:49,550 | training_logger | DEBUG | (cluster_id_set is set() after assigning cluster_ids of "true" clusters of label 1 clusters |
+2021-01-05 11:33:49,550 | training_logger | DEBUG | cluster_id_set is set() after assigning cluster_ids of a frame with (-1)-clusters only |
+2021-01-05 11:33:49,551 | training_logger | DEBUG | calculate_cluster_person_distance_list(): creatingcluster_person_distance_list... |
+2021-01-05 11:33:49,551 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = set() , free_persons_set = set() starting first iteration to assign clusters to persons... |
+2021-01-05 11:33:49,551 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 before removing assinged clusters |
+2021-01-05 11:33:49,551 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 after removing assinged clusters |
+2021-01-05 11:33:49,585 | training_logger | DEBUG | got next frame |
+2021-01-05 11:33:49,586 | training_logger | INFO | lhello.[[[185 202 206]
+  [185 202 206]
+  [186 203 207]
+  ...
+  [ 57  49 106]
+  [ 58  49 122]
+  [ 61  52 125]]
+
+ [[184 201 205]
+  [185 202 206]
+  [185 202 206]
+  ...
+  [ 57  49 106]
+  [ 58  49 122]
+  [ 61  52 125]]
+
+ [[183 200 204]
+  [183 200 204]
+  [185 202 206]
+  ...
+  [ 57  49 106]
+  [ 58  49 122]
+  [ 61  52 125]]
+
+ ...
+
+ [[240 223 205]
+  [240 223 205]
+  [240 223 205]
+  ...
+  [149 122  99]
+  [153 121  99]
+  [152 120  98]]
+
+ [[241 224 206]
+  [241 224 206]
+  [241 224 206]
+  ...
+  [151 121  99]
+  [153 121  99]
+  [152 120  98]]
+
+ [[242 225 207]
+  [242 225 207]
+  [242 225 207]
+  ...
+  [151 121  99]
+  [153 121  99]
+  [152 120  98]]] False |
+2021-01-05 11:33:49,591 | training_logger | DEBUG | Received new Frame and assigned frame_id 000002 |
+2021-01-05 11:33:49,603 | training_logger | DEBUG | contour_instance with id 000002-0000000000 has area 2385.5 and is appended to filtered list |
+2021-01-05 11:33:49,604 | training_logger | DEBUG | contour_id 000002-0000000000 has provided the following self.properties {'label': None, 'contour_id': '000002-0000000000', 'area': 2385.5, 'area_white': 0, 'area_grey': 2574, 'centroid_x': 188, 'centroid_y': 12, 'contour_arc_length': 572.3, 'hull_area': 4215.5, 'poly_area': 2412.0, 'rectangle_width': 147, 'rectangle_height': 43, 'angle': 94.4}  |
+2021-01-05 11:33:49,625 | training_logger | DEBUG | predicted contour label of contour_id 000002-0000000000 with label 3 |
+2021-01-05 11:33:49,646 | training_logger | DEBUG | determined clusters: [] |
+2021-01-05 11:33:49,646 | training_logger | DEBUG | (cluster_id_set is set() after assigning cluster_ids of "true" clusters of label 1 clusters |
+2021-01-05 11:33:49,646 | training_logger | DEBUG | cluster_id_set is set() after assigning cluster_ids of a frame with (-1)-clusters only |
+2021-01-05 11:33:49,646 | training_logger | DEBUG | calculate_cluster_person_distance_list(): creatingcluster_person_distance_list... |
+2021-01-05 11:33:49,646 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = set() , free_persons_set = set() starting first iteration to assign clusters to persons... |
+2021-01-05 11:33:49,647 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 before removing assinged clusters |
+2021-01-05 11:33:49,647 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 after removing assinged clusters |
+2021-01-05 11:33:49,670 | training_logger | DEBUG | got next frame |
+2021-01-05 11:33:49,670 | training_logger | INFO | lhello.[[[187 204 208]
+  [187 204 208]
+  [187 204 208]
+  ...
+  [ 53  47  99]
+  [ 56  49 117]
+  [ 63  56 124]]
+
+ [[186 203 207]
+  [187 204 208]
+  [187 204 208]
+  ...
+  [ 53  47  99]
+  [ 56  49 117]
+  [ 63  56 124]]
+
+ [[185 202 206]
+  [185 202 206]
+  [186 203 207]
+  ...
+  [ 54  48 100]
+  [ 56  49 117]
+  [ 61  54 122]]
+
+ ...
+
+ [[236 223 205]
+  [236 223 205]
+  [236 223 205]
+  ...
+  [149 125 100]
+  [149 125 100]
+  [147 123  98]]
+
+ [[237 224 206]
+  [237 224 206]
+  [237 224 206]
+  ...
+  [151 125 100]
+  [151 125 100]
+  [149 123  98]]
+
+ [[238 225 207]
+  [238 225 207]
+  [238 225 207]
+  ...
+  [151 125 100]
+  [151 125 100]
+  [149 123  98]]] False |
+2021-01-05 11:33:49,672 | training_logger | DEBUG | Received new Frame and assigned frame_id 000003 |
+2021-01-05 11:33:49,681 | training_logger | DEBUG | contour_instance with id 000003-0000000000 has area 4405.0 and is appended to filtered list |
+2021-01-05 11:33:49,682 | training_logger | DEBUG | contour_id 000003-0000000000 has provided the following self.properties {'label': None, 'contour_id': '000003-0000000000', 'area': 4405.0, 'area_white': 0, 'area_grey': 4553, 'centroid_x': 258, 'centroid_y': 41, 'contour_arc_length': 636.9, 'hull_area': 6116.0, 'poly_area': 4459.5, 'rectangle_width': 122, 'rectangle_height': 92, 'angle': 125.2}  |
+2021-01-05 11:33:49,697 | training_logger | DEBUG | predicted contour label of contour_id 000003-0000000000 with label 3 |
+2021-01-05 11:33:49,698 | training_logger | DEBUG | contour_instance with id 000003-0000000001 has area 1205.0 and is appended to filtered list |
+2021-01-05 11:33:49,699 | training_logger | DEBUG | contour_id 000003-0000000001 has provided the following self.properties {'label': None, 'contour_id': '000003-0000000001', 'area': 1205.0, 'area_white': 0, 'area_grey': 1300, 'centroid_x': 154, 'centroid_y': 17, 'contour_arc_length': 256.8, 'hull_area': 1716.0, 'poly_area': 1203.0, 'rectangle_width': 61, 'rectangle_height': 43, 'angle': 115.3}  |
+2021-01-05 11:33:49,708 | training_logger | DEBUG | predicted contour label of contour_id 000003-0000000001 with label 3 |
+2021-01-05 11:33:49,734 | training_logger | DEBUG | determined clusters: [] |
+2021-01-05 11:33:49,734 | training_logger | DEBUG | (cluster_id_set is set() after assigning cluster_ids of "true" clusters of label 1 clusters |
+2021-01-05 11:33:49,734 | training_logger | DEBUG | cluster_id_set is set() after assigning cluster_ids of a frame with (-1)-clusters only |
+2021-01-05 11:33:49,734 | training_logger | DEBUG | calculate_cluster_person_distance_list(): creatingcluster_person_distance_list... |
+2021-01-05 11:33:49,734 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = set() , free_persons_set = set() starting first iteration to assign clusters to persons... |
+2021-01-05 11:33:49,735 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 before removing assinged clusters |
+2021-01-05 11:33:49,735 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 after removing assinged clusters |
+2021-01-05 11:33:49,756 | training_logger | DEBUG | got next frame |
+2021-01-05 11:33:49,757 | training_logger | INFO | lhello.[[[190 207 211]
+  [189 206 210]
+  [189 206 210]
+  ...
+  [ 46  39  93]
+  [ 54  41 112]
+  [ 65  52 123]]
+
+ [[189 206 210]
+  [189 206 210]
+  [189 206 210]
+  ...
+  [ 47  40  94]
+  [ 55  42 113]
+  [ 65  52 123]]
+
+ [[186 203 207]
+  [186 203 207]
+  [187 204 208]
+  ...
+  [ 48  41  95]
+  [ 56  43 114]
+  [ 64  51 122]]
+
+ ...
+
+ [[237 224 206]
+  [236 223 205]
+  [234 221 203]
+  ...
+  [151 125 100]
+  [153 124 100]
+  [151 122  98]]
+
+ [[236 226 207]
+  [235 225 206]
+  [236 223 205]
+  ...
+  [151 125 100]
+  [153 124 100]
+  [151 122  98]]
+
+ [[237 227 208]
+  [237 227 208]
+  [238 225 207]
+  ...
+  [151 125 100]
+  [153 124 100]
+  [151 122  98]]] False |
+2021-01-05 11:33:49,760 | training_logger | DEBUG | Received new Frame and assigned frame_id 000004 |
+2021-01-05 11:33:49,771 | training_logger | DEBUG | contour_instance with id 000004-0000000000 has area 2162.0 and is appended to filtered list |
+2021-01-05 11:33:49,772 | training_logger | DEBUG | contour_id 000004-0000000000 has provided the following self.properties {'label': None, 'contour_id': '000004-0000000000', 'area': 2162.0, 'area_white': 0, 'area_grey': 2374, 'centroid_x': 255, 'centroid_y': 71, 'contour_arc_length': 657.9, 'hull_area': 4200.5, 'poly_area': 2260.5, 'rectangle_width': 112, 'rectangle_height': 87, 'angle': 125.4}  |
+2021-01-05 11:33:49,780 | training_logger | DEBUG | predicted contour label of contour_id 000004-0000000000 with label 3 |
+2021-01-05 11:33:49,798 | training_logger | DEBUG | determined clusters: [] |
+2021-01-05 11:33:49,799 | training_logger | DEBUG | (cluster_id_set is set() after assigning cluster_ids of "true" clusters of label 1 clusters |
+2021-01-05 11:33:49,799 | training_logger | DEBUG | cluster_id_set is set() after assigning cluster_ids of a frame with (-1)-clusters only |
+2021-01-05 11:33:49,799 | training_logger | DEBUG | calculate_cluster_person_distance_list(): creatingcluster_person_distance_list... |
+2021-01-05 11:33:49,799 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = set() , free_persons_set = set() starting first iteration to assign clusters to persons... |
+2021-01-05 11:33:49,799 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 before removing assinged clusters |
+2021-01-05 11:33:49,799 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 after removing assinged clusters |
+2021-01-05 11:33:49,816 | training_logger | DEBUG | got next frame |
+2021-01-05 11:33:49,816 | training_logger | INFO | lhello.[[[189 205 212]
+  [189 205 212]
+  [189 205 212]
+  ...
+  [ 44  38  96]
+  [ 49  41 111]
+  [ 56  48 118]]
+
+ [[189 205 212]
+  [189 205 212]
+  [189 205 212]
+  ...
+  [ 45  39  97]
+  [ 49  41 111]
+  [ 56  48 118]]
+
+ [[187 203 210]
+  [187 203 210]
+  [189 205 212]
+  ...
+  [ 48  39  98]
+  [ 52  42 112]
+  [ 58  48 118]]
+
+ ...
+
+ [[234 221 203]
+  [234 221 203]
+  [234 221 203]
+  ...
+  [145 121 101]
+  [149 121 101]
+  [148 120 100]]
+
+ [[236 223 205]
+  [236 223 205]
+  [236 223 205]
+  ...
+  [145 121 101]
+  [147 121 101]
+  [146 120 100]]
+
+ [[236 223 205]
+  [236 223 205]
+  [236 223 205]
+  ...
+  [145 121 101]
+  [147 121 101]
+  [146 120 100]]] False |
+2021-01-05 11:33:49,819 | training_logger | DEBUG | Received new Frame and assigned frame_id 000005 |
+2021-01-05 11:33:49,833 | training_logger | DEBUG | contour_instance with id 000005-0000000000 has area 2577.5 and is appended to filtered list |
+2021-01-05 11:33:49,835 | training_logger | DEBUG | contour_id 000005-0000000000 has provided the following self.properties {'label': None, 'contour_id': '000005-0000000000', 'area': 2577.5, 'area_white': 0, 'area_grey': 2766, 'centroid_x': 247, 'centroid_y': 87, 'contour_arc_length': 724.1, 'hull_area': 4282.5, 'poly_area': 2655.0, 'rectangle_width': 122, 'rectangle_height': 112, 'angle': 133.5}  |
+2021-01-05 11:33:49,843 | training_logger | DEBUG | predicted contour label of contour_id 000005-0000000000 with label 3 |
+2021-01-05 11:33:49,863 | training_logger | DEBUG | determined clusters: [] |
+2021-01-05 11:33:49,864 | training_logger | DEBUG | (cluster_id_set is set() after assigning cluster_ids of "true" clusters of label 1 clusters |
+2021-01-05 11:33:49,864 | training_logger | DEBUG | cluster_id_set is set() after assigning cluster_ids of a frame with (-1)-clusters only |
+2021-01-05 11:33:49,864 | training_logger | DEBUG | calculate_cluster_person_distance_list(): creatingcluster_person_distance_list... |
+2021-01-05 11:33:49,864 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = set() , free_persons_set = set() starting first iteration to assign clusters to persons... |
+2021-01-05 11:33:49,864 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 before removing assinged clusters |
+2021-01-05 11:33:49,864 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 after removing assinged clusters |
+2021-01-05 11:33:49,884 | training_logger | DEBUG | got next frame |
+2021-01-05 11:33:49,884 | training_logger | INFO | lhello.[[[187 201 206]
+  [187 201 206]
+  [188 202 207]
+  ...
+  [ 37  39  87]
+  [ 38  38 105]
+  [ 46  46 113]]
+
+ [[187 201 206]
+  [187 201 206]
+  [188 202 207]
+  ...
+  [ 37  39  87]
+  [ 38  38 105]
+  [ 46  46 113]]
+
+ [[187 201 206]
+  [187 201 206]
+  [188 202 207]
+  ...
+  [ 40  39  88]
+  [ 42  40 107]
+  [ 48  46 113]]
+
+ ...
+
+ [[233 220 202]
+  [233 220 202]
+  [235 220 202]
+  ...
+  [152 121  97]
+  [156 120  97]
+  [155 119  96]]
+
+ [[234 221 203]
+  [234 221 203]
+  [235 220 202]
+  ...
+  [150 121  97]
+  [154 120  97]
+  [153 119  96]]
+
+ [[236 223 205]
+  [234 221 203]
+  [236 221 203]
+  ...
+  [150 121  97]
+  [154 120  97]
+  [153 119  96]]] False |
+2021-01-05 11:33:49,889 | training_logger | DEBUG | Received new Frame and assigned frame_id 000006 |
+2021-01-05 11:33:49,903 | training_logger | DEBUG | contour_instance with id 000006-0000000000 has area 2200.5 and is appended to filtered list |
+2021-01-05 11:33:49,904 | training_logger | DEBUG | contour_id 000006-0000000000 has provided the following self.properties {'label': None, 'contour_id': '000006-0000000000', 'area': 2200.5, 'area_white': 0, 'area_grey': 2443, 'centroid_x': 246, 'centroid_y': 106, 'contour_arc_length': 710.5, 'hull_area': 3974.5, 'poly_area': 2290.5, 'rectangle_width': 125, 'rectangle_height': 124, 'angle': 133.9}  |
+2021-01-05 11:33:49,913 | training_logger | DEBUG | predicted contour label of contour_id 000006-0000000000 with label 3 |
+2021-01-05 11:33:49,913 | training_logger | DEBUG | contour_instance with id 000006-0000000001 has area 1704.5 and is appended to filtered list |
+2021-01-05 11:33:49,914 | training_logger | DEBUG | contour_id 000006-0000000001 has provided the following self.properties {'label': None, 'contour_id': '000006-0000000001', 'area': 1704.5, 'area_white': 0, 'area_grey': 1789, 'centroid_x': 226, 'centroid_y': 22, 'contour_arc_length': 487.3, 'hull_area': 2682.5, 'poly_area': 1739.0, 'rectangle_width': 97, 'rectangle_height': 53, 'angle': 113.2}  |
+2021-01-05 11:33:49,925 | training_logger | DEBUG | predicted contour label of contour_id 000006-0000000001 with label 3 |
+2021-01-05 11:33:49,925 | training_logger | DEBUG | contour_instance with id 000006-0000000002 has area 1194.5 and is appended to filtered list |
+2021-01-05 11:33:49,926 | training_logger | DEBUG | contour_id 000006-0000000002 has provided the following self.properties {'label': None, 'contour_id': '000006-0000000002', 'area': 1194.5, 'area_white': 901, 'area_grey': 371, 'centroid_x': 105, 'centroid_y': 11, 'contour_arc_length': 174.1, 'hull_area': 1293.0, 'poly_area': 1194.5, 'rectangle_width': 63, 'rectangle_height': 30, 'angle': 109.5}  |
+2021-01-05 11:33:49,936 | training_logger | DEBUG | predicted contour label of contour_id 000006-0000000002 with label 2 |
+2021-01-05 11:33:49,936 | training_logger | DEBUG | contour_instance with contour_id 000006-0000000002 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:33:49,955 | training_logger | DEBUG | len(contour_list) is 1, contour_to_cluster_list is [['000006-0000000002', -1]] |
+2021-01-05 11:33:49,955 | training_logger | DEBUG | determined clusters: [['000006-0000000002', -1]] |
+2021-01-05 11:33:49,955 | training_logger | DEBUG | contour_instance 000006-0000000002 has been assigned a db_scan_cluster_id of -1 |
+2021-01-05 11:33:49,956 | training_logger | DEBUG | (cluster_id_set is set() after assigning cluster_ids of "true" clusters of label 1 clusters |
+2021-01-05 11:33:49,956 | training_logger | DEBUG | cluster_or_label1_flag has been false, assigning contour_instance.cluster_id 000006-0000000002 |
+2021-01-05 11:33:49,956 | training_logger | DEBUG | cluster_id_set is {'000006-0000000002'} after assigning cluster_ids of a frame with (-1)-clusters only |
+2021-01-05 11:33:49,957 | training_logger | DEBUG | initiated cluster with cluster_id 000006-0000000002 |
+2021-01-05 11:33:49,957 | training_logger | DEBUG | contour_id 000006-0000000002 was appended to cluster_instance 000006-0000000002, along with coordinates (105,11) |
+2021-01-05 11:33:49,957 | training_logger | DEBUG | cluster_id 000006-0000000002, cluster_centroids (105,11) |
+2021-01-05 11:33:49,958 | training_logger | DEBUG | calculate_cluster_person_distance_list(): creatingcluster_person_distance_list... |
+2021-01-05 11:33:49,958 | training_logger | DEBUG | calculate_cluster_person_distance_list(): no existing person inreach, created a new person: person_counter 0, cluster_id 000006-0000000002,  y 105, x 11 |
+2021-01-05 11:33:49,958 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = {'000006-0000000002'} , free_persons_set = {0} starting first iteration to assign clusters to persons... |
+2021-01-05 11:33:49,958 | training_logger | DEBUG | person_id 0 has the following prospective clusters: [['000006-0000000002', 0, 0]] |
+2021-01-05 11:33:49,958 | training_logger | DEBUG | cluster_id 000006-0000000002 is assigned to person_id 0,because person_id hasexactly one cluster in reach |
+2021-01-05 11:33:49,958 | training_logger | DEBUG | lenth cluster_person_distance_list is 1 before removing assinged clusters |
+2021-01-05 11:33:49,958 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 after removing assinged clusters |
+2021-01-05 11:33:49,959 | training_logger | INFO | matched person to cluster: Person ID: 0 | cluster_id 000006-0000000002 | frame_count 6 | P(x/y): (105 / 11) | thrust_absolute: 0 | thrust_binary 0 | age -1   |
+2021-01-05 11:33:49,978 | training_logger | DEBUG | got next frame |
+2021-01-05 11:33:49,979 | training_logger | INFO | lhello.[[[ 98  91 138]
+  [ 88  81 128]
+  [ 79  69 126]
+  ...
+  [ 33  37  85]
+  [ 34  37 103]
+  [ 42  45 111]]
+
+ [[105  98 145]
+  [ 94  87 134]
+  [ 84  74 131]
+  ...
+  [ 33  37  85]
+  [ 34  37 103]
+  [ 42  45 111]]
+
+ [[112 113 150]
+  [ 94  95 132]
+  [ 86  82 127]
+  ...
+  [ 36  38  86]
+  [ 38  38 105]
+  [ 44  44 111]]
+
+ ...
+
+ [[227 219 200]
+  [226 218 199]
+  [226 218 199]
+  ...
+  [144 121  98]
+  [147 125 100]
+  [145 123  98]]
+
+ [[225 217 198]
+  [225 217 198]
+  [226 218 199]
+  ...
+  [144 121  98]
+  [148 126 101]
+  [147 125 100]]
+
+ [[222 214 195]
+  [223 215 196]
+  [226 218 199]
+  ...
+  [144 121  98]
+  [148 126 101]
+  [147 125 100]]] False |
+2021-01-05 11:33:49,981 | training_logger | DEBUG | Received new Frame and assigned frame_id 000007 |
+2021-01-05 11:33:50,003 | training_logger | DEBUG | contour_instance with id 000007-0000000000 has area 1858.5 and is appended to filtered list |
+2021-01-05 11:33:50,004 | training_logger | DEBUG | contour_id 000007-0000000000 has provided the following self.properties {'label': None, 'contour_id': '000007-0000000000', 'area': 1858.5, 'area_white': 0, 'area_grey': 1814, 'centroid_x': 279, 'centroid_y': 71, 'contour_arc_length': 657.0, 'hull_area': 3268.5, 'poly_area': 1927.0, 'rectangle_width': 100, 'rectangle_height': 67, 'angle': 119.9}  |
+2021-01-05 11:33:50,014 | training_logger | DEBUG | predicted contour label of contour_id 000007-0000000000 with label 3 |
+2021-01-05 11:33:50,014 | training_logger | DEBUG | contour_instance with id 000007-0000000001 has area 13661.5 and is appended to filtered list |
+2021-01-05 11:33:50,015 | training_logger | DEBUG | contour_id 000007-0000000001 has provided the following self.properties {'label': None, 'contour_id': '000007-0000000001', 'area': 13661.5, 'area_white': 9606, 'area_grey': 4500, 'centroid_x': 144, 'centroid_y': 72, 'contour_arc_length': 1149.2, 'hull_area': 21688.5, 'poly_area': 13859.5, 'rectangle_width': 283, 'rectangle_height': 171, 'angle': 123.4}  |
+2021-01-05 11:33:50,028 | training_logger | DEBUG | predicted contour label of contour_id 000007-0000000001 with label 1 |
+2021-01-05 11:33:50,028 | training_logger | DEBUG | contour_instance with contour_id 000007-0000000001 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:33:50,047 | training_logger | DEBUG | len(contour_list) is 1, contour_to_cluster_list is [['000007-0000000001', -1]] |
+2021-01-05 11:33:50,048 | training_logger | DEBUG | determined clusters: [['000007-0000000001', -1]] |
+2021-01-05 11:33:50,048 | training_logger | DEBUG | contour_instance 000007-0000000001 has been assigned a db_scan_cluster_id of -1 |
+2021-01-05 11:33:50,048 | training_logger | DEBUG | (cluster_id_set is set() after assigning cluster_ids of "true" clusters of label 1 clusters |
+2021-01-05 11:33:50,048 | training_logger | DEBUG | cluster_or_label1_flag has been false, assigning contour_instance.cluster_id 000007-0000000001 |
+2021-01-05 11:33:50,048 | training_logger | DEBUG | cluster_id_set is {'000007-0000000001'} after assigning cluster_ids of a frame with (-1)-clusters only |
+2021-01-05 11:33:50,048 | training_logger | DEBUG | initiated cluster with cluster_id 000007-0000000001 |
+2021-01-05 11:33:50,048 | training_logger | DEBUG | contour_id 000007-0000000001 was appended to cluster_instance 000007-0000000001, along with coordinates (144,72) |
+2021-01-05 11:33:50,048 | training_logger | DEBUG | cluster_id 000007-0000000001, cluster_centroids (144,72) |
+2021-01-05 11:33:50,049 | training_logger | DEBUG | next_frame_aging(): person_id 0 was aged by one, but is not too old, i.e. is still part of person_instances |
+2021-01-05 11:33:50,049 | training_logger | DEBUG | calculate_cluster_person_distance_list(): creatingcluster_person_distance_list... |
+2021-01-05 11:33:50,049 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 0 and cluster_instance.cluster_id 000007-0000000001 have distance 72 |
+2021-01-05 11:33:50,049 | training_logger | DEBUG | calculate_cluster_person_distance_list(): appended to cluster_person_distance_list: 0, 000007-0000000001, 72  |
+2021-01-05 11:33:50,049 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = {'000007-0000000001'} , free_persons_set = {0} starting first iteration to assign clusters to persons... |
+2021-01-05 11:33:50,049 | training_logger | DEBUG | person_id 0 has the following prospective clusters: [['000007-0000000001', 0, 72]] |
+2021-01-05 11:33:50,050 | training_logger | DEBUG | cluster_id 000007-0000000001 is assigned to person_id 0,because person_id hasexactly one cluster in reach |
+2021-01-05 11:33:50,050 | training_logger | DEBUG | lenth cluster_person_distance_list is 1 before removing assinged clusters |
+2021-01-05 11:33:50,050 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 after removing assinged clusters |
+2021-01-05 11:33:50,050 | training_logger | INFO | matched person to cluster: Person ID: 0 | cluster_id 000007-0000000001 | frame_count 7 | P(x/y): (144 / 72) | thrust_absolute: 61 | thrust_binary 1 | age -5   |
+2021-01-05 11:33:50,069 | training_logger | DEBUG | got next frame |
+2021-01-05 11:33:50,070 | training_logger | INFO | lhello.[[[167 184 209]
+  [165 182 207]
+  [140 155 185]
+  ...
+  [ 39  38  87]
+  [ 44  37 105]
+  [ 52  45 113]]
+
+ [[167 184 209]
+  [166 183 208]
+  [144 159 189]
+  ...
+  [ 39  38  87]
+  [ 44  37 105]
+  [ 52  45 113]]
+
+ [[167 184 209]
+  [166 183 208]
+  [155 170 200]
+  ...
+  [ 42  39  88]
+  [ 48  39 107]
+  [ 54  45 113]]
+
+ ...
+
+ [[226 218 199]
+  [226 218 199]
+  [226 218 199]
+  ...
+  [148 121  98]
+  [149 119  97]
+  [148 118  96]]
+
+ [[226 218 199]
+  [226 218 199]
+  [226 218 199]
+  ...
+  [148 121  98]
+  [150 120  98]
+  [149 119  97]]
+
+ [[226 218 199]
+  [226 218 199]
+  [226 218 199]
+  ...
+  [148 121  98]
+  [150 120  98]
+  [149 119  97]]] False |
+2021-01-05 11:33:50,072 | training_logger | DEBUG | Received new Frame and assigned frame_id 000008 |
+2021-01-05 11:33:50,084 | training_logger | DEBUG | contour_instance with id 000008-0000000000 has area 1160.5 and is appended to filtered list |
+2021-01-05 11:33:50,085 | training_logger | DEBUG | contour_id 000008-0000000000 has provided the following self.properties {'label': None, 'contour_id': '000008-0000000000', 'area': 1160.5, 'area_white': 361, 'area_grey': 878, 'centroid_x': 206, 'centroid_y': 14, 'contour_arc_length': 178.6, 'hull_area': 1408.0, 'poly_area': 1160.5, 'rectangle_width': 58, 'rectangle_height': 32, 'angle': 80.8}  |
+2021-01-05 11:33:50,095 | training_logger | DEBUG | predicted contour label of contour_id 000008-0000000000 with label 2 |
+2021-01-05 11:33:50,096 | training_logger | DEBUG | contour_instance with contour_id 000008-0000000000 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:33:50,096 | training_logger | DEBUG | contour_instance with id 000008-0000000001 has area 9160.0 and is appended to filtered list |
+2021-01-05 11:33:50,098 | training_logger | DEBUG | contour_id 000008-0000000001 has provided the following self.properties {'label': None, 'contour_id': '000008-0000000001', 'area': 9160.0, 'area_white': 6489, 'area_grey': 3166, 'centroid_x': 149, 'centroid_y': 102, 'contour_arc_length': 1422.4, 'hull_area': 21544.0, 'poly_area': 9251.0, 'rectangle_width': 282, 'rectangle_height': 192, 'angle': 124.1}  |
+2021-01-05 11:33:50,107 | training_logger | DEBUG | predicted contour label of contour_id 000008-0000000001 with label 2 |
+2021-01-05 11:33:50,108 | training_logger | DEBUG | contour_instance with contour_id 000008-0000000001 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:33:50,146 | training_logger | DEBUG | len(contour_list) is 2, contour_to_cluster_list is [['000008-0000000000', 0], ['000008-0000000001', 0]] |
+2021-01-05 11:33:50,146 | training_logger | DEBUG | determined clusters: [['000008-0000000000', 0], ['000008-0000000001', 0]] |
+2021-01-05 11:33:50,146 | training_logger | DEBUG | contour_instance 000008-0000000000 has been assigned a db_scan_cluster_id of 0 |
+2021-01-05 11:33:50,146 | training_logger | DEBUG | the true cluster with id 0 has been assigned to contour_instance 000008-0000000000 |
+2021-01-05 11:33:50,146 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:33:50,147 | training_logger | DEBUG | contour_instance 000008-0000000001 has been assigned a db_scan_cluster_id of 0 |
+2021-01-05 11:33:50,147 | training_logger | DEBUG | the true cluster with id 0 has been assigned to contour_instance 000008-0000000001 |
+2021-01-05 11:33:50,147 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:33:50,147 | training_logger | DEBUG | (cluster_id_set is {0} after assigning cluster_ids of "true" clusters of label 1 clusters |
+2021-01-05 11:33:50,147 | training_logger | DEBUG | cluster_id_set is {0} after assigning cluster_ids of a frame with (-1)-clusters only |
+2021-01-05 11:33:50,147 | training_logger | DEBUG | initiated cluster with cluster_id 0 |
+2021-01-05 11:33:50,147 | training_logger | DEBUG | contour_id 000008-0000000000 was appended to cluster_instance 0, along with coordinates (206,14) |
+2021-01-05 11:33:50,147 | training_logger | DEBUG | contour_id 000008-0000000001 was appended to cluster_instance 0, along with coordinates (149,102) |
+2021-01-05 11:33:50,148 | training_logger | DEBUG | cluster_id 0, cluster_centroids (177,58) |
+2021-01-05 11:33:50,148 | training_logger | DEBUG | next_frame_aging(): person_id 0 was aged by one, but is not too old, i.e. is still part of person_instances |
+2021-01-05 11:33:50,148 | training_logger | DEBUG | calculate_cluster_person_distance_list(): creatingcluster_person_distance_list... |
+2021-01-05 11:33:50,148 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 0 and cluster_instance.cluster_id 0 have distance 35 |
+2021-01-05 11:33:50,148 | training_logger | DEBUG | calculate_cluster_person_distance_list(): appended to cluster_person_distance_list: 0, 0, 35  |
+2021-01-05 11:33:50,148 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = {0} , free_persons_set = {0} starting first iteration to assign clusters to persons... |
+2021-01-05 11:33:50,148 | training_logger | DEBUG | person_id 0 has the following prospective clusters: [[0, 0, 35]] |
+2021-01-05 11:33:50,148 | training_logger | DEBUG | cluster_id 0 is assigned to person_id 0,because person_id hasexactly one cluster in reach |
+2021-01-05 11:33:50,148 | training_logger | DEBUG | lenth cluster_person_distance_list is 1 before removing assinged clusters |
+2021-01-05 11:33:50,148 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 after removing assinged clusters |
+2021-01-05 11:33:50,148 | training_logger | INFO | matched person to cluster: Person ID: 0 | cluster_id 0 | frame_count 8 | P(x/y): (177 / 58) | thrust_absolute: 47 | thrust_binary 0 | age -9   |
+2021-01-05 11:33:50,171 | training_logger | DEBUG | got next frame |
+2021-01-05 11:33:50,171 | training_logger | INFO | lhello.[[[187 207 214]
+  [187 207 214]
+  [188 206 213]
+  ...
+  [ 33  37  85]
+  [ 36  36 103]
+  [ 44  44 111]]
+
+ [[185 205 212]
+  [186 206 213]
+  [187 205 212]
+  ...
+  [ 33  37  85]
+  [ 36  36 103]
+  [ 44  44 111]]
+
+ [[182 202 209]
+  [183 203 210]
+  [183 201 208]
+  ...
+  [ 36  38  86]
+  [ 40  38 105]
+  [ 46  44 111]]
+
+ ...
+
+ [[224 217 202]
+  [224 217 202]
+  [223 216 201]
+  ...
+  [146 120 100]
+  [147 119  99]
+  [147 119  99]]
+
+ [[224 219 204]
+  [224 219 204]
+  [223 218 203]
+  ...
+  [147 121 101]
+  [149 121 101]
+  [148 120 100]]
+
+ [[225 220 205]
+  [225 220 205]
+  [224 219 204]
+  ...
+  [147 121 101]
+  [149 121 101]
+  [149 121 101]]] False |
+2021-01-05 11:33:50,173 | training_logger | DEBUG | Received new Frame and assigned frame_id 000009 |
+2021-01-05 11:33:50,187 | training_logger | DEBUG | contour_instance with id 000009-0000000000 has area 2658.5 and is appended to filtered list |
+2021-01-05 11:33:50,190 | training_logger | DEBUG | contour_id 000009-0000000000 has provided the following self.properties {'label': None, 'contour_id': '000009-0000000000', 'area': 2658.5, 'area_white': 1348, 'area_grey': 1645, 'centroid_x': 209, 'centroid_y': 128, 'contour_arc_length': 898.4, 'hull_area': 7993.0, 'poly_area': 2665.5, 'rectangle_width': 135, 'rectangle_height': 178, 'angle': 151.4}  |
+2021-01-05 11:33:50,203 | training_logger | DEBUG | predicted contour label of contour_id 000009-0000000000 with label 2 |
+2021-01-05 11:33:50,203 | training_logger | DEBUG | contour_instance with contour_id 000009-0000000000 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:33:50,203 | training_logger | DEBUG | contour_instance with id 000009-0000000001 has area 1787.0 and is appended to filtered list |
+2021-01-05 11:33:50,204 | training_logger | DEBUG | contour_id 000009-0000000001 has provided the following self.properties {'label': None, 'contour_id': '000009-0000000001', 'area': 1787.0, 'area_white': 343, 'area_grey': 1550, 'centroid_x': 217, 'centroid_y': 25, 'contour_arc_length': 333.4, 'hull_area': 2517.5, 'poly_area': 1812.0, 'rectangle_width': 66, 'rectangle_height': 56, 'angle': 113.4}  |
+2021-01-05 11:33:50,213 | training_logger | DEBUG | predicted contour label of contour_id 000009-0000000001 with label 2 |
+2021-01-05 11:33:50,213 | training_logger | DEBUG | contour_instance with contour_id 000009-0000000001 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:33:50,213 | training_logger | DEBUG | contour_instance with id 000009-0000000002 has area 4659.0 and is appended to filtered list |
+2021-01-05 11:33:50,214 | training_logger | DEBUG | contour_id 000009-0000000002 has provided the following self.properties {'label': None, 'contour_id': '000009-0000000002', 'area': 4659.0, 'area_white': 3947, 'area_grey': 1080, 'centroid_x': 75, 'centroid_y': 75, 'contour_arc_length': 972.5, 'hull_area': 11393.5, 'poly_area': 4668.0, 'rectangle_width': 201, 'rectangle_height': 173, 'angle': 134.8}  |
+2021-01-05 11:33:50,227 | training_logger | DEBUG | predicted contour label of contour_id 000009-0000000002 with label 2 |
+2021-01-05 11:33:50,227 | training_logger | DEBUG | contour_instance with contour_id 000009-0000000002 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:33:50,248 | training_logger | DEBUG | len(contour_list) is 3, contour_to_cluster_list is [['000009-0000000000', 0], ['000009-0000000001', 0], ['000009-0000000002', 1]] |
+2021-01-05 11:33:50,248 | training_logger | DEBUG | determined clusters: [['000009-0000000000', 0], ['000009-0000000001', 0], ['000009-0000000002', 1]] |
+2021-01-05 11:33:50,249 | training_logger | DEBUG | contour_instance 000009-0000000000 has been assigned a db_scan_cluster_id of 0 |
+2021-01-05 11:33:50,249 | training_logger | DEBUG | the true cluster with id 0 has been assigned to contour_instance 000009-0000000000 |
+2021-01-05 11:33:50,249 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:33:50,249 | training_logger | DEBUG | contour_instance 000009-0000000001 has been assigned a db_scan_cluster_id of 0 |
+2021-01-05 11:33:50,249 | training_logger | DEBUG | the true cluster with id 0 has been assigned to contour_instance 000009-0000000001 |
+2021-01-05 11:33:50,250 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:33:50,250 | training_logger | DEBUG | contour_instance 000009-0000000002 has been assigned a db_scan_cluster_id of 1 |
+2021-01-05 11:33:50,250 | training_logger | DEBUG | the true cluster with id 1 has been assigned to contour_instance 000009-0000000002 |
+2021-01-05 11:33:50,250 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:33:50,251 | training_logger | DEBUG | (cluster_id_set is {0, 1} after assigning cluster_ids of "true" clusters of label 1 clusters |
+2021-01-05 11:33:50,251 | training_logger | DEBUG | cluster_id_set is {0, 1} after assigning cluster_ids of a frame with (-1)-clusters only |
+2021-01-05 11:33:50,251 | training_logger | DEBUG | initiated cluster with cluster_id 0 |
+2021-01-05 11:33:50,251 | training_logger | DEBUG | initiated cluster with cluster_id 1 |
+2021-01-05 11:33:50,251 | training_logger | DEBUG | contour_id 000009-0000000000 was appended to cluster_instance 0, along with coordinates (209,128) |
+2021-01-05 11:33:50,251 | training_logger | DEBUG | contour_id 000009-0000000001 was appended to cluster_instance 0, along with coordinates (217,25) |
+2021-01-05 11:33:50,251 | training_logger | DEBUG | contour_id 000009-0000000002 was appended to cluster_instance 1, along with coordinates (75,75) |
+2021-01-05 11:33:50,252 | training_logger | DEBUG | cluster_id 0, cluster_centroids (213,76) |
+2021-01-05 11:33:50,252 | training_logger | DEBUG | cluster_id 1, cluster_centroids (75,75) |
+2021-01-05 11:33:50,252 | training_logger | DEBUG | next_frame_aging(): person_id 0 was aged by one, but is not too old, i.e. is still part of person_instances |
+2021-01-05 11:33:50,252 | training_logger | DEBUG | calculate_cluster_person_distance_list(): creatingcluster_person_distance_list... |
+2021-01-05 11:33:50,252 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 0 and cluster_instance.cluster_id 0 have distance 40 |
+2021-01-05 11:33:50,252 | training_logger | DEBUG | calculate_cluster_person_distance_list(): appended to cluster_person_distance_list: 0, 0, 40  |
+2021-01-05 11:33:50,253 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 0 and cluster_instance.cluster_id 1 have distance 103 |
+2021-01-05 11:33:50,253 | training_logger | DEBUG | calculate_cluster_person_distance_list(): appended to cluster_person_distance_list: 0, 1, 103  |
+2021-01-05 11:33:50,253 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = {0, 1} , free_persons_set = {0} starting first iteration to assign clusters to persons... |
+2021-01-05 11:33:50,253 | training_logger | DEBUG | person_id 0 has the following prospective clusters: [[0, 0, 40], [1, 0, 103]] |
+2021-01-05 11:33:50,253 | training_logger | DEBUG | lenth cluster_person_distance_list is 2 before removing assinged clusters |
+2021-01-05 11:33:50,253 | training_logger | DEBUG | lenth cluster_person_distance_list is 2 after removing assinged clusters |
+2021-01-05 11:33:50,253 | training_logger | DEBUG | starting second iteration to assign clusters to persons... |
+2021-01-05 11:33:50,253 | training_logger | DEBUG | person_id 0 has the following prospects : [[0, 0, 40], [1, 0, 103]] (from cluster_person_distance_list) |
+2021-01-05 11:33:50,253 | training_logger | DEBUG | person_id 0 has the following min-prospect : [0, 0, 40] (from cluster_person_distance_list) |
+2021-01-05 11:33:50,254 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = {1}, free_persons_set = set() in second iteration after removal |
+2021-01-05 11:33:50,254 | training_logger | DEBUG | lenth cluster_person_distance_list is 2 before removing assinged clusters |
+2021-01-05 11:33:50,254 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 after removing assinged clusters |
+2021-01-05 11:33:50,254 | training_logger | DEBUG | clusters {1} are unassigned after completion of assignment |
+2021-01-05 11:33:50,254 | training_logger | INFO | matched person to cluster: Person ID: 0 | cluster_id 0 | frame_count 9 | P(x/y): (213 / 76) | thrust_absolute: 65 | thrust_binary 1 | age -12   |
+2021-01-05 11:33:50,274 | training_logger | DEBUG | got next frame |
+2021-01-05 11:33:50,274 | training_logger | INFO | lhello.[[[191 208 219]
+  [190 207 218]
+  [188 205 216]
+  ...
+  [ 33  39  87]
+  [ 36  39 105]
+  [ 44  47 113]]
+
+ [[191 208 219]
+  [190 207 218]
+  [189 206 217]
+  ...
+  [ 33  39  87]
+  [ 36  39 105]
+  [ 44  47 113]]
+
+ [[189 206 217]
+  [189 206 217]
+  [188 205 216]
+  ...
+  [ 36  40  88]
+  [ 40  40 107]
+  [ 46  46 113]]
+
+ ...
+
+ [[220 221 203]
+  [220 221 203]
+  [220 221 203]
+  ...
+  [143 119  99]
+  [145 119  99]
+  [145 119  99]]
+
+ [[220 221 203]
+  [220 221 203]
+  [220 221 203]
+  ...
+  [145 121 101]
+  [147 121 101]
+  [147 121 101]]
+
+ [[221 222 204]
+  [221 222 204]
+  [221 222 204]
+  ...
+  [147 123 103]
+  [149 123 103]
+  [150 124 104]]] False |
+2021-01-05 11:33:50,276 | training_logger | DEBUG | Received new Frame and assigned frame_id 000010 |
+2021-01-05 11:33:50,293 | training_logger | DEBUG | contour_instance with id 000010-0000000000 has area 2067.0 and is appended to filtered list |
+2021-01-05 11:33:50,295 | training_logger | DEBUG | contour_id 000010-0000000000 has provided the following self.properties {'label': None, 'contour_id': '000010-0000000000', 'area': 2067.0, 'area_white': 1992, 'area_grey': 95, 'centroid_x': 375, 'centroid_y': 113, 'contour_arc_length': 848.1, 'hull_area': 3992.5, 'poly_area': 2196.5, 'rectangle_width': 76, 'rectangle_height': 98, 'angle': 29.9}  |
+2021-01-05 11:33:50,305 | training_logger | DEBUG | predicted contour label of contour_id 000010-0000000000 with label 2 |
+2021-01-05 11:33:50,306 | training_logger | DEBUG | contour_instance with contour_id 000010-0000000000 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:33:50,306 | training_logger | DEBUG | contour_instance with id 000010-0000000001 has area 2042.5 and is appended to filtered list |
+2021-01-05 11:33:50,307 | training_logger | DEBUG | contour_id 000010-0000000001 has provided the following self.properties {'label': None, 'contour_id': '000010-0000000001', 'area': 2042.5, 'area_white': 2121, 'area_grey': 0, 'centroid_x': 402, 'centroid_y': 21, 'contour_arc_length': 577.1, 'hull_area': 3007.0, 'poly_area': 2093.0, 'rectangle_width': 67, 'rectangle_height': 62, 'angle': 59.7}  |
+2021-01-05 11:33:50,316 | training_logger | DEBUG | predicted contour label of contour_id 000010-0000000001 with label 3 |
+2021-01-05 11:33:50,316 | training_logger | DEBUG | contour_instance with id 000010-0000000002 has area 1347.5 and is appended to filtered list |
+2021-01-05 11:33:50,317 | training_logger | DEBUG | contour_id 000010-0000000002 has provided the following self.properties {'label': None, 'contour_id': '000010-0000000002', 'area': 1347.5, 'area_white': 1264, 'area_grey': 166, 'centroid_x': 303, 'centroid_y': 16, 'contour_arc_length': 394.8, 'hull_area': 2304.0, 'poly_area': 1366.5, 'rectangle_width': 60, 'rectangle_height': 52, 'angle': 174.9}  |
+2021-01-05 11:33:50,329 | training_logger | DEBUG | predicted contour label of contour_id 000010-0000000002 with label 3 |
+2021-01-05 11:33:50,329 | training_logger | DEBUG | contour_instance with id 000010-0000000003 has area 19512.0 and is appended to filtered list |
+2021-01-05 11:33:50,331 | training_logger | DEBUG | contour_id 000010-0000000003 has provided the following self.properties {'label': None, 'contour_id': '000010-0000000003', 'area': 19512.0, 'area_white': 16398, 'area_grey': 3808, 'centroid_x': 150, 'centroid_y': 89, 'contour_arc_length': 2502.8, 'hull_area': 41286.0, 'poly_area': 19580.0, 'rectangle_width': 236, 'rectangle_height': 207, 'angle': 98.4}  |
+2021-01-05 11:33:50,338 | training_logger | DEBUG | predicted contour label of contour_id 000010-0000000003 with label 1 |
+2021-01-05 11:33:50,338 | training_logger | DEBUG | contour_instance with contour_id 000010-0000000003 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:33:50,360 | training_logger | DEBUG | len(contour_list) is 2, contour_to_cluster_list is [['000010-0000000000', 1], ['000010-0000000003', 0]] |
+2021-01-05 11:33:50,361 | training_logger | DEBUG | determined clusters: [['000010-0000000000', 1], ['000010-0000000003', 0]] |
+2021-01-05 11:33:50,361 | training_logger | DEBUG | contour_instance 000010-0000000000 has been assigned a db_scan_cluster_id of 1 |
+2021-01-05 11:33:50,361 | training_logger | DEBUG | the true cluster with id 1 has been assigned to contour_instance 000010-0000000000 |
+2021-01-05 11:33:50,361 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:33:50,361 | training_logger | DEBUG | contour_instance 000010-0000000003 has been assigned a db_scan_cluster_id of 0 |
+2021-01-05 11:33:50,361 | training_logger | DEBUG | the true cluster with id 0 has been assigned to contour_instance 000010-0000000003 |
+2021-01-05 11:33:50,361 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:33:50,361 | training_logger | DEBUG | (cluster_id_set is {0, 1} after assigning cluster_ids of "true" clusters of label 1 clusters |
+2021-01-05 11:33:50,361 | training_logger | DEBUG | cluster_id_set is {0, 1} after assigning cluster_ids of a frame with (-1)-clusters only |
+2021-01-05 11:33:50,361 | training_logger | DEBUG | initiated cluster with cluster_id 0 |
+2021-01-05 11:33:50,361 | training_logger | DEBUG | initiated cluster with cluster_id 1 |
+2021-01-05 11:33:50,361 | training_logger | DEBUG | contour_id 000010-0000000000 was appended to cluster_instance 1, along with coordinates (375,113) |
+2021-01-05 11:33:50,361 | training_logger | DEBUG | contour_id 000010-0000000003 was appended to cluster_instance 0, along with coordinates (150,89) |
+2021-01-05 11:33:50,362 | training_logger | DEBUG | cluster_id 0, cluster_centroids (150,89) |
+2021-01-05 11:33:50,362 | training_logger | DEBUG | cluster_id 1, cluster_centroids (375,113) |
+2021-01-05 11:33:50,362 | training_logger | DEBUG | next_frame_aging(): person_id 0 was aged by one, but is not too old, i.e. is still part of person_instances |
+2021-01-05 11:33:50,362 | training_logger | DEBUG | calculate_cluster_person_distance_list(): creatingcluster_person_distance_list... |
+2021-01-05 11:33:50,362 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 0 and cluster_instance.cluster_id 0 have distance 64 |
+2021-01-05 11:33:50,362 | training_logger | DEBUG | calculate_cluster_person_distance_list(): appended to cluster_person_distance_list: 0, 0, 64  |
+2021-01-05 11:33:50,362 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 0 and cluster_instance.cluster_id 1 have distance 166 |
+2021-01-05 11:33:50,362 | training_logger | DEBUG | calculate_cluster_person_distance_list(): no existing person inreach, created a new person: person_counter 1, cluster_id 1,  y 375, x 113 |
+2021-01-05 11:33:50,362 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = {0, 1} , free_persons_set = {0, 1} starting first iteration to assign clusters to persons... |
+2021-01-05 11:33:50,362 | training_logger | DEBUG | person_id 0 has the following prospective clusters: [[0, 0, 64]] |
+2021-01-05 11:33:50,362 | training_logger | DEBUG | cluster_id 0 is assigned to person_id 0,because person_id hasexactly one cluster in reach |
+2021-01-05 11:33:50,363 | training_logger | DEBUG | person_id 1 has the following prospective clusters: [[1, 1, 0]] |
+2021-01-05 11:33:50,363 | training_logger | DEBUG | cluster_id 1 is assigned to person_id 1,because person_id hasexactly one cluster in reach |
+2021-01-05 11:33:50,363 | training_logger | DEBUG | lenth cluster_person_distance_list is 2 before removing assinged clusters |
+2021-01-05 11:33:50,363 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 after removing assinged clusters |
+2021-01-05 11:33:50,363 | training_logger | INFO | matched person to cluster: Person ID: 0 | cluster_id 0 | frame_count 10 | P(x/y): (150 / 89) | thrust_absolute: 78 | thrust_binary 2 | age -12   |
+2021-01-05 11:33:50,363 | training_logger | INFO | matched person to cluster: Person ID: 1 | cluster_id 1 | frame_count 10 | P(x/y): (375 / 113) | thrust_absolute: 0 | thrust_binary 0 | age 0   |
+2021-01-05 11:33:50,382 | training_logger | DEBUG | got next frame |
+2021-01-05 11:33:50,382 | training_logger | INFO | lhello.[[[193 222 231]
+  [192 221 230]
+  [189 218 227]
+  ...
+  [ 39  43  91]
+  [ 45  43 110]
+  [ 53  51 118]]
+
+ [[189 218 227]
+  [189 218 227]
+  [189 218 227]
+  ...
+  [ 39  43  91]
+  [ 45  43 110]
+  [ 53  51 118]]
+
+ [[189 216 225]
+  [190 217 226]
+  [191 218 227]
+  ...
+  [ 42  44  92]
+  [ 49  45 112]
+  [ 55  51 118]]
+
+ ...
+
+ [[235 230 210]
+  [235 230 210]
+  [237 229 210]
+  ...
+  [147 121 101]
+  [149 121 101]
+  [149 121 101]]
+
+ [[233 230 210]
+  [233 230 210]
+  [235 230 210]
+  ...
+  [149 123 103]
+  [149 121 101]
+  [149 121 101]]
+
+ [[233 230 210]
+  [233 230 210]
+  [235 230 210]
+  ...
+  [149 123 103]
+  [149 121 101]
+  [149 121 101]]] False |
+2021-01-05 11:33:50,386 | training_logger | DEBUG | Received new Frame and assigned frame_id 000011 |
+2021-01-05 11:33:50,408 | training_logger | DEBUG | contour_instance with id 000011-0000000000 has area 1003.0 and is appended to filtered list |
+2021-01-05 11:33:50,409 | training_logger | DEBUG | contour_id 000011-0000000000 has provided the following self.properties {'label': None, 'contour_id': '000011-0000000000', 'area': 1003.0, 'area_white': 1079, 'area_grey': 0, 'centroid_x': 151, 'centroid_y': 225, 'contour_arc_length': 183.5, 'hull_area': 1165.5, 'poly_area': 1003.0, 'rectangle_width': 46, 'rectangle_height': 41, 'angle': 131.1}  |
+2021-01-05 11:33:50,419 | training_logger | DEBUG | predicted contour label of contour_id 000011-0000000000 with label 2 |
+2021-01-05 11:33:50,419 | training_logger | DEBUG | contour_instance with contour_id 000011-0000000000 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:33:50,419 | training_logger | DEBUG | contour_instance with id 000011-0000000001 has area 6306.5 and is appended to filtered list |
+2021-01-05 11:33:50,421 | training_logger | DEBUG | contour_id 000011-0000000001 has provided the following self.properties {'label': None, 'contour_id': '000011-0000000001', 'area': 6306.5, 'area_white': 6003, 'area_grey': 187, 'centroid_x': 401, 'centroid_y': 60, 'contour_arc_length': 1347.1, 'hull_area': 11262.0, 'poly_area': 6511.5, 'rectangle_width': 110, 'rectangle_height': 170, 'angle': 23.1}  |
+2021-01-05 11:33:50,433 | training_logger | DEBUG | predicted contour label of contour_id 000011-0000000001 with label 2 |
+2021-01-05 11:33:50,433 | training_logger | DEBUG | contour_instance with contour_id 000011-0000000001 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:33:50,433 | training_logger | DEBUG | contour_instance with id 000011-0000000002 has area 18572.0 and is appended to filtered list |
+2021-01-05 11:33:50,434 | training_logger | DEBUG | contour_id 000011-0000000002 has provided the following self.properties {'label': None, 'contour_id': '000011-0000000002', 'area': 18572.0, 'area_white': 15789, 'area_grey': 3243, 'centroid_x': 165, 'centroid_y': 106, 'contour_arc_length': 2328.4, 'hull_area': 36914.5, 'poly_area': 18646.0, 'rectangle_width': 228, 'rectangle_height': 200, 'angle': 62.1}  |
+2021-01-05 11:33:50,442 | training_logger | DEBUG | predicted contour label of contour_id 000011-0000000002 with label 1 |
+2021-01-05 11:33:50,442 | training_logger | DEBUG | contour_instance with contour_id 000011-0000000002 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:33:50,467 | training_logger | DEBUG | len(contour_list) is 3, contour_to_cluster_list is [['000011-0000000000', 0], ['000011-0000000001', 1], ['000011-0000000002', 0]] |
+2021-01-05 11:33:50,467 | training_logger | DEBUG | determined clusters: [['000011-0000000000', 0], ['000011-0000000001', 1], ['000011-0000000002', 0]] |
+2021-01-05 11:33:50,467 | training_logger | DEBUG | contour_instance 000011-0000000000 has been assigned a db_scan_cluster_id of 0 |
+2021-01-05 11:33:50,467 | training_logger | DEBUG | the true cluster with id 0 has been assigned to contour_instance 000011-0000000000 |
+2021-01-05 11:33:50,467 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:33:50,467 | training_logger | DEBUG | contour_instance 000011-0000000001 has been assigned a db_scan_cluster_id of 1 |
+2021-01-05 11:33:50,467 | training_logger | DEBUG | the true cluster with id 1 has been assigned to contour_instance 000011-0000000001 |
+2021-01-05 11:33:50,467 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:33:50,467 | training_logger | DEBUG | contour_instance 000011-0000000002 has been assigned a db_scan_cluster_id of 0 |
+2021-01-05 11:33:50,467 | training_logger | DEBUG | the true cluster with id 0 has been assigned to contour_instance 000011-0000000002 |
+2021-01-05 11:33:50,467 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:33:50,468 | training_logger | DEBUG | (cluster_id_set is {0, 1} after assigning cluster_ids of "true" clusters of label 1 clusters |
+2021-01-05 11:33:50,468 | training_logger | DEBUG | cluster_id_set is {0, 1} after assigning cluster_ids of a frame with (-1)-clusters only |
+2021-01-05 11:33:50,468 | training_logger | DEBUG | initiated cluster with cluster_id 0 |
+2021-01-05 11:33:50,468 | training_logger | DEBUG | initiated cluster with cluster_id 1 |
+2021-01-05 11:33:50,468 | training_logger | DEBUG | contour_id 000011-0000000000 was appended to cluster_instance 0, along with coordinates (151,225) |
+2021-01-05 11:33:50,468 | training_logger | DEBUG | contour_id 000011-0000000001 was appended to cluster_instance 1, along with coordinates (401,60) |
+2021-01-05 11:33:50,468 | training_logger | DEBUG | contour_id 000011-0000000002 was appended to cluster_instance 0, along with coordinates (165,106) |
+2021-01-05 11:33:50,468 | training_logger | DEBUG | cluster_id 0, cluster_centroids (158,165) |
+2021-01-05 11:33:50,468 | training_logger | DEBUG | cluster_id 1, cluster_centroids (401,60) |
+2021-01-05 11:33:50,468 | training_logger | DEBUG | next_frame_aging(): person_id 0 was aged by one, but is not too old, i.e. is still part of person_instances |
+2021-01-05 11:33:50,468 | training_logger | DEBUG | next_frame_aging(): person_id 1 was aged by one, but is not too old, i.e. is still part of person_instances |
+2021-01-05 11:33:50,469 | training_logger | DEBUG | calculate_cluster_person_distance_list(): creatingcluster_person_distance_list... |
+2021-01-05 11:33:50,469 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 0 and cluster_instance.cluster_id 0 have distance 76 |
+2021-01-05 11:33:50,469 | training_logger | DEBUG | calculate_cluster_person_distance_list(): appended to cluster_person_distance_list: 0, 0, 76  |
+2021-01-05 11:33:50,469 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 1 and cluster_instance.cluster_id 0 have distance 223 |
+2021-01-05 11:33:50,469 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 0 and cluster_instance.cluster_id 1 have distance 252 |
+2021-01-05 11:33:50,469 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 1 and cluster_instance.cluster_id 1 have distance 59 |
+2021-01-05 11:33:50,469 | training_logger | DEBUG | calculate_cluster_person_distance_list(): appended to cluster_person_distance_list: 1, 1, 59  |
+2021-01-05 11:33:50,469 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = {0, 1} , free_persons_set = {0, 1} starting first iteration to assign clusters to persons... |
+2021-01-05 11:33:50,469 | training_logger | DEBUG | person_id 0 has the following prospective clusters: [[0, 0, 76]] |
+2021-01-05 11:33:50,469 | training_logger | DEBUG | cluster_id 0 is assigned to person_id 0,because person_id hasexactly one cluster in reach |
+2021-01-05 11:33:50,469 | training_logger | DEBUG | person_id 1 has the following prospective clusters: [[1, 1, 59]] |
+2021-01-05 11:33:50,469 | training_logger | DEBUG | cluster_id 1 is assigned to person_id 1,because person_id hasexactly one cluster in reach |
+2021-01-05 11:33:50,469 | training_logger | DEBUG | lenth cluster_person_distance_list is 2 before removing assinged clusters |
+2021-01-05 11:33:50,470 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 after removing assinged clusters |
+2021-01-05 11:33:50,470 | training_logger | INFO | matched person to cluster: Person ID: 0 | cluster_id 0 | frame_count 11 | P(x/y): (158 / 165) | thrust_absolute: 154 | thrust_binary 3 | age -15   |
+2021-01-05 11:33:50,470 | training_logger | INFO | matched person to cluster: Person ID: 1 | cluster_id 1 | frame_count 11 | P(x/y): (401 / 60) | thrust_absolute: -53 | thrust_binary -1 | age -4   |
+2021-01-05 11:33:50,488 | training_logger | DEBUG | got next frame |
+2021-01-05 11:33:50,488 | training_logger | INFO | lhello.[[[197 221 231]
+  [196 220 230]
+  [193 217 227]
+  ...
+  [ 39  38  87]
+  [ 44  37 105]
+  [ 52  45 113]]
+
+ [[193 217 227]
+  [193 217 227]
+  [193 217 227]
+  ...
+  [ 39  38  87]
+  [ 44  37 105]
+  [ 52  45 113]]
+
+ [[191 215 225]
+  [192 216 226]
+  [193 217 227]
+  ...
+  [ 42  39  88]
+  [ 48  39 107]
+  [ 54  45 113]]
+
+ ...
+
+ [[239 228 212]
+  [239 228 212]
+  [239 228 212]
+  ...
+  [146 121  98]
+  [148 121  98]
+  [147 120  97]]
+
+ [[241 230 214]
+  [241 230 214]
+  [241 230 214]
+  ...
+  [146 121  98]
+  [148 121  98]
+  [147 120  97]]
+
+ [[241 230 214]
+  [241 230 214]
+  [241 230 214]
+  ...
+  [146 121  98]
+  [147 120  97]
+  [146 119  96]]] False |
+2021-01-05 11:33:50,492 | training_logger | DEBUG | Received new Frame and assigned frame_id 000012 |
+2021-01-05 11:33:50,514 | training_logger | DEBUG | contour_instance with id 000012-0000000000 has area 1178.5 and is appended to filtered list |
+2021-01-05 11:33:50,515 | training_logger | DEBUG | contour_id 000012-0000000000 has provided the following self.properties {'label': None, 'contour_id': '000012-0000000000', 'area': 1178.5, 'area_white': 1195, 'area_grey': 58, 'centroid_x': 175, 'centroid_y': 255, 'contour_arc_length': 194.2, 'hull_area': 1379.0, 'poly_area': 1178.0, 'rectangle_width': 49, 'rectangle_height': 42, 'angle': 130.7}  |
+2021-01-05 11:33:50,531 | training_logger | DEBUG | predicted contour label of contour_id 000012-0000000000 with label 2 |
+2021-01-05 11:33:50,531 | training_logger | DEBUG | contour_instance with contour_id 000012-0000000000 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:33:50,531 | training_logger | DEBUG | contour_instance with id 000012-0000000001 has area 1367.5 and is appended to filtered list |
+2021-01-05 11:33:50,532 | training_logger | DEBUG | contour_id 000012-0000000001 has provided the following self.properties {'label': None, 'contour_id': '000012-0000000001', 'area': 1367.5, 'area_white': 0, 'area_grey': 1418, 'centroid_x': 446, 'centroid_y': 251, 'contour_arc_length': 473.5, 'hull_area': 2117.0, 'poly_area': 1391.0, 'rectangle_width': 44, 'rectangle_height': 68, 'angle': 169.4}  |
+2021-01-05 11:33:50,540 | training_logger | DEBUG | predicted contour label of contour_id 000012-0000000001 with label 3 |
+2021-01-05 11:33:50,540 | training_logger | DEBUG | contour_instance with id 000012-0000000002 has area 9243.0 and is appended to filtered list |
+2021-01-05 11:33:50,541 | training_logger | DEBUG | contour_id 000012-0000000002 has provided the following self.properties {'label': None, 'contour_id': '000012-0000000002', 'area': 9243.0, 'area_white': 6977, 'area_grey': 2503, 'centroid_x': 146, 'centroid_y': 155, 'contour_arc_length': 1768.2, 'hull_area': 20780.5, 'poly_area': 9298.5, 'rectangle_width': 178, 'rectangle_height': 182, 'angle': 138.6}  |
+2021-01-05 11:33:50,550 | training_logger | DEBUG | predicted contour label of contour_id 000012-0000000002 with label 2 |
+2021-01-05 11:33:50,550 | training_logger | DEBUG | contour_instance with contour_id 000012-0000000002 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:33:50,550 | training_logger | DEBUG | contour_instance with id 000012-0000000003 has area 1343.5 and is appended to filtered list |
+2021-01-05 11:33:50,551 | training_logger | DEBUG | contour_id 000012-0000000003 has provided the following self.properties {'label': None, 'contour_id': '000012-0000000003', 'area': 1343.5, 'area_white': 666, 'area_grey': 778, 'centroid_x': 173, 'centroid_y': 42, 'contour_arc_length': 351.5, 'hull_area': 1851.0, 'poly_area': 1351.0, 'rectangle_width': 64, 'rectangle_height': 53, 'angle': 121.2}  |
+2021-01-05 11:33:50,565 | training_logger | DEBUG | predicted contour label of contour_id 000012-0000000003 with label 2 |
+2021-01-05 11:33:50,565 | training_logger | DEBUG | contour_instance with contour_id 000012-0000000003 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:33:50,565 | training_logger | DEBUG | contour_instance with id 000012-0000000004 has area 3875.5 and is appended to filtered list |
+2021-01-05 11:33:50,566 | training_logger | DEBUG | contour_id 000012-0000000004 has provided the following self.properties {'label': None, 'contour_id': '000012-0000000004', 'area': 3875.5, 'area_white': 3375, 'area_grey': 194, 'centroid_x': 421, 'centroid_y': 50, 'contour_arc_length': 910.2, 'hull_area': 5962.0, 'poly_area': 4006.0, 'rectangle_width': 74, 'rectangle_height': 110, 'angle': 26.9}  |
+2021-01-05 11:33:50,574 | training_logger | DEBUG | predicted contour label of contour_id 000012-0000000004 with label 3 |
+2021-01-05 11:33:50,575 | training_logger | DEBUG | contour_instance with id 000012-0000000005 has area 1688.0 and is appended to filtered list |
+2021-01-05 11:33:50,575 | training_logger | DEBUG | contour_id 000012-0000000005 has provided the following self.properties {'label': None, 'contour_id': '000012-0000000005', 'area': 1688.0, 'area_white': 1574, 'area_grey': 257, 'centroid_x': 283, 'centroid_y': 37, 'contour_arc_length': 361.7, 'hull_area': 2257.0, 'poly_area': 1702.0, 'rectangle_width': 43, 'rectangle_height': 87, 'angle': 10.2}  |
+2021-01-05 11:33:50,583 | training_logger | DEBUG | predicted contour label of contour_id 000012-0000000005 with label 2 |
+2021-01-05 11:33:50,583 | training_logger | DEBUG | contour_instance with contour_id 000012-0000000005 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:33:50,583 | training_logger | DEBUG | contour_instance with id 000012-0000000006 has area 5582.0 and is appended to filtered list |
+2021-01-05 11:33:50,584 | training_logger | DEBUG | contour_id 000012-0000000006 has provided the following self.properties {'label': None, 'contour_id': '000012-0000000006', 'area': 5582.0, 'area_white': 4659, 'area_grey': 1227, 'centroid_x': 249, 'centroid_y': 103, 'contour_arc_length': 1287.2, 'hull_area': 13411.5, 'poly_area': 5726.5, 'rectangle_width': 107, 'rectangle_height': 183, 'angle': 174.8}  |
+2021-01-05 11:33:50,593 | training_logger | DEBUG | predicted contour label of contour_id 000012-0000000006 with label 2 |
+2021-01-05 11:33:50,593 | training_logger | DEBUG | contour_instance with contour_id 000012-0000000006 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:33:50,617 | training_logger | DEBUG | len(contour_list) is 5, contour_to_cluster_list is [['000012-0000000000', 1], ['000012-0000000002', 1], ['000012-0000000003', 0], ['000012-0000000005', 0], ['000012-0000000006', 0]] |
+2021-01-05 11:33:50,617 | training_logger | DEBUG | determined clusters: [['000012-0000000000', 1], ['000012-0000000002', 1], ['000012-0000000003', 0], ['000012-0000000005', 0], ['000012-0000000006', 0]] |
+2021-01-05 11:33:50,617 | training_logger | DEBUG | contour_instance 000012-0000000000 has been assigned a db_scan_cluster_id of 1 |
+2021-01-05 11:33:50,617 | training_logger | DEBUG | the true cluster with id 1 has been assigned to contour_instance 000012-0000000000 |
+2021-01-05 11:33:50,617 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:33:50,617 | training_logger | DEBUG | contour_instance 000012-0000000002 has been assigned a db_scan_cluster_id of 1 |
+2021-01-05 11:33:50,617 | training_logger | DEBUG | the true cluster with id 1 has been assigned to contour_instance 000012-0000000002 |
+2021-01-05 11:33:50,617 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:33:50,617 | training_logger | DEBUG | contour_instance 000012-0000000003 has been assigned a db_scan_cluster_id of 0 |
+2021-01-05 11:33:50,617 | training_logger | DEBUG | the true cluster with id 0 has been assigned to contour_instance 000012-0000000003 |
+2021-01-05 11:33:50,617 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:33:50,618 | training_logger | DEBUG | contour_instance 000012-0000000005 has been assigned a db_scan_cluster_id of 0 |
+2021-01-05 11:33:50,618 | training_logger | DEBUG | the true cluster with id 0 has been assigned to contour_instance 000012-0000000005 |
+2021-01-05 11:33:50,618 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:33:50,618 | training_logger | DEBUG | contour_instance 000012-0000000006 has been assigned a db_scan_cluster_id of 0 |
+2021-01-05 11:33:50,618 | training_logger | DEBUG | the true cluster with id 0 has been assigned to contour_instance 000012-0000000006 |
+2021-01-05 11:33:50,618 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:33:50,618 | training_logger | DEBUG | (cluster_id_set is {0, 1} after assigning cluster_ids of "true" clusters of label 1 clusters |
+2021-01-05 11:33:50,618 | training_logger | DEBUG | cluster_id_set is {0, 1} after assigning cluster_ids of a frame with (-1)-clusters only |
+2021-01-05 11:33:50,618 | training_logger | DEBUG | initiated cluster with cluster_id 0 |
+2021-01-05 11:33:50,618 | training_logger | DEBUG | initiated cluster with cluster_id 1 |
+2021-01-05 11:33:50,618 | training_logger | DEBUG | contour_id 000012-0000000000 was appended to cluster_instance 1, along with coordinates (175,255) |
+2021-01-05 11:33:50,619 | training_logger | DEBUG | contour_id 000012-0000000002 was appended to cluster_instance 1, along with coordinates (146,155) |
+2021-01-05 11:33:50,619 | training_logger | DEBUG | contour_id 000012-0000000003 was appended to cluster_instance 0, along with coordinates (173,42) |
+2021-01-05 11:33:50,619 | training_logger | DEBUG | contour_id 000012-0000000005 was appended to cluster_instance 0, along with coordinates (283,37) |
+2021-01-05 11:33:50,619 | training_logger | DEBUG | contour_id 000012-0000000006 was appended to cluster_instance 0, along with coordinates (249,103) |
+2021-01-05 11:33:50,619 | training_logger | DEBUG | cluster_id 0, cluster_centroids (235,60) |
+2021-01-05 11:33:50,619 | training_logger | DEBUG | cluster_id 1, cluster_centroids (160,205) |
+2021-01-05 11:33:50,619 | training_logger | DEBUG | next_frame_aging(): person_id 0 was aged by one, but is not too old, i.e. is still part of person_instances |
+2021-01-05 11:33:50,619 | training_logger | DEBUG | next_frame_aging(): person_id 1 was aged by one, but is not too old, i.e. is still part of person_instances |
+2021-01-05 11:33:50,620 | training_logger | DEBUG | calculate_cluster_person_distance_list(): creatingcluster_person_distance_list... |
+2021-01-05 11:33:50,620 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 0 and cluster_instance.cluster_id 0 have distance 130 |
+2021-01-05 11:33:50,620 | training_logger | DEBUG | calculate_cluster_person_distance_list(): appended to cluster_person_distance_list: 0, 0, 130  |
+2021-01-05 11:33:50,620 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 1 and cluster_instance.cluster_id 0 have distance 166 |
+2021-01-05 11:33:50,620 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 0 and cluster_instance.cluster_id 1 have distance 40 |
+2021-01-05 11:33:50,620 | training_logger | DEBUG | calculate_cluster_person_distance_list(): appended to cluster_person_distance_list: 0, 1, 40  |
+2021-01-05 11:33:50,620 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 1 and cluster_instance.cluster_id 1 have distance 281 |
+2021-01-05 11:33:50,620 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = {0, 1} , free_persons_set = {0} starting first iteration to assign clusters to persons... |
+2021-01-05 11:33:50,620 | training_logger | DEBUG | person_id 0 has the following prospective clusters: [[0, 0, 130], [1, 0, 40]] |
+2021-01-05 11:33:50,621 | training_logger | DEBUG | person_id 1 has the following prospective clusters: [] |
+2021-01-05 11:33:50,621 | training_logger | DEBUG | lenth cluster_person_distance_list is 2 before removing assinged clusters |
+2021-01-05 11:33:50,621 | training_logger | DEBUG | lenth cluster_person_distance_list is 2 after removing assinged clusters |
+2021-01-05 11:33:50,621 | training_logger | DEBUG | starting second iteration to assign clusters to persons... |
+2021-01-05 11:33:50,621 | training_logger | DEBUG | person_id 0 has the following prospects : [[0, 0, 130], [1, 0, 40]] (from cluster_person_distance_list) |
+2021-01-05 11:33:50,621 | training_logger | DEBUG | person_id 0 has the following min-prospect : [1, 0, 40] (from cluster_person_distance_list) |
+2021-01-05 11:33:50,621 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = {0}, free_persons_set = set() in second iteration after removal |
+2021-01-05 11:33:50,621 | training_logger | DEBUG | lenth cluster_person_distance_list is 2 before removing assinged clusters |
+2021-01-05 11:33:50,621 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 after removing assinged clusters |
+2021-01-05 11:33:50,621 | training_logger | DEBUG | clusters {0} are unassigned after completion of assignment |
+2021-01-05 11:33:50,621 | training_logger | INFO | matched person to cluster: Person ID: 0 | cluster_id 1 | frame_count 12 | P(x/y): (160 / 205) | thrust_absolute: 194 | thrust_binary 4 | age -18   |
+2021-01-05 11:33:50,630 | training_logger | INFO | ID: 0 crossed going down at Tue Jan  5 11:33:50 2021  |
+2021-01-05 11:33:50,630 | training_logger | DEBUG | current person count: 6  |
+2021-01-05 11:33:50,650 | training_logger | DEBUG | got next frame |
+2021-01-05 11:33:50,650 | training_logger | INFO | lhello.[[[203 220 231]
+  [202 219 230]
+  [199 218 229]
+  ...
+  [ 45  47  95]
+  [ 48  46 113]
+  [ 57  55 122]]
+
+ [[202 219 230]
+  [201 218 229]
+  [197 216 227]
+  ...
+  [ 44  46  94]
+  [ 48  46 113]
+  [ 57  55 122]]
+
+ [[198 215 226]
+  [199 216 227]
+  [197 216 227]
+  ...
+  [ 45  47  95]
+  [ 51  47 114]
+  [ 58  54 121]]
+
+ ...
+
+ [[231 216 198]
+  [228 213 195]
+  [226 211 193]
+  ...
+  [150 121  97]
+  [151 120  96]
+  [151 120  96]]
+
+ [[231 216 198]
+  [228 213 195]
+  [226 211 193]
+  ...
+  [150 121  97]
+  [152 121  97]
+  [151 120  96]]
+
+ [[231 216 198]
+  [228 213 195]
+  [226 211 193]
+  ...
+  [150 121  97]
+  [151 120  96]
+  [151 120  96]]] False |
+2021-01-05 11:33:50,654 | training_logger | DEBUG | Received new Frame and assigned frame_id 000013 |
+2021-01-05 11:33:50,674 | training_logger | DEBUG | contour_instance with id 000013-0000000000 has area 1746.5 and is appended to filtered list |
+2021-01-05 11:33:50,676 | training_logger | DEBUG | contour_id 000013-0000000000 has provided the following self.properties {'label': None, 'contour_id': '000013-0000000000', 'area': 1746.5, 'area_white': 178, 'area_grey': 1706, 'centroid_x': 35, 'centroid_y': 292, 'contour_arc_length': 761.5, 'hull_area': 3474.5, 'poly_area': 1814.5, 'rectangle_width': 57, 'rectangle_height': 86, 'angle': 0.8}  |
+2021-01-05 11:33:50,684 | training_logger | DEBUG | predicted contour label of contour_id 000013-0000000000 with label 3 |
+2021-01-05 11:33:50,684 | training_logger | DEBUG | contour_instance with id 000013-0000000001 has area 2160.0 and is appended to filtered list |
+2021-01-05 11:33:50,685 | training_logger | DEBUG | contour_id 000013-0000000001 has provided the following self.properties {'label': None, 'contour_id': '000013-0000000001', 'area': 2160.0, 'area_white': 1848, 'area_grey': 219, 'centroid_x': 432, 'centroid_y': 99, 'contour_arc_length': 544.7, 'hull_area': 3390.0, 'poly_area': 2199.5, 'rectangle_width': 65, 'rectangle_height': 74, 'angle': 59.1}  |
+2021-01-05 11:33:50,696 | training_logger | DEBUG | predicted contour label of contour_id 000013-0000000001 with label 2 |
+2021-01-05 11:33:50,696 | training_logger | DEBUG | contour_instance with contour_id 000013-0000000001 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:33:50,697 | training_logger | DEBUG | contour_instance with id 000013-0000000002 has area 1360.0 and is appended to filtered list |
+2021-01-05 11:33:50,698 | training_logger | DEBUG | contour_id 000013-0000000002 has provided the following self.properties {'label': None, 'contour_id': '000013-0000000002', 'area': 1360.0, 'area_white': 340, 'area_grey': 1180, 'centroid_x': 199, 'centroid_y': 87, 'contour_arc_length': 527.8, 'hull_area': 2245.5, 'poly_area': 1372.5, 'rectangle_width': 67, 'rectangle_height': 61, 'angle': 132.6}  |
+2021-01-05 11:33:50,709 | training_logger | DEBUG | predicted contour label of contour_id 000013-0000000002 with label 2 |
+2021-01-05 11:33:50,709 | training_logger | DEBUG | contour_instance with contour_id 000013-0000000002 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:33:50,709 | training_logger | DEBUG | contour_instance with id 000013-0000000003 has area 1003.0 and is appended to filtered list |
+2021-01-05 11:33:50,710 | training_logger | DEBUG | contour_id 000013-0000000003 has provided the following self.properties {'label': None, 'contour_id': '000013-0000000003', 'area': 1003.0, 'area_white': 1066, 'area_grey': 2, 'centroid_x': 237, 'centroid_y': 79, 'contour_arc_length': 300.5, 'hull_area': 1507.5, 'poly_area': 1015.5, 'rectangle_width': 45, 'rectangle_height': 63, 'angle': 148.8}  |
+2021-01-05 11:33:50,723 | training_logger | DEBUG | predicted contour label of contour_id 000013-0000000003 with label 3 |
+2021-01-05 11:33:50,723 | training_logger | DEBUG | contour_instance with id 000013-0000000004 has area 19771.0 and is appended to filtered list |
+2021-01-05 11:33:50,726 | training_logger | DEBUG | contour_id 000013-0000000004 has provided the following self.properties {'label': None, 'contour_id': '000013-0000000004', 'area': 19771.0, 'area_white': 13160, 'area_grey': 5727, 'centroid_x': 228, 'centroid_y': 185, 'contour_arc_length': 2251.5, 'hull_area': 43515.5, 'poly_area': 20044.0, 'rectangle_width': 214, 'rectangle_height': 278, 'angle': 4.8}  |
+2021-01-05 11:33:50,734 | training_logger | DEBUG | predicted contour label of contour_id 000013-0000000004 with label 1 |
+2021-01-05 11:33:50,734 | training_logger | DEBUG | contour_instance with contour_id 000013-0000000004 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:33:50,756 | training_logger | DEBUG | len(contour_list) is 3, contour_to_cluster_list is [['000013-0000000001', 1], ['000013-0000000002', 0], ['000013-0000000004', 0]] |
+2021-01-05 11:33:50,757 | training_logger | DEBUG | determined clusters: [['000013-0000000001', 1], ['000013-0000000002', 0], ['000013-0000000004', 0]] |
+2021-01-05 11:33:50,757 | training_logger | DEBUG | contour_instance 000013-0000000001 has been assigned a db_scan_cluster_id of 1 |
+2021-01-05 11:33:50,757 | training_logger | DEBUG | the true cluster with id 1 has been assigned to contour_instance 000013-0000000001 |
+2021-01-05 11:33:50,757 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:33:50,757 | training_logger | DEBUG | contour_instance 000013-0000000002 has been assigned a db_scan_cluster_id of 0 |
+2021-01-05 11:33:50,757 | training_logger | DEBUG | the true cluster with id 0 has been assigned to contour_instance 000013-0000000002 |
+2021-01-05 11:33:50,757 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:33:50,757 | training_logger | DEBUG | contour_instance 000013-0000000004 has been assigned a db_scan_cluster_id of 0 |
+2021-01-05 11:33:50,757 | training_logger | DEBUG | the true cluster with id 0 has been assigned to contour_instance 000013-0000000004 |
+2021-01-05 11:33:50,757 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:33:50,757 | training_logger | DEBUG | (cluster_id_set is {0, 1} after assigning cluster_ids of "true" clusters of label 1 clusters |
+2021-01-05 11:33:50,757 | training_logger | DEBUG | cluster_id_set is {0, 1} after assigning cluster_ids of a frame with (-1)-clusters only |
+2021-01-05 11:33:50,758 | training_logger | DEBUG | initiated cluster with cluster_id 0 |
+2021-01-05 11:33:50,758 | training_logger | DEBUG | initiated cluster with cluster_id 1 |
+2021-01-05 11:33:50,758 | training_logger | DEBUG | contour_id 000013-0000000001 was appended to cluster_instance 1, along with coordinates (432,99) |
+2021-01-05 11:33:50,758 | training_logger | DEBUG | contour_id 000013-0000000002 was appended to cluster_instance 0, along with coordinates (199,87) |
+2021-01-05 11:33:50,758 | training_logger | DEBUG | contour_id 000013-0000000004 was appended to cluster_instance 0, along with coordinates (228,185) |
+2021-01-05 11:33:50,758 | training_logger | DEBUG | cluster_id 0, cluster_centroids (213,136) |
+2021-01-05 11:33:50,758 | training_logger | DEBUG | cluster_id 1, cluster_centroids (432,99) |
+2021-01-05 11:33:50,759 | training_logger | DEBUG | next_frame_aging(): person_id 0 was aged by one, but is not too old, i.e. is still part of person_instances |
+2021-01-05 11:33:50,759 | training_logger | DEBUG | next_frame_aging(): person_id 1 was aged by one, but is not too old, i.e. is still part of person_instances |
+2021-01-05 11:33:50,759 | training_logger | DEBUG | calculate_cluster_person_distance_list(): creatingcluster_person_distance_list... |
+2021-01-05 11:33:50,759 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 0 and cluster_instance.cluster_id 0 have distance 87 |
+2021-01-05 11:33:50,759 | training_logger | DEBUG | calculate_cluster_person_distance_list(): appended to cluster_person_distance_list: 0, 0, 87  |
+2021-01-05 11:33:50,759 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 1 and cluster_instance.cluster_id 0 have distance 202 |
+2021-01-05 11:33:50,759 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 0 and cluster_instance.cluster_id 1 have distance 291 |
+2021-01-05 11:33:50,759 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 1 and cluster_instance.cluster_id 1 have distance 49 |
+2021-01-05 11:33:50,759 | training_logger | DEBUG | calculate_cluster_person_distance_list(): appended to cluster_person_distance_list: 1, 1, 49  |
+2021-01-05 11:33:50,759 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = {0, 1} , free_persons_set = {0, 1} starting first iteration to assign clusters to persons... |
+2021-01-05 11:33:50,759 | training_logger | DEBUG | person_id 0 has the following prospective clusters: [[0, 0, 87]] |
+2021-01-05 11:33:50,759 | training_logger | DEBUG | cluster_id 0 is assigned to person_id 0,because person_id hasexactly one cluster in reach |
+2021-01-05 11:33:50,760 | training_logger | DEBUG | person_id 1 has the following prospective clusters: [[1, 1, 49]] |
+2021-01-05 11:33:50,760 | training_logger | DEBUG | cluster_id 1 is assigned to person_id 1,because person_id hasexactly one cluster in reach |
+2021-01-05 11:33:50,760 | training_logger | DEBUG | lenth cluster_person_distance_list is 2 before removing assinged clusters |
+2021-01-05 11:33:50,760 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 after removing assinged clusters |
+2021-01-05 11:33:50,760 | training_logger | INFO | matched person to cluster: Person ID: 0 | cluster_id 0 | frame_count 13 | P(x/y): (213 / 136) | thrust_absolute: -69 | thrust_binary -1 | age -21   |
+2021-01-05 11:33:50,760 | training_logger | INFO | matched person to cluster: Person ID: 1 | cluster_id 1 | frame_count 13 | P(x/y): (432 / 99) | thrust_absolute: -14 | thrust_binary 0 | age -6   |
+2021-01-05 11:33:50,779 | training_logger | DEBUG | got next frame |
+2021-01-05 11:33:50,779 | training_logger | INFO | lhello.[[[202 221 232]
+  [201 220 231]
+  [199 218 229]
+  ...
+  [ 43  47  95]
+  [ 46  46 113]
+  [ 55  55 122]]
+
+ [[201 220 231]
+  [200 219 230]
+  [199 218 229]
+  ...
+  [ 42  46  94]
+  [ 46  46 113]
+  [ 55  55 122]]
+
+ [[200 219 230]
+  [200 219 230]
+  [199 218 229]
+  ...
+  [ 43  47  95]
+  [ 49  47 114]
+  [ 56  54 121]]
+
+ ...
+
+ [[230 213 195]
+  [230 213 195]
+  [229 212 194]
+  ...
+  [149 121  94]
+  [150 120  93]
+  [150 120  93]]
+
+ [[230 213 195]
+  [230 213 195]
+  [230 213 195]
+  ...
+  [149 121  94]
+  [151 121  94]
+  [151 121  94]]
+
+ [[230 213 195]
+  [230 213 195]
+  [230 213 195]
+  ...
+  [150 122  95]
+  [151 121  94]
+  [151 121  94]]] False |
+2021-01-05 11:33:50,781 | training_logger | DEBUG | Received new Frame and assigned frame_id 000014 |
+2021-01-05 11:33:50,798 | training_logger | DEBUG | contour_instance with id 000014-0000000000 has area 3038.5 and is appended to filtered list |
+2021-01-05 11:33:50,799 | training_logger | DEBUG | contour_id 000014-0000000000 has provided the following self.properties {'label': None, 'contour_id': '000014-0000000000', 'area': 3038.5, 'area_white': 2679, 'area_grey': 306, 'centroid_x': 191, 'centroid_y': 301, 'contour_arc_length': 444.7, 'hull_area': 3775.0, 'poly_area': 3061.5, 'rectangle_width': 92, 'rectangle_height': 69, 'angle': 118.9}  |
+2021-01-05 11:33:50,810 | training_logger | DEBUG | predicted contour label of contour_id 000014-0000000000 with label 2 |
+2021-01-05 11:33:50,810 | training_logger | DEBUG | contour_instance with contour_id 000014-0000000000 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:33:50,810 | training_logger | DEBUG | contour_instance with id 000014-0000000001 has area 1101.0 and is appended to filtered list |
+2021-01-05 11:33:50,811 | training_logger | DEBUG | contour_id 000014-0000000001 has provided the following self.properties {'label': None, 'contour_id': '000014-0000000001', 'area': 1101.0, 'area_white': 1156, 'area_grey': 4, 'centroid_x': 440, 'centroid_y': 118, 'contour_arc_length': 452.0, 'hull_area': 1950.5, 'poly_area': 1133.5, 'rectangle_width': 49, 'rectangle_height': 55, 'angle': 121.3}  |
+2021-01-05 11:33:50,824 | training_logger | DEBUG | predicted contour label of contour_id 000014-0000000001 with label 3 |
+2021-01-05 11:33:50,824 | training_logger | DEBUG | contour_instance with id 000014-0000000002 has area 15014.0 and is appended to filtered list |
+2021-01-05 11:33:50,826 | training_logger | DEBUG | contour_id 000014-0000000002 has provided the following self.properties {'label': None, 'contour_id': '000014-0000000002', 'area': 15014.0, 'area_white': 11323, 'area_grey': 3514, 'centroid_x': 254, 'centroid_y': 189, 'contour_arc_length': 1818.6, 'hull_area': 34614.0, 'poly_area': 15223.5, 'rectangle_width': 204, 'rectangle_height': 226, 'angle': 162.3}  |
+2021-01-05 11:33:50,833 | training_logger | DEBUG | predicted contour label of contour_id 000014-0000000002 with label 1 |
+2021-01-05 11:33:50,834 | training_logger | DEBUG | contour_instance with contour_id 000014-0000000002 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:36:00,091 | training_logger | INFO | input named '201_sample_videos/olash3h003_testtype-norma-height-240-up-001-down-003.avi' is chosen  |
+2021-01-05 11:36:00,159 | training_logger | DEBUG | got next frame |
+2021-01-05 11:36:00,160 | training_logger | INFO | lhello.[[[187 207 209]
+  [185 205 207]
+  [184 204 206]
+  ...
+  [ 57  49 106]
+  [ 58  49 122]
+  [ 61  52 125]]
+
+ [[185 205 207]
+  [185 205 207]
+  [184 204 206]
+  ...
+  [ 57  49 106]
+  [ 58  49 122]
+  [ 61  52 125]]
+
+ [[184 204 206]
+  [184 204 206]
+  [184 204 206]
+  ...
+  [ 57  49 106]
+  [ 58  49 122]
+  [ 61  52 125]]
+
+ ...
+
+ [[239 224 206]
+  [239 224 206]
+  [241 224 206]
+  ...
+  [149 123  98]
+  [149 123  98]
+  [148 122  97]]
+
+ [[239 224 206]
+  [239 224 206]
+  [243 223 206]
+  ...
+  [151 122  98]
+  [151 122  98]
+  [150 121  97]]
+
+ [[240 225 207]
+  [240 225 207]
+  [244 224 207]
+  ...
+  [151 122  98]
+  [151 122  98]
+  [150 121  97]]] False |
+2021-01-05 11:36:00,162 | training_logger | DEBUG | Received new Frame and assigned frame_id 000000 |
+2021-01-05 11:36:00,187 | training_logger | DEBUG | contour_instance with id 000000-0000000000 has area 306081.0 and is appended to filtered list |
+2021-01-05 11:36:00,188 | training_logger | DEBUG | contour_id 000000-0000000000 has provided the following self.properties {'label': None, 'contour_id': '000000-0000000000', 'area': 306081.0, 'area_white': 2, 'area_grey': 307198, 'centroid_x': 319, 'centroid_y': 239, 'contour_arc_length': 2236.0, 'hull_area': 306081.0, 'poly_area': 306081.0, 'rectangle_width': 640, 'rectangle_height': 480, 'angle': 0}  |
+2021-01-05 11:36:00,199 | training_logger | DEBUG | predicted contour label of contour_id 000000-0000000000 with label 3 |
+2021-01-05 11:36:00,406 | training_logger | DEBUG | determined clusters: [] |
+2021-01-05 11:36:00,407 | training_logger | DEBUG | (cluster_id_set is set() after assigning cluster_ids of "true" clusters of label 1 clusters |
+2021-01-05 11:36:00,408 | training_logger | DEBUG | cluster_id_set is set() after assigning cluster_ids of a frame with (-1)-clusters only |
+2021-01-05 11:36:00,408 | training_logger | DEBUG | calculate_cluster_person_distance_list(): creatingcluster_person_distance_list... |
+2021-01-05 11:36:00,408 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = set() , free_persons_set = set() starting first iteration to assign clusters to persons... |
+2021-01-05 11:36:00,408 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 before removing assinged clusters |
+2021-01-05 11:36:00,409 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 after removing assinged clusters |
+2021-01-05 11:36:00,459 | training_logger | DEBUG | got next frame |
+2021-01-05 11:36:00,460 | training_logger | INFO | lhello.[[[193 203 207]
+  [192 202 206]
+  [192 202 206]
+  ...
+  [ 57  49 106]
+  [ 58  49 122]
+  [ 61  52 125]]
+
+ [[192 202 206]
+  [192 202 206]
+  [192 202 206]
+  ...
+  [ 57  49 106]
+  [ 58  49 122]
+  [ 61  52 125]]
+
+ [[191 201 205]
+  [191 201 205]
+  [192 202 206]
+  ...
+  [ 57  49 106]
+  [ 58  49 122]
+  [ 61  52 125]]
+
+ ...
+
+ [[236 223 205]
+  [236 223 205]
+  [236 223 205]
+  ...
+  [151 125 100]
+  [151 125 100]
+  [149 123  98]]
+
+ [[237 224 206]
+  [237 224 206]
+  [237 224 206]
+  ...
+  [153 124 100]
+  [153 124 100]
+  [151 122  98]]
+
+ [[237 224 206]
+  [237 224 206]
+  [237 224 206]
+  ...
+  [153 124 100]
+  [153 124 100]
+  [151 122  98]]] False |
+2021-01-05 11:36:00,461 | training_logger | DEBUG | Received new Frame and assigned frame_id 000001 |
+2021-01-05 11:36:00,494 | training_logger | DEBUG | determined clusters: [] |
+2021-01-05 11:36:00,494 | training_logger | DEBUG | (cluster_id_set is set() after assigning cluster_ids of "true" clusters of label 1 clusters |
+2021-01-05 11:36:00,495 | training_logger | DEBUG | cluster_id_set is set() after assigning cluster_ids of a frame with (-1)-clusters only |
+2021-01-05 11:36:00,495 | training_logger | DEBUG | calculate_cluster_person_distance_list(): creatingcluster_person_distance_list... |
+2021-01-05 11:36:00,495 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = set() , free_persons_set = set() starting first iteration to assign clusters to persons... |
+2021-01-05 11:36:00,495 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 before removing assinged clusters |
+2021-01-05 11:36:00,495 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 after removing assinged clusters |
+2021-01-05 11:36:00,524 | training_logger | DEBUG | got next frame |
+2021-01-05 11:36:00,524 | training_logger | INFO | lhello.[[[185 202 206]
+  [185 202 206]
+  [186 203 207]
+  ...
+  [ 57  49 106]
+  [ 58  49 122]
+  [ 61  52 125]]
+
+ [[184 201 205]
+  [185 202 206]
+  [185 202 206]
+  ...
+  [ 57  49 106]
+  [ 58  49 122]
+  [ 61  52 125]]
+
+ [[183 200 204]
+  [183 200 204]
+  [185 202 206]
+  ...
+  [ 57  49 106]
+  [ 58  49 122]
+  [ 61  52 125]]
+
+ ...
+
+ [[240 223 205]
+  [240 223 205]
+  [240 223 205]
+  ...
+  [149 122  99]
+  [153 121  99]
+  [152 120  98]]
+
+ [[241 224 206]
+  [241 224 206]
+  [241 224 206]
+  ...
+  [151 121  99]
+  [153 121  99]
+  [152 120  98]]
+
+ [[242 225 207]
+  [242 225 207]
+  [242 225 207]
+  ...
+  [151 121  99]
+  [153 121  99]
+  [152 120  98]]] False |
+2021-01-05 11:36:00,526 | training_logger | DEBUG | Received new Frame and assigned frame_id 000002 |
+2021-01-05 11:36:00,538 | training_logger | DEBUG | contour_instance with id 000002-0000000000 has area 2385.5 and is appended to filtered list |
+2021-01-05 11:36:00,539 | training_logger | DEBUG | contour_id 000002-0000000000 has provided the following self.properties {'label': None, 'contour_id': '000002-0000000000', 'area': 2385.5, 'area_white': 0, 'area_grey': 2574, 'centroid_x': 188, 'centroid_y': 12, 'contour_arc_length': 572.3, 'hull_area': 4215.5, 'poly_area': 2412.0, 'rectangle_width': 147, 'rectangle_height': 43, 'angle': 94.4}  |
+2021-01-05 11:36:00,548 | training_logger | DEBUG | predicted contour label of contour_id 000002-0000000000 with label 3 |
+2021-01-05 11:36:00,570 | training_logger | DEBUG | determined clusters: [] |
+2021-01-05 11:36:00,570 | training_logger | DEBUG | (cluster_id_set is set() after assigning cluster_ids of "true" clusters of label 1 clusters |
+2021-01-05 11:36:00,571 | training_logger | DEBUG | cluster_id_set is set() after assigning cluster_ids of a frame with (-1)-clusters only |
+2021-01-05 11:36:00,571 | training_logger | DEBUG | calculate_cluster_person_distance_list(): creatingcluster_person_distance_list... |
+2021-01-05 11:36:00,571 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = set() , free_persons_set = set() starting first iteration to assign clusters to persons... |
+2021-01-05 11:36:00,571 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 before removing assinged clusters |
+2021-01-05 11:36:00,571 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 after removing assinged clusters |
+2021-01-05 11:36:00,592 | training_logger | DEBUG | got next frame |
+2021-01-05 11:36:00,592 | training_logger | INFO | lhello.[[[187 204 208]
+  [187 204 208]
+  [187 204 208]
+  ...
+  [ 53  47  99]
+  [ 56  49 117]
+  [ 63  56 124]]
+
+ [[186 203 207]
+  [187 204 208]
+  [187 204 208]
+  ...
+  [ 53  47  99]
+  [ 56  49 117]
+  [ 63  56 124]]
+
+ [[185 202 206]
+  [185 202 206]
+  [186 203 207]
+  ...
+  [ 54  48 100]
+  [ 56  49 117]
+  [ 61  54 122]]
+
+ ...
+
+ [[236 223 205]
+  [236 223 205]
+  [236 223 205]
+  ...
+  [149 125 100]
+  [149 125 100]
+  [147 123  98]]
+
+ [[237 224 206]
+  [237 224 206]
+  [237 224 206]
+  ...
+  [151 125 100]
+  [151 125 100]
+  [149 123  98]]
+
+ [[238 225 207]
+  [238 225 207]
+  [238 225 207]
+  ...
+  [151 125 100]
+  [151 125 100]
+  [149 123  98]]] False |
+2021-01-05 11:36:00,596 | training_logger | DEBUG | Received new Frame and assigned frame_id 000003 |
+2021-01-05 11:36:00,612 | training_logger | DEBUG | contour_instance with id 000003-0000000000 has area 4405.0 and is appended to filtered list |
+2021-01-05 11:36:00,614 | training_logger | DEBUG | contour_id 000003-0000000000 has provided the following self.properties {'label': None, 'contour_id': '000003-0000000000', 'area': 4405.0, 'area_white': 0, 'area_grey': 4553, 'centroid_x': 258, 'centroid_y': 41, 'contour_arc_length': 636.9, 'hull_area': 6116.0, 'poly_area': 4459.5, 'rectangle_width': 122, 'rectangle_height': 92, 'angle': 125.2}  |
+2021-01-05 11:36:00,626 | training_logger | DEBUG | predicted contour label of contour_id 000003-0000000000 with label 3 |
+2021-01-05 11:36:00,626 | training_logger | DEBUG | contour_instance with id 000003-0000000001 has area 1205.0 and is appended to filtered list |
+2021-01-05 11:36:00,627 | training_logger | DEBUG | contour_id 000003-0000000001 has provided the following self.properties {'label': None, 'contour_id': '000003-0000000001', 'area': 1205.0, 'area_white': 0, 'area_grey': 1300, 'centroid_x': 154, 'centroid_y': 17, 'contour_arc_length': 256.8, 'hull_area': 1716.0, 'poly_area': 1203.0, 'rectangle_width': 61, 'rectangle_height': 43, 'angle': 115.3}  |
+2021-01-05 11:36:00,636 | training_logger | DEBUG | predicted contour label of contour_id 000003-0000000001 with label 3 |
+2021-01-05 11:36:00,657 | training_logger | DEBUG | determined clusters: [] |
+2021-01-05 11:36:00,657 | training_logger | DEBUG | (cluster_id_set is set() after assigning cluster_ids of "true" clusters of label 1 clusters |
+2021-01-05 11:36:00,657 | training_logger | DEBUG | cluster_id_set is set() after assigning cluster_ids of a frame with (-1)-clusters only |
+2021-01-05 11:36:00,657 | training_logger | DEBUG | calculate_cluster_person_distance_list(): creatingcluster_person_distance_list... |
+2021-01-05 11:36:00,657 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = set() , free_persons_set = set() starting first iteration to assign clusters to persons... |
+2021-01-05 11:36:00,657 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 before removing assinged clusters |
+2021-01-05 11:36:00,658 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 after removing assinged clusters |
+2021-01-05 11:36:00,686 | training_logger | DEBUG | got next frame |
+2021-01-05 11:36:00,686 | training_logger | INFO | lhello.[[[190 207 211]
+  [189 206 210]
+  [189 206 210]
+  ...
+  [ 46  39  93]
+  [ 54  41 112]
+  [ 65  52 123]]
+
+ [[189 206 210]
+  [189 206 210]
+  [189 206 210]
+  ...
+  [ 47  40  94]
+  [ 55  42 113]
+  [ 65  52 123]]
+
+ [[186 203 207]
+  [186 203 207]
+  [187 204 208]
+  ...
+  [ 48  41  95]
+  [ 56  43 114]
+  [ 64  51 122]]
+
+ ...
+
+ [[237 224 206]
+  [236 223 205]
+  [234 221 203]
+  ...
+  [151 125 100]
+  [153 124 100]
+  [151 122  98]]
+
+ [[236 226 207]
+  [235 225 206]
+  [236 223 205]
+  ...
+  [151 125 100]
+  [153 124 100]
+  [151 122  98]]
+
+ [[237 227 208]
+  [237 227 208]
+  [238 225 207]
+  ...
+  [151 125 100]
+  [153 124 100]
+  [151 122  98]]] False |
+2021-01-05 11:36:00,689 | training_logger | DEBUG | Received new Frame and assigned frame_id 000004 |
+2021-01-05 11:36:00,704 | training_logger | DEBUG | contour_instance with id 000004-0000000000 has area 2162.0 and is appended to filtered list |
+2021-01-05 11:36:00,705 | training_logger | DEBUG | contour_id 000004-0000000000 has provided the following self.properties {'label': None, 'contour_id': '000004-0000000000', 'area': 2162.0, 'area_white': 0, 'area_grey': 2374, 'centroid_x': 255, 'centroid_y': 71, 'contour_arc_length': 657.9, 'hull_area': 4200.5, 'poly_area': 2260.5, 'rectangle_width': 112, 'rectangle_height': 87, 'angle': 125.4}  |
+2021-01-05 11:36:00,717 | training_logger | DEBUG | predicted contour label of contour_id 000004-0000000000 with label 3 |
+2021-01-05 11:36:00,738 | training_logger | DEBUG | determined clusters: [] |
+2021-01-05 11:36:00,739 | training_logger | DEBUG | (cluster_id_set is set() after assigning cluster_ids of "true" clusters of label 1 clusters |
+2021-01-05 11:36:00,739 | training_logger | DEBUG | cluster_id_set is set() after assigning cluster_ids of a frame with (-1)-clusters only |
+2021-01-05 11:36:00,739 | training_logger | DEBUG | calculate_cluster_person_distance_list(): creatingcluster_person_distance_list... |
+2021-01-05 11:36:00,739 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = set() , free_persons_set = set() starting first iteration to assign clusters to persons... |
+2021-01-05 11:36:00,739 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 before removing assinged clusters |
+2021-01-05 11:36:00,739 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 after removing assinged clusters |
+2021-01-05 11:36:00,757 | training_logger | DEBUG | got next frame |
+2021-01-05 11:36:00,757 | training_logger | INFO | lhello.[[[189 205 212]
+  [189 205 212]
+  [189 205 212]
+  ...
+  [ 44  38  96]
+  [ 49  41 111]
+  [ 56  48 118]]
+
+ [[189 205 212]
+  [189 205 212]
+  [189 205 212]
+  ...
+  [ 45  39  97]
+  [ 49  41 111]
+  [ 56  48 118]]
+
+ [[187 203 210]
+  [187 203 210]
+  [189 205 212]
+  ...
+  [ 48  39  98]
+  [ 52  42 112]
+  [ 58  48 118]]
+
+ ...
+
+ [[234 221 203]
+  [234 221 203]
+  [234 221 203]
+  ...
+  [145 121 101]
+  [149 121 101]
+  [148 120 100]]
+
+ [[236 223 205]
+  [236 223 205]
+  [236 223 205]
+  ...
+  [145 121 101]
+  [147 121 101]
+  [146 120 100]]
+
+ [[236 223 205]
+  [236 223 205]
+  [236 223 205]
+  ...
+  [145 121 101]
+  [147 121 101]
+  [146 120 100]]] False |
+2021-01-05 11:36:00,760 | training_logger | DEBUG | Received new Frame and assigned frame_id 000005 |
+2021-01-05 11:36:00,774 | training_logger | DEBUG | contour_instance with id 000005-0000000000 has area 2577.5 and is appended to filtered list |
+2021-01-05 11:36:00,775 | training_logger | DEBUG | contour_id 000005-0000000000 has provided the following self.properties {'label': None, 'contour_id': '000005-0000000000', 'area': 2577.5, 'area_white': 0, 'area_grey': 2766, 'centroid_x': 247, 'centroid_y': 87, 'contour_arc_length': 724.1, 'hull_area': 4282.5, 'poly_area': 2655.0, 'rectangle_width': 122, 'rectangle_height': 112, 'angle': 133.5}  |
+2021-01-05 11:36:00,783 | training_logger | DEBUG | predicted contour label of contour_id 000005-0000000000 with label 3 |
+2021-01-05 11:36:00,801 | training_logger | DEBUG | determined clusters: [] |
+2021-01-05 11:36:00,802 | training_logger | DEBUG | (cluster_id_set is set() after assigning cluster_ids of "true" clusters of label 1 clusters |
+2021-01-05 11:36:00,802 | training_logger | DEBUG | cluster_id_set is set() after assigning cluster_ids of a frame with (-1)-clusters only |
+2021-01-05 11:36:00,802 | training_logger | DEBUG | calculate_cluster_person_distance_list(): creatingcluster_person_distance_list... |
+2021-01-05 11:36:00,802 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = set() , free_persons_set = set() starting first iteration to assign clusters to persons... |
+2021-01-05 11:36:00,802 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 before removing assinged clusters |
+2021-01-05 11:36:00,802 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 after removing assinged clusters |
+2021-01-05 11:36:00,821 | training_logger | DEBUG | got next frame |
+2021-01-05 11:36:00,821 | training_logger | INFO | lhello.[[[187 201 206]
+  [187 201 206]
+  [188 202 207]
+  ...
+  [ 37  39  87]
+  [ 38  38 105]
+  [ 46  46 113]]
+
+ [[187 201 206]
+  [187 201 206]
+  [188 202 207]
+  ...
+  [ 37  39  87]
+  [ 38  38 105]
+  [ 46  46 113]]
+
+ [[187 201 206]
+  [187 201 206]
+  [188 202 207]
+  ...
+  [ 40  39  88]
+  [ 42  40 107]
+  [ 48  46 113]]
+
+ ...
+
+ [[233 220 202]
+  [233 220 202]
+  [235 220 202]
+  ...
+  [152 121  97]
+  [156 120  97]
+  [155 119  96]]
+
+ [[234 221 203]
+  [234 221 203]
+  [235 220 202]
+  ...
+  [150 121  97]
+  [154 120  97]
+  [153 119  96]]
+
+ [[236 223 205]
+  [234 221 203]
+  [236 221 203]
+  ...
+  [150 121  97]
+  [154 120  97]
+  [153 119  96]]] False |
+2021-01-05 11:36:00,824 | training_logger | DEBUG | Received new Frame and assigned frame_id 000006 |
+2021-01-05 11:36:00,837 | training_logger | DEBUG | contour_instance with id 000006-0000000000 has area 2200.5 and is appended to filtered list |
+2021-01-05 11:36:00,838 | training_logger | DEBUG | contour_id 000006-0000000000 has provided the following self.properties {'label': None, 'contour_id': '000006-0000000000', 'area': 2200.5, 'area_white': 0, 'area_grey': 2443, 'centroid_x': 246, 'centroid_y': 106, 'contour_arc_length': 710.5, 'hull_area': 3974.5, 'poly_area': 2290.5, 'rectangle_width': 125, 'rectangle_height': 124, 'angle': 133.9}  |
+2021-01-05 11:36:00,846 | training_logger | DEBUG | predicted contour label of contour_id 000006-0000000000 with label 3 |
+2021-01-05 11:36:00,847 | training_logger | DEBUG | contour_instance with id 000006-0000000001 has area 1704.5 and is appended to filtered list |
+2021-01-05 11:36:00,847 | training_logger | DEBUG | contour_id 000006-0000000001 has provided the following self.properties {'label': None, 'contour_id': '000006-0000000001', 'area': 1704.5, 'area_white': 0, 'area_grey': 1789, 'centroid_x': 226, 'centroid_y': 22, 'contour_arc_length': 487.3, 'hull_area': 2682.5, 'poly_area': 1739.0, 'rectangle_width': 97, 'rectangle_height': 53, 'angle': 113.2}  |
+2021-01-05 11:36:00,856 | training_logger | DEBUG | predicted contour label of contour_id 000006-0000000001 with label 3 |
+2021-01-05 11:36:00,856 | training_logger | DEBUG | contour_instance with id 000006-0000000002 has area 1194.5 and is appended to filtered list |
+2021-01-05 11:36:00,856 | training_logger | DEBUG | contour_id 000006-0000000002 has provided the following self.properties {'label': None, 'contour_id': '000006-0000000002', 'area': 1194.5, 'area_white': 901, 'area_grey': 371, 'centroid_x': 105, 'centroid_y': 11, 'contour_arc_length': 174.1, 'hull_area': 1293.0, 'poly_area': 1194.5, 'rectangle_width': 63, 'rectangle_height': 30, 'angle': 109.5}  |
+2021-01-05 11:36:00,867 | training_logger | DEBUG | predicted contour label of contour_id 000006-0000000002 with label 2 |
+2021-01-05 11:36:00,867 | training_logger | DEBUG | contour_instance with contour_id 000006-0000000002 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:36:00,889 | training_logger | DEBUG | len(contour_list) is 1, contour_to_cluster_list is [['000006-0000000002', -1]] |
+2021-01-05 11:36:00,889 | training_logger | DEBUG | determined clusters: [['000006-0000000002', -1]] |
+2021-01-05 11:36:00,889 | training_logger | DEBUG | contour_instance 000006-0000000002 has been assigned a db_scan_cluster_id of -1 |
+2021-01-05 11:36:00,890 | training_logger | DEBUG | (cluster_id_set is set() after assigning cluster_ids of "true" clusters of label 1 clusters |
+2021-01-05 11:36:00,890 | training_logger | DEBUG | cluster_or_label1_flag has been false, assigning contour_instance.cluster_id 000006-0000000002 |
+2021-01-05 11:36:00,890 | training_logger | DEBUG | cluster_id_set is {'000006-0000000002'} after assigning cluster_ids of a frame with (-1)-clusters only |
+2021-01-05 11:36:00,890 | training_logger | DEBUG | initiated cluster with cluster_id 000006-0000000002 |
+2021-01-05 11:36:00,890 | training_logger | DEBUG | contour_id 000006-0000000002 was appended to cluster_instance 000006-0000000002, along with coordinates (105,11) |
+2021-01-05 11:36:00,891 | training_logger | DEBUG | cluster_id 000006-0000000002, cluster_centroids (105,11) |
+2021-01-05 11:36:00,891 | training_logger | DEBUG | calculate_cluster_person_distance_list(): creatingcluster_person_distance_list... |
+2021-01-05 11:36:00,891 | training_logger | DEBUG | calculate_cluster_person_distance_list(): no existing person inreach, created a new person: person_counter 0, cluster_id 000006-0000000002,  y 105, x 11 |
+2021-01-05 11:36:00,891 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = {'000006-0000000002'} , free_persons_set = {0} starting first iteration to assign clusters to persons... |
+2021-01-05 11:36:00,891 | training_logger | DEBUG | person_id 0 has the following prospective clusters: [['000006-0000000002', 0, 0]] |
+2021-01-05 11:36:00,891 | training_logger | DEBUG | cluster_id 000006-0000000002 is assigned to person_id 0,because person_id hasexactly one cluster in reach |
+2021-01-05 11:36:00,892 | training_logger | DEBUG | lenth cluster_person_distance_list is 1 before removing assinged clusters |
+2021-01-05 11:36:00,892 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 after removing assinged clusters |
+2021-01-05 11:36:00,892 | training_logger | INFO | matched person to cluster: Person ID: 0 | cluster_id 000006-0000000002 | frame_count 6 | P(x/y): (105 / 11) | thrust_absolute: 0 | thrust_binary 0 | age -1   |
+2021-01-05 11:36:00,911 | training_logger | DEBUG | got next frame |
+2021-01-05 11:36:00,911 | training_logger | INFO | lhello.[[[ 98  91 138]
+  [ 88  81 128]
+  [ 79  69 126]
+  ...
+  [ 33  37  85]
+  [ 34  37 103]
+  [ 42  45 111]]
+
+ [[105  98 145]
+  [ 94  87 134]
+  [ 84  74 131]
+  ...
+  [ 33  37  85]
+  [ 34  37 103]
+  [ 42  45 111]]
+
+ [[112 113 150]
+  [ 94  95 132]
+  [ 86  82 127]
+  ...
+  [ 36  38  86]
+  [ 38  38 105]
+  [ 44  44 111]]
+
+ ...
+
+ [[227 219 200]
+  [226 218 199]
+  [226 218 199]
+  ...
+  [144 121  98]
+  [147 125 100]
+  [145 123  98]]
+
+ [[225 217 198]
+  [225 217 198]
+  [226 218 199]
+  ...
+  [144 121  98]
+  [148 126 101]
+  [147 125 100]]
+
+ [[222 214 195]
+  [223 215 196]
+  [226 218 199]
+  ...
+  [144 121  98]
+  [148 126 101]
+  [147 125 100]]] False |
+2021-01-05 11:36:00,914 | training_logger | DEBUG | Received new Frame and assigned frame_id 000007 |
+2021-01-05 11:36:00,930 | training_logger | DEBUG | contour_instance with id 000007-0000000000 has area 1858.5 and is appended to filtered list |
+2021-01-05 11:36:00,931 | training_logger | DEBUG | contour_id 000007-0000000000 has provided the following self.properties {'label': None, 'contour_id': '000007-0000000000', 'area': 1858.5, 'area_white': 0, 'area_grey': 1814, 'centroid_x': 279, 'centroid_y': 71, 'contour_arc_length': 657.0, 'hull_area': 3268.5, 'poly_area': 1927.0, 'rectangle_width': 100, 'rectangle_height': 67, 'angle': 119.9}  |
+2021-01-05 11:36:00,943 | training_logger | DEBUG | predicted contour label of contour_id 000007-0000000000 with label 3 |
+2021-01-05 11:36:00,944 | training_logger | DEBUG | contour_instance with id 000007-0000000001 has area 13661.5 and is appended to filtered list |
+2021-01-05 11:36:00,945 | training_logger | DEBUG | contour_id 000007-0000000001 has provided the following self.properties {'label': None, 'contour_id': '000007-0000000001', 'area': 13661.5, 'area_white': 9606, 'area_grey': 4500, 'centroid_x': 144, 'centroid_y': 72, 'contour_arc_length': 1149.2, 'hull_area': 21688.5, 'poly_area': 13859.5, 'rectangle_width': 283, 'rectangle_height': 171, 'angle': 123.4}  |
+2021-01-05 11:36:00,953 | training_logger | DEBUG | predicted contour label of contour_id 000007-0000000001 with label 1 |
+2021-01-05 11:36:00,953 | training_logger | DEBUG | contour_instance with contour_id 000007-0000000001 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:36:00,975 | training_logger | DEBUG | len(contour_list) is 1, contour_to_cluster_list is [['000007-0000000001', -1]] |
+2021-01-05 11:36:00,975 | training_logger | DEBUG | determined clusters: [['000007-0000000001', -1]] |
+2021-01-05 11:36:00,975 | training_logger | DEBUG | contour_instance 000007-0000000001 has been assigned a db_scan_cluster_id of -1 |
+2021-01-05 11:36:00,976 | training_logger | DEBUG | (cluster_id_set is set() after assigning cluster_ids of "true" clusters of label 1 clusters |
+2021-01-05 11:36:00,976 | training_logger | DEBUG | cluster_or_label1_flag has been false, assigning contour_instance.cluster_id 000007-0000000001 |
+2021-01-05 11:36:00,976 | training_logger | DEBUG | cluster_id_set is {'000007-0000000001'} after assigning cluster_ids of a frame with (-1)-clusters only |
+2021-01-05 11:36:00,976 | training_logger | DEBUG | initiated cluster with cluster_id 000007-0000000001 |
+2021-01-05 11:36:00,976 | training_logger | DEBUG | contour_id 000007-0000000001 was appended to cluster_instance 000007-0000000001, along with coordinates (144,72) |
+2021-01-05 11:36:00,976 | training_logger | DEBUG | cluster_id 000007-0000000001, cluster_centroids (144,72) |
+2021-01-05 11:36:00,976 | training_logger | DEBUG | next_frame_aging(): person_id 0 was aged by one, but is not too old, i.e. is still part of person_instances |
+2021-01-05 11:36:00,976 | training_logger | DEBUG | calculate_cluster_person_distance_list(): creatingcluster_person_distance_list... |
+2021-01-05 11:36:00,976 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 0 and cluster_instance.cluster_id 000007-0000000001 have distance 72 |
+2021-01-05 11:36:00,976 | training_logger | DEBUG | calculate_cluster_person_distance_list(): appended to cluster_person_distance_list: 0, 000007-0000000001, 72  |
+2021-01-05 11:36:00,976 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = {'000007-0000000001'} , free_persons_set = {0} starting first iteration to assign clusters to persons... |
+2021-01-05 11:36:00,976 | training_logger | DEBUG | person_id 0 has the following prospective clusters: [['000007-0000000001', 0, 72]] |
+2021-01-05 11:36:00,977 | training_logger | DEBUG | cluster_id 000007-0000000001 is assigned to person_id 0,because person_id hasexactly one cluster in reach |
+2021-01-05 11:36:00,977 | training_logger | DEBUG | lenth cluster_person_distance_list is 1 before removing assinged clusters |
+2021-01-05 11:36:00,977 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 after removing assinged clusters |
+2021-01-05 11:36:00,977 | training_logger | INFO | matched person to cluster: Person ID: 0 | cluster_id 000007-0000000001 | frame_count 7 | P(x/y): (144 / 72) | thrust_absolute: 61 | thrust_binary 1 | age -5   |
+2021-01-05 11:36:00,996 | training_logger | DEBUG | got next frame |
+2021-01-05 11:36:00,996 | training_logger | INFO | lhello.[[[167 184 209]
+  [165 182 207]
+  [140 155 185]
+  ...
+  [ 39  38  87]
+  [ 44  37 105]
+  [ 52  45 113]]
+
+ [[167 184 209]
+  [166 183 208]
+  [144 159 189]
+  ...
+  [ 39  38  87]
+  [ 44  37 105]
+  [ 52  45 113]]
+
+ [[167 184 209]
+  [166 183 208]
+  [155 170 200]
+  ...
+  [ 42  39  88]
+  [ 48  39 107]
+  [ 54  45 113]]
+
+ ...
+
+ [[226 218 199]
+  [226 218 199]
+  [226 218 199]
+  ...
+  [148 121  98]
+  [149 119  97]
+  [148 118  96]]
+
+ [[226 218 199]
+  [226 218 199]
+  [226 218 199]
+  ...
+  [148 121  98]
+  [150 120  98]
+  [149 119  97]]
+
+ [[226 218 199]
+  [226 218 199]
+  [226 218 199]
+  ...
+  [148 121  98]
+  [150 120  98]
+  [149 119  97]]] False |
+2021-01-05 11:36:01,000 | training_logger | DEBUG | Received new Frame and assigned frame_id 000008 |
+2021-01-05 11:36:01,016 | training_logger | DEBUG | contour_instance with id 000008-0000000000 has area 1160.5 and is appended to filtered list |
+2021-01-05 11:36:01,018 | training_logger | DEBUG | contour_id 000008-0000000000 has provided the following self.properties {'label': None, 'contour_id': '000008-0000000000', 'area': 1160.5, 'area_white': 361, 'area_grey': 878, 'centroid_x': 206, 'centroid_y': 14, 'contour_arc_length': 178.6, 'hull_area': 1408.0, 'poly_area': 1160.5, 'rectangle_width': 58, 'rectangle_height': 32, 'angle': 80.8}  |
+2021-01-05 11:36:01,028 | training_logger | DEBUG | predicted contour label of contour_id 000008-0000000000 with label 2 |
+2021-01-05 11:36:01,028 | training_logger | DEBUG | contour_instance with contour_id 000008-0000000000 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:36:01,029 | training_logger | DEBUG | contour_instance with id 000008-0000000001 has area 9160.0 and is appended to filtered list |
+2021-01-05 11:36:01,030 | training_logger | DEBUG | contour_id 000008-0000000001 has provided the following self.properties {'label': None, 'contour_id': '000008-0000000001', 'area': 9160.0, 'area_white': 6489, 'area_grey': 3166, 'centroid_x': 149, 'centroid_y': 102, 'contour_arc_length': 1422.4, 'hull_area': 21544.0, 'poly_area': 9251.0, 'rectangle_width': 282, 'rectangle_height': 192, 'angle': 124.1}  |
+2021-01-05 11:36:01,039 | training_logger | DEBUG | predicted contour label of contour_id 000008-0000000001 with label 2 |
+2021-01-05 11:36:01,039 | training_logger | DEBUG | contour_instance with contour_id 000008-0000000001 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:36:01,075 | training_logger | DEBUG | len(contour_list) is 2, contour_to_cluster_list is [['000008-0000000000', 0], ['000008-0000000001', 0]] |
+2021-01-05 11:36:01,075 | training_logger | DEBUG | determined clusters: [['000008-0000000000', 0], ['000008-0000000001', 0]] |
+2021-01-05 11:36:01,075 | training_logger | DEBUG | contour_instance 000008-0000000000 has been assigned a db_scan_cluster_id of 0 |
+2021-01-05 11:36:01,075 | training_logger | DEBUG | the true cluster with id 0 has been assigned to contour_instance 000008-0000000000 |
+2021-01-05 11:36:01,075 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:36:01,076 | training_logger | DEBUG | contour_instance 000008-0000000001 has been assigned a db_scan_cluster_id of 0 |
+2021-01-05 11:36:01,076 | training_logger | DEBUG | the true cluster with id 0 has been assigned to contour_instance 000008-0000000001 |
+2021-01-05 11:36:01,076 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:36:01,076 | training_logger | DEBUG | (cluster_id_set is {0} after assigning cluster_ids of "true" clusters of label 1 clusters |
+2021-01-05 11:36:01,076 | training_logger | DEBUG | cluster_id_set is {0} after assigning cluster_ids of a frame with (-1)-clusters only |
+2021-01-05 11:36:01,076 | training_logger | DEBUG | initiated cluster with cluster_id 0 |
+2021-01-05 11:36:01,076 | training_logger | DEBUG | contour_id 000008-0000000000 was appended to cluster_instance 0, along with coordinates (206,14) |
+2021-01-05 11:36:01,076 | training_logger | DEBUG | contour_id 000008-0000000001 was appended to cluster_instance 0, along with coordinates (149,102) |
+2021-01-05 11:36:01,076 | training_logger | DEBUG | cluster_id 0, cluster_centroids (177,58) |
+2021-01-05 11:36:01,077 | training_logger | DEBUG | next_frame_aging(): person_id 0 was aged by one, but is not too old, i.e. is still part of person_instances |
+2021-01-05 11:36:01,077 | training_logger | DEBUG | calculate_cluster_person_distance_list(): creatingcluster_person_distance_list... |
+2021-01-05 11:36:01,077 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 0 and cluster_instance.cluster_id 0 have distance 35 |
+2021-01-05 11:36:01,077 | training_logger | DEBUG | calculate_cluster_person_distance_list(): appended to cluster_person_distance_list: 0, 0, 35  |
+2021-01-05 11:36:01,077 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = {0} , free_persons_set = {0} starting first iteration to assign clusters to persons... |
+2021-01-05 11:36:01,077 | training_logger | DEBUG | person_id 0 has the following prospective clusters: [[0, 0, 35]] |
+2021-01-05 11:36:01,077 | training_logger | DEBUG | cluster_id 0 is assigned to person_id 0,because person_id hasexactly one cluster in reach |
+2021-01-05 11:36:01,077 | training_logger | DEBUG | lenth cluster_person_distance_list is 1 before removing assinged clusters |
+2021-01-05 11:36:01,077 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 after removing assinged clusters |
+2021-01-05 11:36:01,077 | training_logger | INFO | matched person to cluster: Person ID: 0 | cluster_id 0 | frame_count 8 | P(x/y): (177 / 58) | thrust_absolute: 47 | thrust_binary 0 | age -9   |
+2021-01-05 11:36:01,095 | training_logger | DEBUG | got next frame |
+2021-01-05 11:36:01,096 | training_logger | INFO | lhello.[[[187 207 214]
+  [187 207 214]
+  [188 206 213]
+  ...
+  [ 33  37  85]
+  [ 36  36 103]
+  [ 44  44 111]]
+
+ [[185 205 212]
+  [186 206 213]
+  [187 205 212]
+  ...
+  [ 33  37  85]
+  [ 36  36 103]
+  [ 44  44 111]]
+
+ [[182 202 209]
+  [183 203 210]
+  [183 201 208]
+  ...
+  [ 36  38  86]
+  [ 40  38 105]
+  [ 46  44 111]]
+
+ ...
+
+ [[224 217 202]
+  [224 217 202]
+  [223 216 201]
+  ...
+  [146 120 100]
+  [147 119  99]
+  [147 119  99]]
+
+ [[224 219 204]
+  [224 219 204]
+  [223 218 203]
+  ...
+  [147 121 101]
+  [149 121 101]
+  [148 120 100]]
+
+ [[225 220 205]
+  [225 220 205]
+  [224 219 204]
+  ...
+  [147 121 101]
+  [149 121 101]
+  [149 121 101]]] False |
+2021-01-05 11:36:01,100 | training_logger | DEBUG | Received new Frame and assigned frame_id 000009 |
+2021-01-05 11:36:01,117 | training_logger | DEBUG | contour_instance with id 000009-0000000000 has area 2658.5 and is appended to filtered list |
+2021-01-05 11:36:01,118 | training_logger | DEBUG | contour_id 000009-0000000000 has provided the following self.properties {'label': None, 'contour_id': '000009-0000000000', 'area': 2658.5, 'area_white': 1348, 'area_grey': 1645, 'centroid_x': 209, 'centroid_y': 128, 'contour_arc_length': 898.4, 'hull_area': 7993.0, 'poly_area': 2665.5, 'rectangle_width': 135, 'rectangle_height': 178, 'angle': 151.4}  |
+2021-01-05 11:36:01,128 | training_logger | DEBUG | predicted contour label of contour_id 000009-0000000000 with label 2 |
+2021-01-05 11:36:01,128 | training_logger | DEBUG | contour_instance with contour_id 000009-0000000000 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:36:01,128 | training_logger | DEBUG | contour_instance with id 000009-0000000001 has area 1787.0 and is appended to filtered list |
+2021-01-05 11:36:01,129 | training_logger | DEBUG | contour_id 000009-0000000001 has provided the following self.properties {'label': None, 'contour_id': '000009-0000000001', 'area': 1787.0, 'area_white': 343, 'area_grey': 1550, 'centroid_x': 217, 'centroid_y': 25, 'contour_arc_length': 333.4, 'hull_area': 2517.5, 'poly_area': 1812.0, 'rectangle_width': 66, 'rectangle_height': 56, 'angle': 113.4}  |
+2021-01-05 11:36:01,141 | training_logger | DEBUG | predicted contour label of contour_id 000009-0000000001 with label 2 |
+2021-01-05 11:36:01,142 | training_logger | DEBUG | contour_instance with contour_id 000009-0000000001 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:36:01,142 | training_logger | DEBUG | contour_instance with id 000009-0000000002 has area 4659.0 and is appended to filtered list |
+2021-01-05 11:36:01,143 | training_logger | DEBUG | contour_id 000009-0000000002 has provided the following self.properties {'label': None, 'contour_id': '000009-0000000002', 'area': 4659.0, 'area_white': 3947, 'area_grey': 1080, 'centroid_x': 75, 'centroid_y': 75, 'contour_arc_length': 972.5, 'hull_area': 11393.5, 'poly_area': 4668.0, 'rectangle_width': 201, 'rectangle_height': 173, 'angle': 134.8}  |
+2021-01-05 11:36:01,150 | training_logger | DEBUG | predicted contour label of contour_id 000009-0000000002 with label 2 |
+2021-01-05 11:36:01,150 | training_logger | DEBUG | contour_instance with contour_id 000009-0000000002 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:36:01,173 | training_logger | DEBUG | len(contour_list) is 3, contour_to_cluster_list is [['000009-0000000000', 0], ['000009-0000000001', 0], ['000009-0000000002', 1]] |
+2021-01-05 11:36:01,173 | training_logger | DEBUG | determined clusters: [['000009-0000000000', 0], ['000009-0000000001', 0], ['000009-0000000002', 1]] |
+2021-01-05 11:36:01,173 | training_logger | DEBUG | contour_instance 000009-0000000000 has been assigned a db_scan_cluster_id of 0 |
+2021-01-05 11:36:01,173 | training_logger | DEBUG | the true cluster with id 0 has been assigned to contour_instance 000009-0000000000 |
+2021-01-05 11:36:01,174 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:36:01,174 | training_logger | DEBUG | contour_instance 000009-0000000001 has been assigned a db_scan_cluster_id of 0 |
+2021-01-05 11:36:01,174 | training_logger | DEBUG | the true cluster with id 0 has been assigned to contour_instance 000009-0000000001 |
+2021-01-05 11:36:01,174 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:36:01,174 | training_logger | DEBUG | contour_instance 000009-0000000002 has been assigned a db_scan_cluster_id of 1 |
+2021-01-05 11:36:01,174 | training_logger | DEBUG | the true cluster with id 1 has been assigned to contour_instance 000009-0000000002 |
+2021-01-05 11:36:01,174 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:36:01,174 | training_logger | DEBUG | (cluster_id_set is {0, 1} after assigning cluster_ids of "true" clusters of label 1 clusters |
+2021-01-05 11:36:01,174 | training_logger | DEBUG | cluster_id_set is {0, 1} after assigning cluster_ids of a frame with (-1)-clusters only |
+2021-01-05 11:36:01,174 | training_logger | DEBUG | initiated cluster with cluster_id 0 |
+2021-01-05 11:36:01,174 | training_logger | DEBUG | initiated cluster with cluster_id 1 |
+2021-01-05 11:36:01,174 | training_logger | DEBUG | contour_id 000009-0000000000 was appended to cluster_instance 0, along with coordinates (209,128) |
+2021-01-05 11:36:01,174 | training_logger | DEBUG | contour_id 000009-0000000001 was appended to cluster_instance 0, along with coordinates (217,25) |
+2021-01-05 11:36:01,174 | training_logger | DEBUG | contour_id 000009-0000000002 was appended to cluster_instance 1, along with coordinates (75,75) |
+2021-01-05 11:36:01,175 | training_logger | DEBUG | cluster_id 0, cluster_centroids (213,76) |
+2021-01-05 11:36:01,175 | training_logger | DEBUG | cluster_id 1, cluster_centroids (75,75) |
+2021-01-05 11:36:01,175 | training_logger | DEBUG | next_frame_aging(): person_id 0 was aged by one, but is not too old, i.e. is still part of person_instances |
+2021-01-05 11:36:01,175 | training_logger | DEBUG | calculate_cluster_person_distance_list(): creatingcluster_person_distance_list... |
+2021-01-05 11:36:01,175 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 0 and cluster_instance.cluster_id 0 have distance 40 |
+2021-01-05 11:36:01,175 | training_logger | DEBUG | calculate_cluster_person_distance_list(): appended to cluster_person_distance_list: 0, 0, 40  |
+2021-01-05 11:36:01,175 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 0 and cluster_instance.cluster_id 1 have distance 103 |
+2021-01-05 11:36:01,175 | training_logger | DEBUG | calculate_cluster_person_distance_list(): appended to cluster_person_distance_list: 0, 1, 103  |
+2021-01-05 11:36:01,175 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = {0, 1} , free_persons_set = {0} starting first iteration to assign clusters to persons... |
+2021-01-05 11:36:01,175 | training_logger | DEBUG | person_id 0 has the following prospective clusters: [[0, 0, 40], [1, 0, 103]] |
+2021-01-05 11:36:01,175 | training_logger | DEBUG | lenth cluster_person_distance_list is 2 before removing assinged clusters |
+2021-01-05 11:36:01,175 | training_logger | DEBUG | lenth cluster_person_distance_list is 2 after removing assinged clusters |
+2021-01-05 11:36:01,175 | training_logger | DEBUG | starting second iteration to assign clusters to persons... |
+2021-01-05 11:36:01,176 | training_logger | DEBUG | person_id 0 has the following prospects : [[0, 0, 40], [1, 0, 103]] (from cluster_person_distance_list) |
+2021-01-05 11:36:01,176 | training_logger | DEBUG | person_id 0 has the following min-prospect : [0, 0, 40] (from cluster_person_distance_list) |
+2021-01-05 11:36:01,176 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = {1}, free_persons_set = set() in second iteration after removal |
+2021-01-05 11:36:01,176 | training_logger | DEBUG | lenth cluster_person_distance_list is 2 before removing assinged clusters |
+2021-01-05 11:36:01,176 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 after removing assinged clusters |
+2021-01-05 11:36:01,176 | training_logger | DEBUG | clusters {1} are unassigned after completion of assignment |
+2021-01-05 11:36:01,176 | training_logger | INFO | matched person to cluster: Person ID: 0 | cluster_id 0 | frame_count 9 | P(x/y): (213 / 76) | thrust_absolute: 65 | thrust_binary 1 | age -12   |
+2021-01-05 11:36:01,194 | training_logger | DEBUG | got next frame |
+2021-01-05 11:36:01,194 | training_logger | INFO | lhello.[[[191 208 219]
+  [190 207 218]
+  [188 205 216]
+  ...
+  [ 33  39  87]
+  [ 36  39 105]
+  [ 44  47 113]]
+
+ [[191 208 219]
+  [190 207 218]
+  [189 206 217]
+  ...
+  [ 33  39  87]
+  [ 36  39 105]
+  [ 44  47 113]]
+
+ [[189 206 217]
+  [189 206 217]
+  [188 205 216]
+  ...
+  [ 36  40  88]
+  [ 40  40 107]
+  [ 46  46 113]]
+
+ ...
+
+ [[220 221 203]
+  [220 221 203]
+  [220 221 203]
+  ...
+  [143 119  99]
+  [145 119  99]
+  [145 119  99]]
+
+ [[220 221 203]
+  [220 221 203]
+  [220 221 203]
+  ...
+  [145 121 101]
+  [147 121 101]
+  [147 121 101]]
+
+ [[221 222 204]
+  [221 222 204]
+  [221 222 204]
+  ...
+  [147 123 103]
+  [149 123 103]
+  [150 124 104]]] False |
+2021-01-05 11:36:01,198 | training_logger | DEBUG | Received new Frame and assigned frame_id 000010 |
+2021-01-05 11:36:01,220 | training_logger | DEBUG | contour_instance with id 000010-0000000000 has area 2067.0 and is appended to filtered list |
+2021-01-05 11:36:01,221 | training_logger | DEBUG | contour_id 000010-0000000000 has provided the following self.properties {'label': None, 'contour_id': '000010-0000000000', 'area': 2067.0, 'area_white': 1992, 'area_grey': 95, 'centroid_x': 375, 'centroid_y': 113, 'contour_arc_length': 848.1, 'hull_area': 3992.5, 'poly_area': 2196.5, 'rectangle_width': 76, 'rectangle_height': 98, 'angle': 29.9}  |
+2021-01-05 11:36:01,229 | training_logger | DEBUG | predicted contour label of contour_id 000010-0000000000 with label 2 |
+2021-01-05 11:36:01,229 | training_logger | DEBUG | contour_instance with contour_id 000010-0000000000 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:36:01,229 | training_logger | DEBUG | contour_instance with id 000010-0000000001 has area 2042.5 and is appended to filtered list |
+2021-01-05 11:36:01,230 | training_logger | DEBUG | contour_id 000010-0000000001 has provided the following self.properties {'label': None, 'contour_id': '000010-0000000001', 'area': 2042.5, 'area_white': 2121, 'area_grey': 0, 'centroid_x': 402, 'centroid_y': 21, 'contour_arc_length': 577.1, 'hull_area': 3007.0, 'poly_area': 2093.0, 'rectangle_width': 67, 'rectangle_height': 62, 'angle': 59.7}  |
+2021-01-05 11:36:01,239 | training_logger | DEBUG | predicted contour label of contour_id 000010-0000000001 with label 3 |
+2021-01-05 11:36:01,239 | training_logger | DEBUG | contour_instance with id 000010-0000000002 has area 1347.5 and is appended to filtered list |
+2021-01-05 11:36:01,240 | training_logger | DEBUG | contour_id 000010-0000000002 has provided the following self.properties {'label': None, 'contour_id': '000010-0000000002', 'area': 1347.5, 'area_white': 1264, 'area_grey': 166, 'centroid_x': 303, 'centroid_y': 16, 'contour_arc_length': 394.8, 'hull_area': 2304.0, 'poly_area': 1366.5, 'rectangle_width': 60, 'rectangle_height': 52, 'angle': 174.9}  |
+2021-01-05 11:36:01,247 | training_logger | DEBUG | predicted contour label of contour_id 000010-0000000002 with label 3 |
+2021-01-05 11:36:01,248 | training_logger | DEBUG | contour_instance with id 000010-0000000003 has area 19512.0 and is appended to filtered list |
+2021-01-05 11:36:01,249 | training_logger | DEBUG | contour_id 000010-0000000003 has provided the following self.properties {'label': None, 'contour_id': '000010-0000000003', 'area': 19512.0, 'area_white': 16398, 'area_grey': 3808, 'centroid_x': 150, 'centroid_y': 89, 'contour_arc_length': 2502.8, 'hull_area': 41286.0, 'poly_area': 19580.0, 'rectangle_width': 236, 'rectangle_height': 207, 'angle': 98.4}  |
+2021-01-05 11:36:01,258 | training_logger | DEBUG | predicted contour label of contour_id 000010-0000000003 with label 1 |
+2021-01-05 11:36:01,258 | training_logger | DEBUG | contour_instance with contour_id 000010-0000000003 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:36:01,282 | training_logger | DEBUG | len(contour_list) is 2, contour_to_cluster_list is [['000010-0000000000', 1], ['000010-0000000003', 0]] |
+2021-01-05 11:36:01,282 | training_logger | DEBUG | determined clusters: [['000010-0000000000', 1], ['000010-0000000003', 0]] |
+2021-01-05 11:36:01,282 | training_logger | DEBUG | contour_instance 000010-0000000000 has been assigned a db_scan_cluster_id of 1 |
+2021-01-05 11:36:01,282 | training_logger | DEBUG | the true cluster with id 1 has been assigned to contour_instance 000010-0000000000 |
+2021-01-05 11:36:01,282 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:36:01,282 | training_logger | DEBUG | contour_instance 000010-0000000003 has been assigned a db_scan_cluster_id of 0 |
+2021-01-05 11:36:01,282 | training_logger | DEBUG | the true cluster with id 0 has been assigned to contour_instance 000010-0000000003 |
+2021-01-05 11:36:01,282 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:36:01,282 | training_logger | DEBUG | (cluster_id_set is {0, 1} after assigning cluster_ids of "true" clusters of label 1 clusters |
+2021-01-05 11:36:01,282 | training_logger | DEBUG | cluster_id_set is {0, 1} after assigning cluster_ids of a frame with (-1)-clusters only |
+2021-01-05 11:36:01,283 | training_logger | DEBUG | initiated cluster with cluster_id 0 |
+2021-01-05 11:36:01,283 | training_logger | DEBUG | initiated cluster with cluster_id 1 |
+2021-01-05 11:36:01,283 | training_logger | DEBUG | contour_id 000010-0000000000 was appended to cluster_instance 1, along with coordinates (375,113) |
+2021-01-05 11:36:01,283 | training_logger | DEBUG | contour_id 000010-0000000003 was appended to cluster_instance 0, along with coordinates (150,89) |
+2021-01-05 11:36:01,283 | training_logger | DEBUG | cluster_id 0, cluster_centroids (150,89) |
+2021-01-05 11:36:01,283 | training_logger | DEBUG | cluster_id 1, cluster_centroids (375,113) |
+2021-01-05 11:36:01,283 | training_logger | DEBUG | next_frame_aging(): person_id 0 was aged by one, but is not too old, i.e. is still part of person_instances |
+2021-01-05 11:36:01,283 | training_logger | DEBUG | calculate_cluster_person_distance_list(): creatingcluster_person_distance_list... |
+2021-01-05 11:36:01,283 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 0 and cluster_instance.cluster_id 0 have distance 64 |
+2021-01-05 11:36:01,283 | training_logger | DEBUG | calculate_cluster_person_distance_list(): appended to cluster_person_distance_list: 0, 0, 64  |
+2021-01-05 11:36:01,283 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 0 and cluster_instance.cluster_id 1 have distance 166 |
+2021-01-05 11:36:01,284 | training_logger | DEBUG | calculate_cluster_person_distance_list(): no existing person inreach, created a new person: person_counter 1, cluster_id 1,  y 375, x 113 |
+2021-01-05 11:36:01,284 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = {0, 1} , free_persons_set = {0, 1} starting first iteration to assign clusters to persons... |
+2021-01-05 11:36:01,284 | training_logger | DEBUG | person_id 0 has the following prospective clusters: [[0, 0, 64]] |
+2021-01-05 11:36:01,284 | training_logger | DEBUG | cluster_id 0 is assigned to person_id 0,because person_id hasexactly one cluster in reach |
+2021-01-05 11:36:01,284 | training_logger | DEBUG | person_id 1 has the following prospective clusters: [[1, 1, 0]] |
+2021-01-05 11:36:01,284 | training_logger | DEBUG | cluster_id 1 is assigned to person_id 1,because person_id hasexactly one cluster in reach |
+2021-01-05 11:36:01,284 | training_logger | DEBUG | lenth cluster_person_distance_list is 2 before removing assinged clusters |
+2021-01-05 11:36:01,284 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 after removing assinged clusters |
+2021-01-05 11:36:01,284 | training_logger | INFO | matched person to cluster: Person ID: 0 | cluster_id 0 | frame_count 10 | P(x/y): (150 / 89) | thrust_absolute: 78 | thrust_binary 2 | age -12   |
+2021-01-05 11:36:01,284 | training_logger | INFO | matched person to cluster: Person ID: 1 | cluster_id 1 | frame_count 10 | P(x/y): (375 / 113) | thrust_absolute: 0 | thrust_binary 0 | age 0   |
+2021-01-05 11:36:01,301 | training_logger | DEBUG | got next frame |
+2021-01-05 11:36:01,302 | training_logger | INFO | lhello.[[[193 222 231]
+  [192 221 230]
+  [189 218 227]
+  ...
+  [ 39  43  91]
+  [ 45  43 110]
+  [ 53  51 118]]
+
+ [[189 218 227]
+  [189 218 227]
+  [189 218 227]
+  ...
+  [ 39  43  91]
+  [ 45  43 110]
+  [ 53  51 118]]
+
+ [[189 216 225]
+  [190 217 226]
+  [191 218 227]
+  ...
+  [ 42  44  92]
+  [ 49  45 112]
+  [ 55  51 118]]
+
+ ...
+
+ [[235 230 210]
+  [235 230 210]
+  [237 229 210]
+  ...
+  [147 121 101]
+  [149 121 101]
+  [149 121 101]]
+
+ [[233 230 210]
+  [233 230 210]
+  [235 230 210]
+  ...
+  [149 123 103]
+  [149 121 101]
+  [149 121 101]]
+
+ [[233 230 210]
+  [233 230 210]
+  [235 230 210]
+  ...
+  [149 123 103]
+  [149 121 101]
+  [149 121 101]]] False |
+2021-01-05 11:36:01,305 | training_logger | DEBUG | Received new Frame and assigned frame_id 000011 |
+2021-01-05 11:36:01,326 | training_logger | DEBUG | contour_instance with id 000011-0000000000 has area 1003.0 and is appended to filtered list |
+2021-01-05 11:36:01,327 | training_logger | DEBUG | contour_id 000011-0000000000 has provided the following self.properties {'label': None, 'contour_id': '000011-0000000000', 'area': 1003.0, 'area_white': 1079, 'area_grey': 0, 'centroid_x': 151, 'centroid_y': 225, 'contour_arc_length': 183.5, 'hull_area': 1165.5, 'poly_area': 1003.0, 'rectangle_width': 46, 'rectangle_height': 41, 'angle': 131.1}  |
+2021-01-05 11:36:01,336 | training_logger | DEBUG | predicted contour label of contour_id 000011-0000000000 with label 2 |
+2021-01-05 11:36:01,336 | training_logger | DEBUG | contour_instance with contour_id 000011-0000000000 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:36:01,337 | training_logger | DEBUG | contour_instance with id 000011-0000000001 has area 6306.5 and is appended to filtered list |
+2021-01-05 11:36:01,339 | training_logger | DEBUG | contour_id 000011-0000000001 has provided the following self.properties {'label': None, 'contour_id': '000011-0000000001', 'area': 6306.5, 'area_white': 6003, 'area_grey': 187, 'centroid_x': 401, 'centroid_y': 60, 'contour_arc_length': 1347.1, 'hull_area': 11262.0, 'poly_area': 6511.5, 'rectangle_width': 110, 'rectangle_height': 170, 'angle': 23.1}  |
+2021-01-05 11:36:01,347 | training_logger | DEBUG | predicted contour label of contour_id 000011-0000000001 with label 2 |
+2021-01-05 11:36:01,347 | training_logger | DEBUG | contour_instance with contour_id 000011-0000000001 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:36:01,347 | training_logger | DEBUG | contour_instance with id 000011-0000000002 has area 18572.0 and is appended to filtered list |
+2021-01-05 11:36:01,348 | training_logger | DEBUG | contour_id 000011-0000000002 has provided the following self.properties {'label': None, 'contour_id': '000011-0000000002', 'area': 18572.0, 'area_white': 15789, 'area_grey': 3243, 'centroid_x': 165, 'centroid_y': 106, 'contour_arc_length': 2328.4, 'hull_area': 36914.5, 'poly_area': 18646.0, 'rectangle_width': 228, 'rectangle_height': 200, 'angle': 62.1}  |
+2021-01-05 11:36:01,358 | training_logger | DEBUG | predicted contour label of contour_id 000011-0000000002 with label 1 |
+2021-01-05 11:36:01,359 | training_logger | DEBUG | contour_instance with contour_id 000011-0000000002 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:36:01,383 | training_logger | DEBUG | len(contour_list) is 3, contour_to_cluster_list is [['000011-0000000000', 0], ['000011-0000000001', 1], ['000011-0000000002', 0]] |
+2021-01-05 11:36:01,383 | training_logger | DEBUG | determined clusters: [['000011-0000000000', 0], ['000011-0000000001', 1], ['000011-0000000002', 0]] |
+2021-01-05 11:36:01,383 | training_logger | DEBUG | contour_instance 000011-0000000000 has been assigned a db_scan_cluster_id of 0 |
+2021-01-05 11:36:01,383 | training_logger | DEBUG | the true cluster with id 0 has been assigned to contour_instance 000011-0000000000 |
+2021-01-05 11:36:01,383 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:36:01,383 | training_logger | DEBUG | contour_instance 000011-0000000001 has been assigned a db_scan_cluster_id of 1 |
+2021-01-05 11:36:01,383 | training_logger | DEBUG | the true cluster with id 1 has been assigned to contour_instance 000011-0000000001 |
+2021-01-05 11:36:01,383 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:36:01,383 | training_logger | DEBUG | contour_instance 000011-0000000002 has been assigned a db_scan_cluster_id of 0 |
+2021-01-05 11:36:01,384 | training_logger | DEBUG | the true cluster with id 0 has been assigned to contour_instance 000011-0000000002 |
+2021-01-05 11:36:01,384 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:36:01,384 | training_logger | DEBUG | (cluster_id_set is {0, 1} after assigning cluster_ids of "true" clusters of label 1 clusters |
+2021-01-05 11:36:01,384 | training_logger | DEBUG | cluster_id_set is {0, 1} after assigning cluster_ids of a frame with (-1)-clusters only |
+2021-01-05 11:36:01,384 | training_logger | DEBUG | initiated cluster with cluster_id 0 |
+2021-01-05 11:36:01,384 | training_logger | DEBUG | initiated cluster with cluster_id 1 |
+2021-01-05 11:36:01,384 | training_logger | DEBUG | contour_id 000011-0000000000 was appended to cluster_instance 0, along with coordinates (151,225) |
+2021-01-05 11:36:01,384 | training_logger | DEBUG | contour_id 000011-0000000001 was appended to cluster_instance 1, along with coordinates (401,60) |
+2021-01-05 11:36:01,384 | training_logger | DEBUG | contour_id 000011-0000000002 was appended to cluster_instance 0, along with coordinates (165,106) |
+2021-01-05 11:36:01,385 | training_logger | DEBUG | cluster_id 0, cluster_centroids (158,165) |
+2021-01-05 11:36:01,385 | training_logger | DEBUG | cluster_id 1, cluster_centroids (401,60) |
+2021-01-05 11:36:01,385 | training_logger | DEBUG | next_frame_aging(): person_id 0 was aged by one, but is not too old, i.e. is still part of person_instances |
+2021-01-05 11:36:01,385 | training_logger | DEBUG | next_frame_aging(): person_id 1 was aged by one, but is not too old, i.e. is still part of person_instances |
+2021-01-05 11:36:01,385 | training_logger | DEBUG | calculate_cluster_person_distance_list(): creatingcluster_person_distance_list... |
+2021-01-05 11:36:01,385 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 0 and cluster_instance.cluster_id 0 have distance 76 |
+2021-01-05 11:36:01,385 | training_logger | DEBUG | calculate_cluster_person_distance_list(): appended to cluster_person_distance_list: 0, 0, 76  |
+2021-01-05 11:36:01,385 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 1 and cluster_instance.cluster_id 0 have distance 223 |
+2021-01-05 11:36:01,385 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 0 and cluster_instance.cluster_id 1 have distance 252 |
+2021-01-05 11:36:01,386 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 1 and cluster_instance.cluster_id 1 have distance 59 |
+2021-01-05 11:36:01,386 | training_logger | DEBUG | calculate_cluster_person_distance_list(): appended to cluster_person_distance_list: 1, 1, 59  |
+2021-01-05 11:36:01,386 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = {0, 1} , free_persons_set = {0, 1} starting first iteration to assign clusters to persons... |
+2021-01-05 11:36:01,386 | training_logger | DEBUG | person_id 0 has the following prospective clusters: [[0, 0, 76]] |
+2021-01-05 11:36:01,386 | training_logger | DEBUG | cluster_id 0 is assigned to person_id 0,because person_id hasexactly one cluster in reach |
+2021-01-05 11:36:01,386 | training_logger | DEBUG | person_id 1 has the following prospective clusters: [[1, 1, 59]] |
+2021-01-05 11:36:01,386 | training_logger | DEBUG | cluster_id 1 is assigned to person_id 1,because person_id hasexactly one cluster in reach |
+2021-01-05 11:36:01,386 | training_logger | DEBUG | lenth cluster_person_distance_list is 2 before removing assinged clusters |
+2021-01-05 11:36:01,386 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 after removing assinged clusters |
+2021-01-05 11:36:01,386 | training_logger | INFO | matched person to cluster: Person ID: 0 | cluster_id 0 | frame_count 11 | P(x/y): (158 / 165) | thrust_absolute: 154 | thrust_binary 3 | age -15   |
+2021-01-05 11:36:01,387 | training_logger | INFO | matched person to cluster: Person ID: 1 | cluster_id 1 | frame_count 11 | P(x/y): (401 / 60) | thrust_absolute: -53 | thrust_binary -1 | age -4   |
+2021-01-05 11:36:01,406 | training_logger | DEBUG | got next frame |
+2021-01-05 11:36:01,406 | training_logger | INFO | lhello.[[[197 221 231]
+  [196 220 230]
+  [193 217 227]
+  ...
+  [ 39  38  87]
+  [ 44  37 105]
+  [ 52  45 113]]
+
+ [[193 217 227]
+  [193 217 227]
+  [193 217 227]
+  ...
+  [ 39  38  87]
+  [ 44  37 105]
+  [ 52  45 113]]
+
+ [[191 215 225]
+  [192 216 226]
+  [193 217 227]
+  ...
+  [ 42  39  88]
+  [ 48  39 107]
+  [ 54  45 113]]
+
+ ...
+
+ [[239 228 212]
+  [239 228 212]
+  [239 228 212]
+  ...
+  [146 121  98]
+  [148 121  98]
+  [147 120  97]]
+
+ [[241 230 214]
+  [241 230 214]
+  [241 230 214]
+  ...
+  [146 121  98]
+  [148 121  98]
+  [147 120  97]]
+
+ [[241 230 214]
+  [241 230 214]
+  [241 230 214]
+  ...
+  [146 121  98]
+  [147 120  97]
+  [146 119  96]]] False |
+2021-01-05 11:36:01,409 | training_logger | DEBUG | Received new Frame and assigned frame_id 000012 |
+2021-01-05 11:36:01,428 | training_logger | DEBUG | contour_instance with id 000012-0000000000 has area 1178.5 and is appended to filtered list |
+2021-01-05 11:36:01,429 | training_logger | DEBUG | contour_id 000012-0000000000 has provided the following self.properties {'label': None, 'contour_id': '000012-0000000000', 'area': 1178.5, 'area_white': 1195, 'area_grey': 58, 'centroid_x': 175, 'centroid_y': 255, 'contour_arc_length': 194.2, 'hull_area': 1379.0, 'poly_area': 1178.0, 'rectangle_width': 49, 'rectangle_height': 42, 'angle': 130.7}  |
+2021-01-05 11:36:01,439 | training_logger | DEBUG | predicted contour label of contour_id 000012-0000000000 with label 2 |
+2021-01-05 11:36:01,439 | training_logger | DEBUG | contour_instance with contour_id 000012-0000000000 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:36:01,439 | training_logger | DEBUG | contour_instance with id 000012-0000000001 has area 1367.5 and is appended to filtered list |
+2021-01-05 11:36:01,440 | training_logger | DEBUG | contour_id 000012-0000000001 has provided the following self.properties {'label': None, 'contour_id': '000012-0000000001', 'area': 1367.5, 'area_white': 0, 'area_grey': 1418, 'centroid_x': 446, 'centroid_y': 251, 'contour_arc_length': 473.5, 'hull_area': 2117.0, 'poly_area': 1391.0, 'rectangle_width': 44, 'rectangle_height': 68, 'angle': 169.4}  |
+2021-01-05 11:36:01,448 | training_logger | DEBUG | predicted contour label of contour_id 000012-0000000001 with label 3 |
+2021-01-05 11:36:01,448 | training_logger | DEBUG | contour_instance with id 000012-0000000002 has area 9243.0 and is appended to filtered list |
+2021-01-05 11:36:01,449 | training_logger | DEBUG | contour_id 000012-0000000002 has provided the following self.properties {'label': None, 'contour_id': '000012-0000000002', 'area': 9243.0, 'area_white': 6977, 'area_grey': 2503, 'centroid_x': 146, 'centroid_y': 155, 'contour_arc_length': 1768.2, 'hull_area': 20780.5, 'poly_area': 9298.5, 'rectangle_width': 178, 'rectangle_height': 182, 'angle': 138.6}  |
+2021-01-05 11:36:01,457 | training_logger | DEBUG | predicted contour label of contour_id 000012-0000000002 with label 2 |
+2021-01-05 11:36:01,458 | training_logger | DEBUG | contour_instance with contour_id 000012-0000000002 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:36:01,458 | training_logger | DEBUG | contour_instance with id 000012-0000000003 has area 1343.5 and is appended to filtered list |
+2021-01-05 11:36:01,459 | training_logger | DEBUG | contour_id 000012-0000000003 has provided the following self.properties {'label': None, 'contour_id': '000012-0000000003', 'area': 1343.5, 'area_white': 666, 'area_grey': 778, 'centroid_x': 173, 'centroid_y': 42, 'contour_arc_length': 351.5, 'hull_area': 1851.0, 'poly_area': 1351.0, 'rectangle_width': 64, 'rectangle_height': 53, 'angle': 121.2}  |
+2021-01-05 11:36:01,467 | training_logger | DEBUG | predicted contour label of contour_id 000012-0000000003 with label 2 |
+2021-01-05 11:36:01,467 | training_logger | DEBUG | contour_instance with contour_id 000012-0000000003 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:36:01,467 | training_logger | DEBUG | contour_instance with id 000012-0000000004 has area 3875.5 and is appended to filtered list |
+2021-01-05 11:36:01,468 | training_logger | DEBUG | contour_id 000012-0000000004 has provided the following self.properties {'label': None, 'contour_id': '000012-0000000004', 'area': 3875.5, 'area_white': 3375, 'area_grey': 194, 'centroid_x': 421, 'centroid_y': 50, 'contour_arc_length': 910.2, 'hull_area': 5962.0, 'poly_area': 4006.0, 'rectangle_width': 74, 'rectangle_height': 110, 'angle': 26.9}  |
+2021-01-05 11:36:01,476 | training_logger | DEBUG | predicted contour label of contour_id 000012-0000000004 with label 3 |
+2021-01-05 11:36:01,476 | training_logger | DEBUG | contour_instance with id 000012-0000000005 has area 1688.0 and is appended to filtered list |
+2021-01-05 11:36:01,477 | training_logger | DEBUG | contour_id 000012-0000000005 has provided the following self.properties {'label': None, 'contour_id': '000012-0000000005', 'area': 1688.0, 'area_white': 1574, 'area_grey': 257, 'centroid_x': 283, 'centroid_y': 37, 'contour_arc_length': 361.7, 'hull_area': 2257.0, 'poly_area': 1702.0, 'rectangle_width': 43, 'rectangle_height': 87, 'angle': 10.2}  |
+2021-01-05 11:36:01,483 | training_logger | DEBUG | predicted contour label of contour_id 000012-0000000005 with label 2 |
+2021-01-05 11:36:01,483 | training_logger | DEBUG | contour_instance with contour_id 000012-0000000005 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:36:01,483 | training_logger | DEBUG | contour_instance with id 000012-0000000006 has area 5582.0 and is appended to filtered list |
+2021-01-05 11:36:01,484 | training_logger | DEBUG | contour_id 000012-0000000006 has provided the following self.properties {'label': None, 'contour_id': '000012-0000000006', 'area': 5582.0, 'area_white': 4659, 'area_grey': 1227, 'centroid_x': 249, 'centroid_y': 103, 'contour_arc_length': 1287.2, 'hull_area': 13411.5, 'poly_area': 5726.5, 'rectangle_width': 107, 'rectangle_height': 183, 'angle': 174.8}  |
+2021-01-05 11:36:01,491 | training_logger | DEBUG | predicted contour label of contour_id 000012-0000000006 with label 2 |
+2021-01-05 11:36:01,491 | training_logger | DEBUG | contour_instance with contour_id 000012-0000000006 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:36:01,511 | training_logger | DEBUG | len(contour_list) is 5, contour_to_cluster_list is [['000012-0000000000', 1], ['000012-0000000002', 1], ['000012-0000000003', 0], ['000012-0000000005', 0], ['000012-0000000006', 0]] |
+2021-01-05 11:36:01,511 | training_logger | DEBUG | determined clusters: [['000012-0000000000', 1], ['000012-0000000002', 1], ['000012-0000000003', 0], ['000012-0000000005', 0], ['000012-0000000006', 0]] |
+2021-01-05 11:36:01,511 | training_logger | DEBUG | contour_instance 000012-0000000000 has been assigned a db_scan_cluster_id of 1 |
+2021-01-05 11:36:01,511 | training_logger | DEBUG | the true cluster with id 1 has been assigned to contour_instance 000012-0000000000 |
+2021-01-05 11:36:01,511 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:36:01,511 | training_logger | DEBUG | contour_instance 000012-0000000002 has been assigned a db_scan_cluster_id of 1 |
+2021-01-05 11:36:01,511 | training_logger | DEBUG | the true cluster with id 1 has been assigned to contour_instance 000012-0000000002 |
+2021-01-05 11:36:01,511 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:36:01,511 | training_logger | DEBUG | contour_instance 000012-0000000003 has been assigned a db_scan_cluster_id of 0 |
+2021-01-05 11:36:01,511 | training_logger | DEBUG | the true cluster with id 0 has been assigned to contour_instance 000012-0000000003 |
+2021-01-05 11:36:01,512 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:36:01,512 | training_logger | DEBUG | contour_instance 000012-0000000005 has been assigned a db_scan_cluster_id of 0 |
+2021-01-05 11:36:01,512 | training_logger | DEBUG | the true cluster with id 0 has been assigned to contour_instance 000012-0000000005 |
+2021-01-05 11:36:01,512 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:36:01,512 | training_logger | DEBUG | contour_instance 000012-0000000006 has been assigned a db_scan_cluster_id of 0 |
+2021-01-05 11:36:01,512 | training_logger | DEBUG | the true cluster with id 0 has been assigned to contour_instance 000012-0000000006 |
+2021-01-05 11:36:01,512 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:36:01,512 | training_logger | DEBUG | (cluster_id_set is {0, 1} after assigning cluster_ids of "true" clusters of label 1 clusters |
+2021-01-05 11:36:01,512 | training_logger | DEBUG | cluster_id_set is {0, 1} after assigning cluster_ids of a frame with (-1)-clusters only |
+2021-01-05 11:36:01,512 | training_logger | DEBUG | initiated cluster with cluster_id 0 |
+2021-01-05 11:36:01,512 | training_logger | DEBUG | initiated cluster with cluster_id 1 |
+2021-01-05 11:36:01,512 | training_logger | DEBUG | contour_id 000012-0000000000 was appended to cluster_instance 1, along with coordinates (175,255) |
+2021-01-05 11:36:01,512 | training_logger | DEBUG | contour_id 000012-0000000002 was appended to cluster_instance 1, along with coordinates (146,155) |
+2021-01-05 11:36:01,512 | training_logger | DEBUG | contour_id 000012-0000000003 was appended to cluster_instance 0, along with coordinates (173,42) |
+2021-01-05 11:36:01,512 | training_logger | DEBUG | contour_id 000012-0000000005 was appended to cluster_instance 0, along with coordinates (283,37) |
+2021-01-05 11:36:01,512 | training_logger | DEBUG | contour_id 000012-0000000006 was appended to cluster_instance 0, along with coordinates (249,103) |
+2021-01-05 11:36:01,513 | training_logger | DEBUG | cluster_id 0, cluster_centroids (235,60) |
+2021-01-05 11:36:01,513 | training_logger | DEBUG | cluster_id 1, cluster_centroids (160,205) |
+2021-01-05 11:36:01,513 | training_logger | DEBUG | next_frame_aging(): person_id 0 was aged by one, but is not too old, i.e. is still part of person_instances |
+2021-01-05 11:36:01,513 | training_logger | DEBUG | next_frame_aging(): person_id 1 was aged by one, but is not too old, i.e. is still part of person_instances |
+2021-01-05 11:36:01,513 | training_logger | DEBUG | calculate_cluster_person_distance_list(): creatingcluster_person_distance_list... |
+2021-01-05 11:36:01,513 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 0 and cluster_instance.cluster_id 0 have distance 130 |
+2021-01-05 11:36:01,513 | training_logger | DEBUG | calculate_cluster_person_distance_list(): appended to cluster_person_distance_list: 0, 0, 130  |
+2021-01-05 11:36:01,513 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 1 and cluster_instance.cluster_id 0 have distance 166 |
+2021-01-05 11:36:01,513 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 0 and cluster_instance.cluster_id 1 have distance 40 |
+2021-01-05 11:36:01,513 | training_logger | DEBUG | calculate_cluster_person_distance_list(): appended to cluster_person_distance_list: 0, 1, 40  |
+2021-01-05 11:36:01,513 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 1 and cluster_instance.cluster_id 1 have distance 281 |
+2021-01-05 11:36:01,513 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = {0, 1} , free_persons_set = {0} starting first iteration to assign clusters to persons... |
+2021-01-05 11:36:01,513 | training_logger | DEBUG | person_id 0 has the following prospective clusters: [[0, 0, 130], [1, 0, 40]] |
+2021-01-05 11:36:01,513 | training_logger | DEBUG | person_id 1 has the following prospective clusters: [] |
+2021-01-05 11:36:01,513 | training_logger | DEBUG | lenth cluster_person_distance_list is 2 before removing assinged clusters |
+2021-01-05 11:36:01,514 | training_logger | DEBUG | lenth cluster_person_distance_list is 2 after removing assinged clusters |
+2021-01-05 11:36:01,514 | training_logger | DEBUG | starting second iteration to assign clusters to persons... |
+2021-01-05 11:36:01,514 | training_logger | DEBUG | person_id 0 has the following prospects : [[0, 0, 130], [1, 0, 40]] (from cluster_person_distance_list) |
+2021-01-05 11:36:01,514 | training_logger | DEBUG | person_id 0 has the following min-prospect : [1, 0, 40] (from cluster_person_distance_list) |
+2021-01-05 11:36:01,514 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = {0}, free_persons_set = set() in second iteration after removal |
+2021-01-05 11:36:01,514 | training_logger | DEBUG | lenth cluster_person_distance_list is 2 before removing assinged clusters |
+2021-01-05 11:36:01,514 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 after removing assinged clusters |
+2021-01-05 11:36:01,514 | training_logger | DEBUG | clusters {0} are unassigned after completion of assignment |
+2021-01-05 11:36:01,514 | training_logger | INFO | matched person to cluster: Person ID: 0 | cluster_id 1 | frame_count 12 | P(x/y): (160 / 205) | thrust_absolute: 194 | thrust_binary 4 | age -18   |
+2021-01-05 11:36:01,521 | training_logger | INFO | ID: 0 crossed going down at Tue Jan  5 11:36:01 2021  |
+2021-01-05 11:36:01,521 | training_logger | DEBUG | current person count: 7  |
+2021-01-05 11:36:01,538 | training_logger | DEBUG | got next frame |
+2021-01-05 11:36:01,539 | training_logger | INFO | lhello.[[[203 220 231]
+  [202 219 230]
+  [199 218 229]
+  ...
+  [ 45  47  95]
+  [ 48  46 113]
+  [ 57  55 122]]
+
+ [[202 219 230]
+  [201 218 229]
+  [197 216 227]
+  ...
+  [ 44  46  94]
+  [ 48  46 113]
+  [ 57  55 122]]
+
+ [[198 215 226]
+  [199 216 227]
+  [197 216 227]
+  ...
+  [ 45  47  95]
+  [ 51  47 114]
+  [ 58  54 121]]
+
+ ...
+
+ [[231 216 198]
+  [228 213 195]
+  [226 211 193]
+  ...
+  [150 121  97]
+  [151 120  96]
+  [151 120  96]]
+
+ [[231 216 198]
+  [228 213 195]
+  [226 211 193]
+  ...
+  [150 121  97]
+  [152 121  97]
+  [151 120  96]]
+
+ [[231 216 198]
+  [228 213 195]
+  [226 211 193]
+  ...
+  [150 121  97]
+  [151 120  96]
+  [151 120  96]]] False |
+2021-01-05 11:36:01,544 | training_logger | DEBUG | Received new Frame and assigned frame_id 000013 |
+2021-01-05 11:36:01,561 | training_logger | DEBUG | contour_instance with id 000013-0000000000 has area 1746.5 and is appended to filtered list |
+2021-01-05 11:36:01,562 | training_logger | DEBUG | contour_id 000013-0000000000 has provided the following self.properties {'label': None, 'contour_id': '000013-0000000000', 'area': 1746.5, 'area_white': 178, 'area_grey': 1706, 'centroid_x': 35, 'centroid_y': 292, 'contour_arc_length': 761.5, 'hull_area': 3474.5, 'poly_area': 1814.5, 'rectangle_width': 57, 'rectangle_height': 86, 'angle': 0.8}  |
+2021-01-05 11:36:01,576 | training_logger | DEBUG | predicted contour label of contour_id 000013-0000000000 with label 3 |
+2021-01-05 11:36:01,577 | training_logger | DEBUG | contour_instance with id 000013-0000000001 has area 2160.0 and is appended to filtered list |
+2021-01-05 11:36:01,577 | training_logger | DEBUG | contour_id 000013-0000000001 has provided the following self.properties {'label': None, 'contour_id': '000013-0000000001', 'area': 2160.0, 'area_white': 1848, 'area_grey': 219, 'centroid_x': 432, 'centroid_y': 99, 'contour_arc_length': 544.7, 'hull_area': 3390.0, 'poly_area': 2199.5, 'rectangle_width': 65, 'rectangle_height': 74, 'angle': 59.1}  |
+2021-01-05 11:36:01,585 | training_logger | DEBUG | predicted contour label of contour_id 000013-0000000001 with label 2 |
+2021-01-05 11:36:01,585 | training_logger | DEBUG | contour_instance with contour_id 000013-0000000001 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:36:01,585 | training_logger | DEBUG | contour_instance with id 000013-0000000002 has area 1360.0 and is appended to filtered list |
+2021-01-05 11:36:01,586 | training_logger | DEBUG | contour_id 000013-0000000002 has provided the following self.properties {'label': None, 'contour_id': '000013-0000000002', 'area': 1360.0, 'area_white': 340, 'area_grey': 1180, 'centroid_x': 199, 'centroid_y': 87, 'contour_arc_length': 527.8, 'hull_area': 2245.5, 'poly_area': 1372.5, 'rectangle_width': 67, 'rectangle_height': 61, 'angle': 132.6}  |
+2021-01-05 11:36:01,593 | training_logger | DEBUG | predicted contour label of contour_id 000013-0000000002 with label 2 |
+2021-01-05 11:36:01,594 | training_logger | DEBUG | contour_instance with contour_id 000013-0000000002 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:36:01,594 | training_logger | DEBUG | contour_instance with id 000013-0000000003 has area 1003.0 and is appended to filtered list |
+2021-01-05 11:36:01,594 | training_logger | DEBUG | contour_id 000013-0000000003 has provided the following self.properties {'label': None, 'contour_id': '000013-0000000003', 'area': 1003.0, 'area_white': 1066, 'area_grey': 2, 'centroid_x': 237, 'centroid_y': 79, 'contour_arc_length': 300.5, 'hull_area': 1507.5, 'poly_area': 1015.5, 'rectangle_width': 45, 'rectangle_height': 63, 'angle': 148.8}  |
+2021-01-05 11:36:01,606 | training_logger | DEBUG | predicted contour label of contour_id 000013-0000000003 with label 3 |
+2021-01-05 11:36:01,606 | training_logger | DEBUG | contour_instance with id 000013-0000000004 has area 19771.0 and is appended to filtered list |
+2021-01-05 11:36:01,608 | training_logger | DEBUG | contour_id 000013-0000000004 has provided the following self.properties {'label': None, 'contour_id': '000013-0000000004', 'area': 19771.0, 'area_white': 13160, 'area_grey': 5727, 'centroid_x': 228, 'centroid_y': 185, 'contour_arc_length': 2251.5, 'hull_area': 43515.5, 'poly_area': 20044.0, 'rectangle_width': 214, 'rectangle_height': 278, 'angle': 4.8}  |
+2021-01-05 11:36:01,617 | training_logger | DEBUG | predicted contour label of contour_id 000013-0000000004 with label 1 |
+2021-01-05 11:36:01,617 | training_logger | DEBUG | contour_instance with contour_id 000013-0000000004 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:36:01,640 | training_logger | DEBUG | len(contour_list) is 3, contour_to_cluster_list is [['000013-0000000001', 1], ['000013-0000000002', 0], ['000013-0000000004', 0]] |
+2021-01-05 11:36:01,641 | training_logger | DEBUG | determined clusters: [['000013-0000000001', 1], ['000013-0000000002', 0], ['000013-0000000004', 0]] |
+2021-01-05 11:36:01,641 | training_logger | DEBUG | contour_instance 000013-0000000001 has been assigned a db_scan_cluster_id of 1 |
+2021-01-05 11:36:01,641 | training_logger | DEBUG | the true cluster with id 1 has been assigned to contour_instance 000013-0000000001 |
+2021-01-05 11:36:01,641 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:36:01,641 | training_logger | DEBUG | contour_instance 000013-0000000002 has been assigned a db_scan_cluster_id of 0 |
+2021-01-05 11:36:01,641 | training_logger | DEBUG | the true cluster with id 0 has been assigned to contour_instance 000013-0000000002 |
+2021-01-05 11:36:01,641 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:36:01,641 | training_logger | DEBUG | contour_instance 000013-0000000004 has been assigned a db_scan_cluster_id of 0 |
+2021-01-05 11:36:01,642 | training_logger | DEBUG | the true cluster with id 0 has been assigned to contour_instance 000013-0000000004 |
+2021-01-05 11:36:01,642 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:36:01,642 | training_logger | DEBUG | (cluster_id_set is {0, 1} after assigning cluster_ids of "true" clusters of label 1 clusters |
+2021-01-05 11:36:01,642 | training_logger | DEBUG | cluster_id_set is {0, 1} after assigning cluster_ids of a frame with (-1)-clusters only |
+2021-01-05 11:36:01,642 | training_logger | DEBUG | initiated cluster with cluster_id 0 |
+2021-01-05 11:36:01,642 | training_logger | DEBUG | initiated cluster with cluster_id 1 |
+2021-01-05 11:36:01,642 | training_logger | DEBUG | contour_id 000013-0000000001 was appended to cluster_instance 1, along with coordinates (432,99) |
+2021-01-05 11:36:01,642 | training_logger | DEBUG | contour_id 000013-0000000002 was appended to cluster_instance 0, along with coordinates (199,87) |
+2021-01-05 11:36:01,642 | training_logger | DEBUG | contour_id 000013-0000000004 was appended to cluster_instance 0, along with coordinates (228,185) |
+2021-01-05 11:36:01,643 | training_logger | DEBUG | cluster_id 0, cluster_centroids (213,136) |
+2021-01-05 11:36:01,643 | training_logger | DEBUG | cluster_id 1, cluster_centroids (432,99) |
+2021-01-05 11:36:01,643 | training_logger | DEBUG | next_frame_aging(): person_id 0 was aged by one, but is not too old, i.e. is still part of person_instances |
+2021-01-05 11:36:01,643 | training_logger | DEBUG | next_frame_aging(): person_id 1 was aged by one, but is not too old, i.e. is still part of person_instances |
+2021-01-05 11:36:01,643 | training_logger | DEBUG | calculate_cluster_person_distance_list(): creatingcluster_person_distance_list... |
+2021-01-05 11:36:01,643 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 0 and cluster_instance.cluster_id 0 have distance 87 |
+2021-01-05 11:36:01,643 | training_logger | DEBUG | calculate_cluster_person_distance_list(): appended to cluster_person_distance_list: 0, 0, 87  |
+2021-01-05 11:36:01,643 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 1 and cluster_instance.cluster_id 0 have distance 202 |
+2021-01-05 11:36:01,643 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 0 and cluster_instance.cluster_id 1 have distance 291 |
+2021-01-05 11:36:01,644 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 1 and cluster_instance.cluster_id 1 have distance 49 |
+2021-01-05 11:36:01,644 | training_logger | DEBUG | calculate_cluster_person_distance_list(): appended to cluster_person_distance_list: 1, 1, 49  |
+2021-01-05 11:36:01,644 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = {0, 1} , free_persons_set = {0, 1} starting first iteration to assign clusters to persons... |
+2021-01-05 11:36:01,644 | training_logger | DEBUG | person_id 0 has the following prospective clusters: [[0, 0, 87]] |
+2021-01-05 11:36:01,644 | training_logger | DEBUG | cluster_id 0 is assigned to person_id 0,because person_id hasexactly one cluster in reach |
+2021-01-05 11:36:01,644 | training_logger | DEBUG | person_id 1 has the following prospective clusters: [[1, 1, 49]] |
+2021-01-05 11:36:01,644 | training_logger | DEBUG | cluster_id 1 is assigned to person_id 1,because person_id hasexactly one cluster in reach |
+2021-01-05 11:36:01,644 | training_logger | DEBUG | lenth cluster_person_distance_list is 2 before removing assinged clusters |
+2021-01-05 11:36:01,644 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 after removing assinged clusters |
+2021-01-05 11:36:01,644 | training_logger | INFO | matched person to cluster: Person ID: 0 | cluster_id 0 | frame_count 13 | P(x/y): (213 / 136) | thrust_absolute: -69 | thrust_binary -1 | age -21   |
+2021-01-05 11:36:01,645 | training_logger | INFO | matched person to cluster: Person ID: 1 | cluster_id 1 | frame_count 13 | P(x/y): (432 / 99) | thrust_absolute: -14 | thrust_binary 0 | age -6   |
+2021-01-05 11:36:01,663 | training_logger | DEBUG | got next frame |
+2021-01-05 11:36:01,663 | training_logger | INFO | lhello.[[[202 221 232]
+  [201 220 231]
+  [199 218 229]
+  ...
+  [ 43  47  95]
+  [ 46  46 113]
+  [ 55  55 122]]
+
+ [[201 220 231]
+  [200 219 230]
+  [199 218 229]
+  ...
+  [ 42  46  94]
+  [ 46  46 113]
+  [ 55  55 122]]
+
+ [[200 219 230]
+  [200 219 230]
+  [199 218 229]
+  ...
+  [ 43  47  95]
+  [ 49  47 114]
+  [ 56  54 121]]
+
+ ...
+
+ [[230 213 195]
+  [230 213 195]
+  [229 212 194]
+  ...
+  [149 121  94]
+  [150 120  93]
+  [150 120  93]]
+
+ [[230 213 195]
+  [230 213 195]
+  [230 213 195]
+  ...
+  [149 121  94]
+  [151 121  94]
+  [151 121  94]]
+
+ [[230 213 195]
+  [230 213 195]
+  [230 213 195]
+  ...
+  [150 122  95]
+  [151 121  94]
+  [151 121  94]]] False |
+2021-01-05 11:36:01,668 | training_logger | DEBUG | Received new Frame and assigned frame_id 000014 |
+2021-01-05 11:36:01,684 | training_logger | DEBUG | contour_instance with id 000014-0000000000 has area 3038.5 and is appended to filtered list |
+2021-01-05 11:36:01,685 | training_logger | DEBUG | contour_id 000014-0000000000 has provided the following self.properties {'label': None, 'contour_id': '000014-0000000000', 'area': 3038.5, 'area_white': 2679, 'area_grey': 306, 'centroid_x': 191, 'centroid_y': 301, 'contour_arc_length': 444.7, 'hull_area': 3775.0, 'poly_area': 3061.5, 'rectangle_width': 92, 'rectangle_height': 69, 'angle': 118.9}  |
+2021-01-05 11:36:01,692 | training_logger | DEBUG | predicted contour label of contour_id 000014-0000000000 with label 2 |
+2021-01-05 11:36:01,692 | training_logger | DEBUG | contour_instance with contour_id 000014-0000000000 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:36:01,692 | training_logger | DEBUG | contour_instance with id 000014-0000000001 has area 1101.0 and is appended to filtered list |
+2021-01-05 11:36:01,693 | training_logger | DEBUG | contour_id 000014-0000000001 has provided the following self.properties {'label': None, 'contour_id': '000014-0000000001', 'area': 1101.0, 'area_white': 1156, 'area_grey': 4, 'centroid_x': 440, 'centroid_y': 118, 'contour_arc_length': 452.0, 'hull_area': 1950.5, 'poly_area': 1133.5, 'rectangle_width': 49, 'rectangle_height': 55, 'angle': 121.3}  |
+2021-01-05 11:36:01,703 | training_logger | DEBUG | predicted contour label of contour_id 000014-0000000001 with label 3 |
+2021-01-05 11:36:01,703 | training_logger | DEBUG | contour_instance with id 000014-0000000002 has area 15014.0 and is appended to filtered list |
+2021-01-05 11:36:01,706 | training_logger | DEBUG | contour_id 000014-0000000002 has provided the following self.properties {'label': None, 'contour_id': '000014-0000000002', 'area': 15014.0, 'area_white': 11323, 'area_grey': 3514, 'centroid_x': 254, 'centroid_y': 189, 'contour_arc_length': 1818.6, 'hull_area': 34614.0, 'poly_area': 15223.5, 'rectangle_width': 204, 'rectangle_height': 226, 'angle': 162.3}  |
+2021-01-05 11:36:01,715 | training_logger | DEBUG | predicted contour label of contour_id 000014-0000000002 with label 1 |
+2021-01-05 11:36:01,716 | training_logger | DEBUG | contour_instance with contour_id 000014-0000000002 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:36:01,738 | training_logger | DEBUG | len(contour_list) is 2, contour_to_cluster_list is [['000014-0000000000', 0], ['000014-0000000002', 0]] |
+2021-01-05 11:36:01,739 | training_logger | DEBUG | determined clusters: [['000014-0000000000', 0], ['000014-0000000002', 0]] |
+2021-01-05 11:36:01,739 | training_logger | DEBUG | contour_instance 000014-0000000000 has been assigned a db_scan_cluster_id of 0 |
+2021-01-05 11:36:01,739 | training_logger | DEBUG | the true cluster with id 0 has been assigned to contour_instance 000014-0000000000 |
+2021-01-05 11:36:01,739 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:36:01,739 | training_logger | DEBUG | contour_instance 000014-0000000002 has been assigned a db_scan_cluster_id of 0 |
+2021-01-05 11:36:01,739 | training_logger | DEBUG | the true cluster with id 0 has been assigned to contour_instance 000014-0000000002 |
+2021-01-05 11:36:01,739 | training_logger | DEBUG | cluster_or_label1_flag set to True  |
+2021-01-05 11:36:01,739 | training_logger | DEBUG | (cluster_id_set is {0} after assigning cluster_ids of "true" clusters of label 1 clusters |
+2021-01-05 11:36:01,739 | training_logger | DEBUG | cluster_id_set is {0} after assigning cluster_ids of a frame with (-1)-clusters only |
+2021-01-05 11:36:01,739 | training_logger | DEBUG | initiated cluster with cluster_id 0 |
+2021-01-05 11:36:01,740 | training_logger | DEBUG | contour_id 000014-0000000000 was appended to cluster_instance 0, along with coordinates (191,301) |
+2021-01-05 11:36:01,740 | training_logger | DEBUG | contour_id 000014-0000000002 was appended to cluster_instance 0, along with coordinates (254,189) |
+2021-01-05 11:36:01,740 | training_logger | DEBUG | cluster_id 0, cluster_centroids (222,245) |
+2021-01-05 11:36:01,740 | training_logger | DEBUG | next_frame_aging(): person_id 0 was aged by one, but is not too old, i.e. is still part of person_instances |
+2021-01-05 11:36:01,740 | training_logger | DEBUG | next_frame_aging(): person_id 1 was aged by one, but is not too old, i.e. is still part of person_instances |
+2021-01-05 11:36:01,740 | training_logger | DEBUG | calculate_cluster_person_distance_list(): creatingcluster_person_distance_list... |
+2021-01-05 11:36:01,740 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 0 and cluster_instance.cluster_id 0 have distance 109 |
+2021-01-05 11:36:01,740 | training_logger | DEBUG | calculate_cluster_person_distance_list(): appended to cluster_person_distance_list: 0, 0, 109  |
+2021-01-05 11:36:01,740 | training_logger | DEBUG | calculate_cluster_person_distance_list(): person_instance.person_id 1 and cluster_instance.cluster_id 0 have distance 255 |
+2021-01-05 11:36:01,740 | training_logger | DEBUG | person_to_cluster_assignment(): free_clusters_set = {0} , free_persons_set = {0} starting first iteration to assign clusters to persons... |
+2021-01-05 11:36:01,740 | training_logger | DEBUG | person_id 0 has the following prospective clusters: [[0, 0, 109]] |
+2021-01-05 11:36:01,740 | training_logger | DEBUG | cluster_id 0 is assigned to person_id 0,because person_id hasexactly one cluster in reach |
+2021-01-05 11:36:01,740 | training_logger | DEBUG | person_id 1 has the following prospective clusters: [] |
+2021-01-05 11:36:01,741 | training_logger | DEBUG | lenth cluster_person_distance_list is 1 before removing assinged clusters |
+2021-01-05 11:36:01,741 | training_logger | DEBUG | lenth cluster_person_distance_list is 0 after removing assinged clusters |
+2021-01-05 11:36:01,741 | training_logger | INFO | matched person to cluster: Person ID: 0 | cluster_id 0 | frame_count 14 | P(x/y): (222 / 245) | thrust_absolute: 1 | thrust_binary 0 | age -24   |
+2021-01-05 11:36:01,758 | training_logger | DEBUG | got next frame |
+2021-01-05 11:36:01,759 | training_logger | INFO | lhello.[[[204 221 232]
+  [203 220 231]
+  [201 218 229]
+  ...
+  [ 46  45  94]
+  [ 49  45 112]
+  [ 58  54 121]]
+
+ [[203 220 231]
+  [202 219 230]
+  [201 218 229]
+  ...
+  [ 45  44  93]
+  [ 49  45 112]
+  [ 58  54 121]]
+
+ [[202 219 230]
+  [202 219 230]
+  [201 218 229]
+  ...
+  [ 46  45  94]
+  [ 50  46 113]
+  [ 57  53 120]]
+
+ ...
+
+ [[221 211 192]
+  [221 211 192]
+  [220 210 191]
+  ...
+  [146 120  95]
+  [147 118  94]
+  [147 118  94]]
+
+ [[221 211 192]
+  [221 211 192]
+  [220 210 191]
+  ...
+  [147 121  96]
+  [148 119  95]
+  [149 120  96]]
+
+ [[221 211 192]
+  [221 211 192]
+  [220 210 191]
+  ...
+  [148 122  97]
+  [149 120  96]
+  [149 120  96]]] False |
+2021-01-05 11:36:01,761 | training_logger | DEBUG | Received new Frame and assigned frame_id 000015 |
+2021-01-05 11:36:01,781 | training_logger | DEBUG | contour_instance with id 000015-0000000000 has area 2747.5 and is appended to filtered list |
+2021-01-05 11:36:01,782 | training_logger | DEBUG | contour_id 000015-0000000000 has provided the following self.properties {'label': None, 'contour_id': '000015-0000000000', 'area': 2747.5, 'area_white': 70, 'area_grey': 2949, 'centroid_x': 34, 'centroid_y': 401, 'contour_arc_length': 798.7, 'hull_area': 7443.5, 'poly_area': 2833.0, 'rectangle_width': 72, 'rectangle_height': 146, 'angle': 155.8}  |
+2021-01-05 11:36:01,789 | training_logger | DEBUG | predicted contour label of contour_id 000015-0000000000 with label 3 |
+2021-01-05 11:36:01,789 | training_logger | DEBUG | contour_instance with id 000015-0000000001 has area 2484.0 and is appended to filtered list |
+2021-01-05 11:36:01,790 | training_logger | DEBUG | contour_id 000015-0000000001 has provided the following self.properties {'label': None, 'contour_id': '000015-0000000001', 'area': 2484.0, 'area_white': 2401, 'area_grey': 221, 'centroid_x': 211, 'centroid_y': 330, 'contour_arc_length': 461.4, 'hull_area': 3553.0, 'poly_area': 2510.0, 'rectangle_width': 90, 'rectangle_height': 67, 'angle': 119.5}  |
+2021-01-05 11:36:01,797 | training_logger | DEBUG | predicted contour label of contour_id 000015-0000000001 with label 2 |
+2021-01-05 11:36:01,797 | training_logger | DEBUG | contour_instance with contour_id 000015-0000000001 has label 1, 2 or 5 and is appended to filtered list |
+2021-01-05 11:36:01,798 | training_logger | DEBUG | contour_instance with id 000015-0000000002 has area 12118.0 and is appended to filtered list |
+2021-01-05 11:36:01,799 | training_logger | DEBUG | contour_id 000015-0000000002 has provided the following self.properties {'label': None, 'contour_id': '000015-0000000002', 'area': 12118.0, 'area_white': 9065, 'area_grey': 2457, 'centroid_x': 261, 'centroid_y': 212, 'contour_arc_length': 1405.9, 'hull_area': 28166.0, 'poly_area': 12287.0, 'rectangle_width': 199, 'rectangle_height': 198, 'angle': 8.5}  |
+2021-01-05 11:36:51,827 | training_logger | WARNING | Testing-Result: up target / up estimation: 1 / 1 , down target / down estimation : 3 / 3 |
+2021-01-05 11:36:51,828 | training_logger | WARNING | PASSED: 1 | input: 201_sample_videos/olash3h003_testtype-norma-height-240-up-001-down-003.avi | assigned_parameter_space: olash |
+2021-01-05 11:37:39,119 | training_logger | WARNING | Testing-Result: up target / up estimation: 1 / 1 , down target / down estimation : 3 / 3 |
+2021-01-05 11:37:39,119 | training_logger | WARNING | PASSED: 1 | input: 201_sample_videos/olash3h003_testtype-norma-height-240-up-001-down-003.avi | assigned_parameter_space: olash |
+2021-01-05 11:37:59,232 | training_logger | WARNING | Testing-Result: up target / up estimation: 1 / 1 , down target / down estimation : 3 / 3 |
+2021-01-05 11:37:59,233 | training_logger | WARNING | PASSED: 1 | input: 201_sample_videos/olash3h003_testtype-norma-height-240-up-001-down-003.avi | assigned_parameter_space: olash |
+2021-01-05 11:40:10,223 | training_logger | WARNING | Testing-Result: up target / up estimation: 2 / 2 , down target / down estimation : 0 / 0 |
+2021-01-05 11:40:10,225 | training_logger | WARNING | PASSED: 1 | input: 201_sample_videos/olash3h045_testtype-norma-height-240-up-002-down-000.avi | assigned_parameter_space: olash |
+2021-01-05 11:41:05,923 | training_logger | WARNING | Testing-Result: up target / up estimation: 3 / 3 , down target / down estimation : 1 / 1 |
+2021-01-05 11:41:05,924 | training_logger | WARNING | PASSED: 1 | input: 201_sample_videos/olash3h046_testtype-uturn-height-240-up-003-down-001.avi | assigned_parameter_space: olash |
+2021-01-05 11:43:30,785 | training_logger | WARNING | Testing-Result: up target / up estimation: 3 / 3 , down target / down estimation : 1 / 1 |
+2021-01-05 11:43:30,792 | training_logger | WARNING | PASSED: 1 | input: 201_sample_videos/olash3h046_testtype-uturn-height-240-up-003-down-001.avi | assigned_parameter_space: olash |

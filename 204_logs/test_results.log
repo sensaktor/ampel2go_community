@@ -1,0 +1,12 @@
+2021-01-05 11:36:51,827 | training_logger | WARNING | Testing-Result: up target / up estimation: 1 / 1 , down target / down estimation : 3 / 3 |
+2021-01-05 11:36:51,828 | training_logger | WARNING | PASSED: 1 | input: 201_sample_videos/olash3h003_testtype-norma-height-240-up-001-down-003.avi | assigned_parameter_space: olash |
+2021-01-05 11:37:39,119 | training_logger | WARNING | Testing-Result: up target / up estimation: 1 / 1 , down target / down estimation : 3 / 3 |
+2021-01-05 11:37:39,119 | training_logger | WARNING | PASSED: 1 | input: 201_sample_videos/olash3h003_testtype-norma-height-240-up-001-down-003.avi | assigned_parameter_space: olash |
+2021-01-05 11:37:59,232 | training_logger | WARNING | Testing-Result: up target / up estimation: 1 / 1 , down target / down estimation : 3 / 3 |
+2021-01-05 11:37:59,233 | training_logger | WARNING | PASSED: 1 | input: 201_sample_videos/olash3h003_testtype-norma-height-240-up-001-down-003.avi | assigned_parameter_space: olash |
+2021-01-05 11:40:10,223 | training_logger | WARNING | Testing-Result: up target / up estimation: 2 / 2 , down target / down estimation : 0 / 0 |
+2021-01-05 11:40:10,225 | training_logger | WARNING | PASSED: 1 | input: 201_sample_videos/olash3h045_testtype-norma-height-240-up-002-down-000.avi | assigned_parameter_space: olash |
+2021-01-05 11:41:05,923 | training_logger | WARNING | Testing-Result: up target / up estimation: 3 / 3 , down target / down estimation : 1 / 1 |
+2021-01-05 11:41:05,924 | training_logger | WARNING | PASSED: 1 | input: 201_sample_videos/olash3h046_testtype-uturn-height-240-up-003-down-001.avi | assigned_parameter_space: olash |
+2021-01-05 11:43:30,785 | training_logger | WARNING | Testing-Result: up target / up estimation: 3 / 3 , down target / down estimation : 1 / 1 |
+2021-01-05 11:43:30,792 | training_logger | WARNING | PASSED: 1 | input: 201_sample_videos/olash3h046_testtype-uturn-height-240-up-003-down-001.avi | assigned_parameter_space: olash |

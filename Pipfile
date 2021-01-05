@@ -1,0 +1,24 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+numpy = "*"
+pylint = "*"
+sqlalchemy = "*"
+matplotlib = "*"
+autopep8 = "*"
+django = "*"
+requests = "*"
+django-tinymce = "*"
+statsmodels = "*"
+imutils = "*"
+scikit-learn = "0.21.3"
+sklearn = "*"
+opencv-python = "*"
+
+[requires]
+python_version = "3.6"
