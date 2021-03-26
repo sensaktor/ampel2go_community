@@ -2,7 +2,7 @@
 
 We have built a python library that is capable of detecting moving objects and counting the direction in real-time using minimal computing power (i.e. it runs on a RaspberryPi 4b)
 
-After our extensive market research we have concluded this to be by far the best performing open source people counter using low cost edge-computers.
+After our extensive market research we have concluded this to be one of the best performing open source people counter using low cost edge-computers.
 
 
 Content: 
